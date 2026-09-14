@@ -1,0 +1,5 @@
+# Runtime and tests use the Python standard library only (fractions, csv, json, unittest).
+# Tested with Python 3.14.2 (see .python-version). No third-party packages to install.
+#
+# Optional, only to RE-RUN the LLM verification steps (their saved outputs are committed):
+#   Claude Code CLI 2.1.270 (`claude` on PATH, or CLAUDE_BIN=/path/to/claude), logged in.

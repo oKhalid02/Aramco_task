@@ -1,0 +1,1169 @@
+{
+  "meta": {
+    "prompt_file": "prompts/pipeline/description_mapping_v1.md",
+    "model": "claude-opus-5",
+    "models_used": [
+      "claude-haiku-4-5-20251001",
+      "claude-opus-5"
+    ],
+    "run_at": "2026-09-14T11:28:00",
+    "estimated_cost_usd": 0.307918,
+    "claude_code_version": "2.1.270 (Claude Code)",
+    "missing_descriptions": [],
+    "matcher_view": {
+      "Adv  Renal Consultation": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "Adv Card Recov Rm": {
+        "service": "Advanced Cardiac Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Cardiac Recovery Room Occupancy"
+        ]
+      },
+      "Advanced  Infect Crit Cr": {
+        "service": "Advanced Infectious Critical Care Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Infectious Critical Care Occupancy"
+        ]
+      },
+      "Advanced Critical Cr Occupancy": {
+        "service": "Advanced Infectious Critical Care Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Infectious Critical Care Occupancy"
+        ]
+      },
+      "Advanced Metab Anaes": {
+        "service": "Advanced Metabolic Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Metabolic Anaesthesia Administration"
+        ]
+      },
+      "Amb Gastrointestinal Discharge Plng": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "Amb Infectious Visit": {
+        "service": "Ambulatory Infectious Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Infectious Home Visit"
+        ]
+      },
+      "Ambulatory Endosc Procedure /NG-8034": {
+        "service": "Ambulatory Immunologic Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Immunologic Endoscopic Procedure"
+        ]
+      },
+      "Assisted Gi Inf Ther /NG-8862": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Assisted Gastrointestinal Infusion Therapy",
+          "Assisted Geriatric Infusion Therapy"
+        ]
+      },
+      "Asst - Gi Inf Therapy /NG-1139": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Assisted Gastrointestinal Infusion Therapy",
+          "Assisted Geriatric Infusion Therapy"
+        ]
+      },
+      "Asst Specimen Anly": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "Beds Psych Session": {
+        "service": "Bedside Psychiatric Dialysis Session",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Psychiatric Dialysis Session"
+        ]
+      },
+      "Case - Intensive Ophth /NG-3641": {
+        "service": "Intensive Ophthalmic Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Intensive Ophthalmic Case Conference"
+        ]
+      },
+      "Compr Infectious Nurs": {
+        "service": "Comprehensive Infectious Nursing Observation",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Infectious Nursing Observation"
+        ]
+      },
+      "Compr Infectious Nursing": {
+        "service": "Comprehensive Infectious Nursing Observation",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Infectious Nursing Observation"
+        ]
+      },
+      "Compr Otolaryngologic Rehab /NG-4700": {
+        "service": "Comprehensive Otolaryngologic Rehabilitation Programme",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Otolaryngologic Rehabilitation Programme"
+        ]
+      },
+      "Comprehensive Infect Nursing": {
+        "service": "Comprehensive Infectious Nursing Observation",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Infectious Nursing Observation"
+        ]
+      },
+      "Consultation Adv": {
+        "service": "Advanced Neurological Consultation",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Neurological Consultation"
+        ]
+      },
+      "Cont Pharmaceutical Disp": {
+        "service": "Continuous Vascular Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Vascular Pharmaceutical Dispensing"
+        ]
+      },
+      "Cont Pulm Spcm Analysis": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "Continuous Wnd Care": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Continuous Musculoskeletal Wound Care",
+          "Continuous Pulmonary Wound Care"
+        ]
+      },
+      "Cr Cont Wnd": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Continuous Musculoskeletal Wound Care",
+          "Continuous Pulmonary Wound Care"
+        ]
+      },
+      "Cs Amb Ophthalmic /NG-7838": {
+        "service": "Ambulatory Ophthalmic Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Ophthalmic Case Conference"
+        ]
+      },
+      "Elect - Card Supp": {
+        "service": "Elective Cardiac Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Cardiac Nutritional Support"
+        ]
+      },
+      "Emer Ortho": {
+        "service": "Emergency Orthopaedic Consultation",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Orthopaedic Consultation"
+        ]
+      },
+      "Ext - Pall Panel": {
+        "service": "Extended Palliative Laboratory Panel",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Palliative Laboratory Panel"
+        ]
+      },
+      "Extended Haem Anaes Admin": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "Extended Ortho Ventilation Support": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "Extended Ren Transp": {
+        "service": "Extended Renal Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Renal Transport Service"
+        ]
+      },
+      "Foc - Immunologic Physio": {
+        "service": "Focused Immunologic Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Immunologic Physiotherapy Session"
+        ]
+      },
+      "Focused Ent Cr /NG-9962": {
+        "service": "Focused Otolaryngologic Wound Care",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Otolaryngologic Wound Care"
+        ]
+      },
+      "Fract Outpatient Radiotherapy": {
+        "service": "Outpatient Metabolic Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Metabolic Radiotherapy Fraction"
+        ]
+      },
+      "Fract Std Ent": {
+        "service": "Standard Otolaryngologic Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Otolaryngologic Radiotherapy Fraction"
+        ]
+      },
+      "Ger Nutr Support /NG-2366": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Intensive Geriatric Nutritional Support",
+          "Standard Geriatric Nutritional Support"
+        ]
+      },
+      "Img Inpatient Diag": {
+        "service": "Inpatient Vascular Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Vascular Diagnostic Imaging"
+        ]
+      },
+      "Img Vasc Diagnostic": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Inpatient Vascular Diagnostic Imaging",
+          "Preoperative Vascular Diagnostic Imaging"
+        ]
+      },
+      "Immun Consult": {
+        "service": "Outpatient Immunologic Consultation",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Immunologic Consultation"
+        ]
+      },
+      "Inpatient - Ophth Transport": {
+        "service": "Inpatient Ophthalmic Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Ophthalmic Transport Service"
+        ]
+      },
+      "Inpt Endo Session": {
+        "service": "Inpatient Endocrine Dialysis Session",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Endocrine Dialysis Session"
+        ]
+      },
+      "Inpt Hepatic Session": {
+        "service": "Inpatient Hepatic Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Hepatic Physiotherapy Session"
+        ]
+      },
+      "Intens - Nutr Support": {
+        "service": "Intensive Geriatric Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Intensive Geriatric Nutritional Support"
+        ]
+      },
+      "Interm - Diag Img /NG-6221": {
+        "service": "Intermittent Rheumatologic Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Rheumatologic Diagnostic Imaging"
+        ]
+      },
+      "Interm Rehab Programme": {
+        "service": "Intermittent Pulmonary Rehabilitation Programme",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Pulmonary Rehabilitation Programme"
+        ]
+      },
+      "Metabolic - Lab Pnl": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "Msk Dial Sess": {
+        "service": "Supervised Musculoskeletal Dialysis Session",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Musculoskeletal Dialysis Session"
+        ]
+      },
+      "Neuro - Nutr Supp": {
+        "service": "Intermittent Neurological Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Neurological Nutritional Support"
+        ]
+      },
+      "Obs Metab Nursing": {
+        "service": "Advanced Metabolic Nursing Observation",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Metabolic Nursing Observation"
+        ]
+      },
+      "Observation Cont Nurs": {
+        "service": "Continuous Cardiac Nursing Observation",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Cardiac Nursing Observation"
+        ]
+      },
+      "Occ - Inpt Isol Rm /NG-2747": {
+        "service": "Inpatient Palliative Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Palliative Isolation Room Occupancy"
+        ]
+      },
+      "Occ Advanced Orthopaedic Recovery Rm /NG-2920": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "Ortho Transp Svc": {
+        "service": "Focused Orthopaedic Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Orthopaedic Transport Service"
+        ]
+      },
+      "Outpatient Orthopaedic Pharm Dispensing /NG-2825": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "Outpt Radiother Fraction": {
+        "service": "Outpatient Metabolic Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Metabolic Radiotherapy Fraction"
+        ]
+      },
+      "Postop Critical Cr Occupancy": {
+        "service": "Postoperative Metabolic Critical Care Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Metabolic Critical Care Occupancy"
+        ]
+      },
+      "Procedure Immun Endosc": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Ambulatory Immunologic Endoscopic Procedure",
+          "Preoperative Immunologic Endoscopic Procedure"
+        ]
+      },
+      "Psych Rehab Programme": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Continuous Psychiatric Rehabilitation Programme",
+          "Routine Psychiatric Rehabilitation Programme"
+        ]
+      },
+      "Psychiatric Rehab Programme /NG-8199": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Continuous Psychiatric Rehabilitation Programme",
+          "Routine Psychiatric Rehabilitation Programme"
+        ]
+      },
+      "Pulmonary - Biopsy Proc": {
+        "service": "Bedside Pulmonary Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Pulmonary Biopsy Procedure"
+        ]
+      },
+      "Ren Radiotherapy Fract": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Emergency Renal Radiotherapy Fraction",
+          "Inpatient Renal Radiotherapy Fraction"
+        ]
+      },
+      "Routine  Biop Procedure": {
+        "service": "Routine Urologic Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Urologic Biopsy Procedure"
+        ]
+      },
+      "Routine - Oncology Disch": {
+        "service": "Routine Oncology Discharge Planning",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Oncology Discharge Planning"
+        ]
+      },
+      "Rtn - Transf Svc": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Routine Dermatologic Transfusion Service",
+          "Routine Gastrointestinal Transfusion Service"
+        ]
+      },
+      "Rtn Biop Proc /NG-7762": {
+        "service": "Routine Urologic Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Urologic Biopsy Procedure"
+        ]
+      },
+      "Rtn Cardiac Specimen": {
+        "service": "Routine Cardiac Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Cardiac Specimen Analysis"
+        ]
+      },
+      "Rtn Gi Svc /NG-4995": {
+        "service": "Routine Gastrointestinal Transfusion Service",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Gastrointestinal Transfusion Service"
+        ]
+      },
+      "Session  Interm Hep Dial": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "Specialist Derm Transp": {
+        "service": "Specialist Dermatologic Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Specialist Dermatologic Transport Service"
+        ]
+      },
+      "Specialist Neurological Recovery Rm /NG-7294": {
+        "service": "Specialist Neurological Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Specialist Neurological Recovery Room Occupancy"
+        ]
+      },
+      "Std - Biop Proc": {
+        "service": "Standard Paediatric Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Paediatric Biopsy Procedure"
+        ]
+      },
+      "Std Nutritional Supp": {
+        "service": "Standard Geriatric Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Geriatric Nutritional Support"
+        ]
+      },
+      "Std Paediatric Proc": {
+        "service": "Standard Paediatric Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Paediatric Biopsy Procedure"
+        ]
+      },
+      "Supp Geriatric Vent /NG-9418": {
+        "service": "Preoperative Geriatric Ventilation Support",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Geriatric Ventilation Support"
+        ]
+      },
+      "Supp Postoperative Ortho Nutritional": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "Supv Isol Rm Occupancy": {
+        "service": "Supervised Renal Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Renal Isolation Room Occupancy"
+        ]
+      },
+      "Svc Interm Transf": {
+        "service": "Intermittent Dermatologic Transfusion Service",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Dermatologic Transfusion Service"
+        ]
+      },
+      "Ther Asst Gi Inf": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Assisted Gastrointestinal Infusion Therapy",
+          "Assisted Geriatric Infusion Therapy"
+        ]
+      },
+      "Therapy Asst Gi Inf": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Assisted Gastrointestinal Infusion Therapy",
+          "Assisted Geriatric Infusion Therapy"
+        ]
+      },
+      "Vasc  Diagnostic Img": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Inpatient Vascular Diagnostic Imaging",
+          "Preoperative Vascular Diagnostic Imaging"
+        ]
+      },
+      "Visit Amb Hm": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Ambulatory Cardiac Home Visit",
+          "Ambulatory Infectious Home Visit"
+        ]
+      },
+      "Visit Cardiac Hm": {
+        "service": "Ambulatory Cardiac Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Cardiac Home Visit"
+        ]
+      }
+    }
+  },
+  "output": {
+    "results": [
+      {
+        "description": "Adv  Renal Consultation",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No renal consultation; Advanced consultation is neurological."
+      },
+      {
+        "description": "Adv Card Recov Rm",
+        "verdict": "match",
+        "service": "Advanced Cardiac Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Advanced cardiac recovery room."
+      },
+      {
+        "description": "Advanced  Infect Crit Cr",
+        "verdict": "match",
+        "service": "Advanced Infectious Critical Care Occupancy",
+        "candidates": [],
+        "reason": "Advanced infectious critical care."
+      },
+      {
+        "description": "Advanced Critical Cr Occupancy",
+        "verdict": "match",
+        "service": "Advanced Infectious Critical Care Occupancy",
+        "candidates": [],
+        "reason": "Only Advanced critical care occupancy service."
+      },
+      {
+        "description": "Advanced Metab Anaes",
+        "verdict": "match",
+        "service": "Advanced Metabolic Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Advanced metabolic anaesthesia."
+      },
+      {
+        "description": "Amb Gastrointestinal Discharge Plng",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No ambulatory gastrointestinal discharge planning."
+      },
+      {
+        "description": "Amb Infectious Visit",
+        "verdict": "match",
+        "service": "Ambulatory Infectious Home Visit",
+        "candidates": [],
+        "reason": "Ambulatory infectious home visit."
+      },
+      {
+        "description": "Ambulatory Endosc Procedure /NG-8034",
+        "verdict": "match",
+        "service": "Ambulatory Immunologic Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Only ambulatory endoscopic procedure."
+      },
+      {
+        "description": "Assisted Gi Inf Ther /NG-8862",
+        "verdict": "match",
+        "service": "Assisted Gastrointestinal Infusion Therapy",
+        "candidates": [],
+        "reason": "Assisted GI infusion therapy."
+      },
+      {
+        "description": "Asst - Gi Inf Therapy /NG-1139",
+        "verdict": "match",
+        "service": "Assisted Gastrointestinal Infusion Therapy",
+        "candidates": [],
+        "reason": "Assisted GI infusion therapy."
+      },
+      {
+        "description": "Asst Specimen Anly",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No assisted specimen analysis service."
+      },
+      {
+        "description": "Beds Psych Session",
+        "verdict": "match",
+        "service": "Bedside Psychiatric Dialysis Session",
+        "candidates": [],
+        "reason": "Only bedside psychiatric session."
+      },
+      {
+        "description": "Case - Intensive Ophth /NG-3641",
+        "verdict": "match",
+        "service": "Intensive Ophthalmic Case Conference",
+        "candidates": [],
+        "reason": "Intensive ophthalmic case conference."
+      },
+      {
+        "description": "Compr Infectious Nurs",
+        "verdict": "match",
+        "service": "Comprehensive Infectious Nursing Observation",
+        "candidates": [],
+        "reason": "Comprehensive infectious nursing."
+      },
+      {
+        "description": "Compr Infectious Nursing",
+        "verdict": "match",
+        "service": "Comprehensive Infectious Nursing Observation",
+        "candidates": [],
+        "reason": "Comprehensive infectious nursing."
+      },
+      {
+        "description": "Compr Otolaryngologic Rehab /NG-4700",
+        "verdict": "match",
+        "service": "Comprehensive Otolaryngologic Rehabilitation Programme",
+        "candidates": [],
+        "reason": "Comprehensive ENT rehabilitation."
+      },
+      {
+        "description": "Comprehensive Infect Nursing",
+        "verdict": "match",
+        "service": "Comprehensive Infectious Nursing Observation",
+        "candidates": [],
+        "reason": "Comprehensive infectious nursing."
+      },
+      {
+        "description": "Consultation Adv",
+        "verdict": "match",
+        "service": "Advanced Neurological Consultation",
+        "candidates": [],
+        "reason": "Only Advanced consultation."
+      },
+      {
+        "description": "Cont Pharmaceutical Disp",
+        "verdict": "match",
+        "service": "Continuous Vascular Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "Only continuous pharmaceutical dispensing."
+      },
+      {
+        "description": "Cont Pulm Spcm Analysis",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No continuous pulmonary specimen analysis."
+      },
+      {
+        "description": "Continuous Wnd Care",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Continuous Musculoskeletal Wound Care",
+          "Continuous Pulmonary Wound Care"
+        ],
+        "reason": "Specialty dropped; two continuous wound care services."
+      },
+      {
+        "description": "Cr Cont Wnd",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Continuous Musculoskeletal Wound Care",
+          "Continuous Pulmonary Wound Care"
+        ],
+        "reason": "Specialty dropped; two continuous wound care services."
+      },
+      {
+        "description": "Cs Amb Ophthalmic /NG-7838",
+        "verdict": "match",
+        "service": "Ambulatory Ophthalmic Case Conference",
+        "candidates": [],
+        "reason": "Cs = Case; ambulatory ophthalmic case conference."
+      },
+      {
+        "description": "Elect - Card Supp",
+        "verdict": "match",
+        "service": "Elective Cardiac Nutritional Support",
+        "candidates": [],
+        "reason": "Elective cardiac support."
+      },
+      {
+        "description": "Emer Ortho",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Emergency Orthopaedic Consultation",
+          "Emergency Orthopaedic Rehabilitation Programme"
+        ],
+        "reason": "Service type dropped; two emergency orthopaedic services."
+      },
+      {
+        "description": "Ext - Pall Panel",
+        "verdict": "match",
+        "service": "Extended Palliative Laboratory Panel",
+        "candidates": [],
+        "reason": "Extended palliative lab panel."
+      },
+      {
+        "description": "Extended Haem Anaes Admin",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "Anaesthesia only Advanced Metabolic."
+      },
+      {
+        "description": "Extended Ortho Ventilation Support",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "Ventilation support only Preoperative Geriatric."
+      },
+      {
+        "description": "Extended Ren Transp",
+        "verdict": "match",
+        "service": "Extended Renal Transport Service",
+        "candidates": [],
+        "reason": "Extended renal transport."
+      },
+      {
+        "description": "Foc - Immunologic Physio",
+        "verdict": "match",
+        "service": "Focused Immunologic Physiotherapy Session",
+        "candidates": [],
+        "reason": "Focused immunologic physiotherapy."
+      },
+      {
+        "description": "Focused Ent Cr /NG-9962",
+        "verdict": "match",
+        "service": "Focused Otolaryngologic Wound Care",
+        "candidates": [],
+        "reason": "Focused ENT wound care."
+      },
+      {
+        "description": "Fract Outpatient Radiotherapy",
+        "verdict": "match",
+        "service": "Outpatient Metabolic Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Only outpatient radiotherapy fraction."
+      },
+      {
+        "description": "Fract Std Ent",
+        "verdict": "match",
+        "service": "Standard Otolaryngologic Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Standard ENT radiotherapy fraction."
+      },
+      {
+        "description": "Ger Nutr Support /NG-2366",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Intensive Geriatric Nutritional Support",
+          "Standard Geriatric Nutritional Support"
+        ],
+        "reason": "Modifier dropped; two geriatric nutritional support services."
+      },
+      {
+        "description": "Img Inpatient Diag",
+        "verdict": "match",
+        "service": "Inpatient Vascular Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Only inpatient diagnostic imaging."
+      },
+      {
+        "description": "Img Vasc Diagnostic",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Inpatient Vascular Diagnostic Imaging",
+          "Preoperative Vascular Diagnostic Imaging"
+        ],
+        "reason": "Modifier dropped; two vascular diagnostic imaging services."
+      },
+      {
+        "description": "Immun Consult",
+        "verdict": "match",
+        "service": "Outpatient Immunologic Consultation",
+        "candidates": [],
+        "reason": "Only immunologic consultation."
+      },
+      {
+        "description": "Inpatient - Ophth Transport",
+        "verdict": "match",
+        "service": "Inpatient Ophthalmic Transport Service",
+        "candidates": [],
+        "reason": "Inpatient ophthalmic transport."
+      },
+      {
+        "description": "Inpt Endo Session",
+        "verdict": "match",
+        "service": "Inpatient Endocrine Dialysis Session",
+        "candidates": [],
+        "reason": "Only inpatient endocrine session."
+      },
+      {
+        "description": "Inpt Hepatic Session",
+        "verdict": "match",
+        "service": "Inpatient Hepatic Physiotherapy Session",
+        "candidates": [],
+        "reason": "Only inpatient hepatic session."
+      },
+      {
+        "description": "Intens - Nutr Support",
+        "verdict": "match",
+        "service": "Intensive Geriatric Nutritional Support",
+        "candidates": [],
+        "reason": "Only intensive nutritional support."
+      },
+      {
+        "description": "Interm - Diag Img /NG-6221",
+        "verdict": "match",
+        "service": "Intermittent Rheumatologic Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Only intermittent diagnostic imaging."
+      },
+      {
+        "description": "Interm Rehab Programme",
+        "verdict": "match",
+        "service": "Intermittent Pulmonary Rehabilitation Programme",
+        "candidates": [],
+        "reason": "Only intermittent rehabilitation programme."
+      },
+      {
+        "description": "Metabolic - Lab Pnl",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No metabolic laboratory panel."
+      },
+      {
+        "description": "Msk Dial Sess",
+        "verdict": "match",
+        "service": "Supervised Musculoskeletal Dialysis Session",
+        "candidates": [],
+        "reason": "Only musculoskeletal dialysis session."
+      },
+      {
+        "description": "Neuro - Nutr Supp",
+        "verdict": "match",
+        "service": "Intermittent Neurological Nutritional Support",
+        "candidates": [],
+        "reason": "Only neurological nutritional support."
+      },
+      {
+        "description": "Obs Metab Nursing",
+        "verdict": "match",
+        "service": "Advanced Metabolic Nursing Observation",
+        "candidates": [],
+        "reason": "Only metabolic nursing observation."
+      },
+      {
+        "description": "Observation Cont Nurs",
+        "verdict": "match",
+        "service": "Continuous Cardiac Nursing Observation",
+        "candidates": [],
+        "reason": "Only continuous nursing observation."
+      },
+      {
+        "description": "Occ - Inpt Isol Rm /NG-2747",
+        "verdict": "match",
+        "service": "Inpatient Palliative Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Only inpatient isolation room."
+      },
+      {
+        "description": "Occ Advanced Orthopaedic Recovery Rm /NG-2920",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "Advanced recovery room is cardiac, not orthopaedic."
+      },
+      {
+        "description": "Ortho Transp Svc",
+        "verdict": "match",
+        "service": "Focused Orthopaedic Transport Service",
+        "candidates": [],
+        "reason": "Only orthopaedic transport."
+      },
+      {
+        "description": "Outpatient Orthopaedic Pharm Dispensing /NG-2825",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No outpatient orthopaedic pharmaceutical dispensing."
+      },
+      {
+        "description": "Outpt Radiother Fraction",
+        "verdict": "match",
+        "service": "Outpatient Metabolic Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Only outpatient radiotherapy fraction."
+      },
+      {
+        "description": "Postop Critical Cr Occupancy",
+        "verdict": "match",
+        "service": "Postoperative Metabolic Critical Care Occupancy",
+        "candidates": [],
+        "reason": "Only postoperative critical care."
+      },
+      {
+        "description": "Procedure Immun Endosc",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Ambulatory Immunologic Endoscopic Procedure",
+          "Preoperative Immunologic Endoscopic Procedure"
+        ],
+        "reason": "Modifier dropped; two immunologic endoscopic procedures."
+      },
+      {
+        "description": "Psych Rehab Programme",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Continuous Psychiatric Rehabilitation Programme",
+          "Routine Psychiatric Rehabilitation Programme"
+        ],
+        "reason": "Modifier dropped; two psychiatric rehab programmes."
+      },
+      {
+        "description": "Psychiatric Rehab Programme /NG-8199",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Continuous Psychiatric Rehabilitation Programme",
+          "Routine Psychiatric Rehabilitation Programme"
+        ],
+        "reason": "Modifier dropped; two psychiatric rehab programmes."
+      },
+      {
+        "description": "Pulmonary - Biopsy Proc",
+        "verdict": "match",
+        "service": "Bedside Pulmonary Biopsy Procedure",
+        "candidates": [],
+        "reason": "Only pulmonary biopsy."
+      },
+      {
+        "description": "Ren Radiotherapy Fract",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Emergency Renal Radiotherapy Fraction",
+          "Inpatient Renal Radiotherapy Fraction"
+        ],
+        "reason": "Modifier dropped; two renal radiotherapy fractions."
+      },
+      {
+        "description": "Routine  Biop Procedure",
+        "verdict": "match",
+        "service": "Routine Urologic Biopsy Procedure",
+        "candidates": [],
+        "reason": "Only routine biopsy."
+      },
+      {
+        "description": "Routine - Oncology Disch",
+        "verdict": "match",
+        "service": "Routine Oncology Discharge Planning",
+        "candidates": [],
+        "reason": "Routine oncology discharge planning."
+      },
+      {
+        "description": "Rtn - Transf Svc",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Routine Dermatologic Transfusion Service",
+          "Routine Gastrointestinal Transfusion Service"
+        ],
+        "reason": "Specialty dropped; two routine transfusion services."
+      },
+      {
+        "description": "Rtn Biop Proc /NG-7762",
+        "verdict": "match",
+        "service": "Routine Urologic Biopsy Procedure",
+        "candidates": [],
+        "reason": "Only routine biopsy."
+      },
+      {
+        "description": "Rtn Cardiac Specimen",
+        "verdict": "match",
+        "service": "Routine Cardiac Specimen Analysis",
+        "candidates": [],
+        "reason": "Routine cardiac specimen analysis."
+      },
+      {
+        "description": "Rtn Gi Svc /NG-4995",
+        "verdict": "match",
+        "service": "Routine Gastrointestinal Transfusion Service",
+        "candidates": [],
+        "reason": "Only routine GI service."
+      },
+      {
+        "description": "Session  Interm Hep Dial",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No intermittent hepatic dialysis session."
+      },
+      {
+        "description": "Specialist Derm Transp",
+        "verdict": "match",
+        "service": "Specialist Dermatologic Transport Service",
+        "candidates": [],
+        "reason": "Specialist dermatologic transport."
+      },
+      {
+        "description": "Specialist Neurological Recovery Rm /NG-7294",
+        "verdict": "match",
+        "service": "Specialist Neurological Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Specialist neurological recovery room."
+      },
+      {
+        "description": "Std - Biop Proc",
+        "verdict": "match",
+        "service": "Standard Paediatric Biopsy Procedure",
+        "candidates": [],
+        "reason": "Only standard biopsy."
+      },
+      {
+        "description": "Std Nutritional Supp",
+        "verdict": "match",
+        "service": "Standard Geriatric Nutritional Support",
+        "candidates": [],
+        "reason": "Only standard nutritional support."
+      },
+      {
+        "description": "Std Paediatric Proc",
+        "verdict": "match",
+        "service": "Standard Paediatric Biopsy Procedure",
+        "candidates": [],
+        "reason": "Only standard paediatric procedure."
+      },
+      {
+        "description": "Supp Geriatric Vent /NG-9418",
+        "verdict": "match",
+        "service": "Preoperative Geriatric Ventilation Support",
+        "candidates": [],
+        "reason": "Only geriatric ventilation support."
+      },
+      {
+        "description": "Supp Postoperative Ortho Nutritional",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No postoperative orthopaedic nutritional support."
+      },
+      {
+        "description": "Supv Isol Rm Occupancy",
+        "verdict": "match",
+        "service": "Supervised Renal Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Only supervised isolation room."
+      },
+      {
+        "description": "Svc Interm Transf",
+        "verdict": "match",
+        "service": "Intermittent Dermatologic Transfusion Service",
+        "candidates": [],
+        "reason": "Only intermittent transfusion service."
+      },
+      {
+        "description": "Ther Asst Gi Inf",
+        "verdict": "match",
+        "service": "Assisted Gastrointestinal Infusion Therapy",
+        "candidates": [],
+        "reason": "Assisted GI infusion therapy."
+      },
+      {
+        "description": "Therapy Asst Gi Inf",
+        "verdict": "match",
+        "service": "Assisted Gastrointestinal Infusion Therapy",
+        "candidates": [],
+        "reason": "Assisted GI infusion therapy."
+      },
+      {
+        "description": "Vasc  Diagnostic Img",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Inpatient Vascular Diagnostic Imaging",
+          "Preoperative Vascular Diagnostic Imaging"
+        ],
+        "reason": "Modifier dropped; two vascular diagnostic imaging services."
+      },
+      {
+        "description": "Visit Amb Hm",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Ambulatory Cardiac Home Visit",
+          "Ambulatory Infectious Home Visit"
+        ],
+        "reason": "Specialty dropped; two ambulatory home visits."
+      },
+      {
+        "description": "Visit Cardiac Hm",
+        "verdict": "match",
+        "service": "Ambulatory Cardiac Home Visit",
+        "candidates": [],
+        "reason": "Only cardiac home visit."
+      }
+    ]
+  }
+}

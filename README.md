@@ -1,117 +1,90 @@
-# Invoice Audit Exercise
+# Invoice Audit — Submission
 
-Meridian Health Assurance Group reimburses five hospitals under five separately
-negotiated service contracts. Each hospital submits invoices for the patients
-it has treated. Some of those invoices are wrong — a rate that does not match
-the contract, an adjustment applied when it was not due or omitted when it was,
-a quantity beyond a contractual limit, a service billed twice.
+Checks every invoice from hospitals 2–5 against that hospital's contract. For each invoice it reports
+whether it is wrong, why, what it should have totalled, and how confident the check is. Hospital 1's
+labels are used only for development and calibration. The original exercise brief is in
+[docs/exercise_brief.md](docs/exercise_brief.md).
 
-Your job is to find the wrong ones.
+## Reproduce `submission.csv`
 
-## What you have
-
-```
-contracts/hospital_1/ ... contracts/hospital_5/
-    The five contracts, as Markdown and as plain text. Each hospital's
-    contract is presented differently; one of them is split across several
-    documents. Read whichever format suits your tooling.
-
-invoices/hospital_N_invoices.csv
-    One row per invoice: invoice_id, hospital_id, contract_number,
-    invoice_date, patient_id, facility_code, plan_tier, admission_date,
-    discharge_date, invoice_total_cents.
-
-invoices/hospital_N_line_items.csv
-    One row per line item: line_id, invoice_id, line_no, service_date,
-    description, quantity, unit_basis_as_billed, unit_price_cents,
-    line_total_cents.
-
-invoices/hospital_N_invoices.jsonl
-    The same data, one JSON object per invoice, with the line items nested.
-    Use whichever shape you prefer; they carry identical information.
-
-labels/hospital_1_labels.csv
-    Ground truth for hospital 1 only — your development set.
-
-submission_template.csv
-    The format your predictions must take.
+```bash
+python3 -m audit                         # parse contracts -> check invoices -> submission.csv + outputs/
+python3 -m unittest discover -s tests    # 12 tests
 ```
 
-All money is an integer number of cents. There are no floating-point amounts
-anywhere in the data, and there should be none in your answer.
+- Python 3.14.2, standard library only (`requirements.txt`, `.python-version`). Runs in about 4 seconds.
+- **No LLM or API key is needed to reproduce.** The LLM outputs used for verification are committed.
 
-The line-item `description` is the hospital's own free-text billing
-description. It is not a contract term, it is not a code, and the same
-contracted service is described many different ways across the data.
-Establishing which contracted service a description refers to is part of the
-task.
-
-## The task
-
-For hospitals hospital_2, hospital_3, hospital_4, hospital_5, decide for each invoice whether it is erroneous, and
-submit your predictions in the format of `submission_template.csv`:
-
-| column | meaning |
+| Other command | Produces |
 |---|---|
-| `invoice_id` | the invoice you are making a claim about |
-| `flagged` | `1` if you believe the invoice is erroneous, `0` otherwise |
-| `error_category` | your own short label for what is wrong; free text |
-| `expected_total_cents` | what you believe the invoice *should* have totalled |
-| `billed_total_cents` | what it actually totalled |
-| `confidence` | your confidence in the row, between 0 and 1 |
-
-Submit a row for every invoice you have an opinion about. Rows for invoices you
-believe are correct are useful and are scored.
-
-Hospital 1 is labelled. Use it to develop and to calibrate; it is not scored.
-
-## How this is assessed
-
-**Complete coverage of all five contracts is not expected.** The exercise is
-deliberately larger than the time budget. Sequencing — deciding what to attempt
-first and what to leave — and reporting honestly on what you did not attempt
-are explicitly part of what is being evaluated. A submission covering two
-hospitals well, with a clear account of why those two and what would come next,
-is a stronger result than a thin pass over all four.
-
-**A confidently wrong extraction is worse than a flagged uncertainty.** If you
-tell us a rate is 42.00 and it is not, that error propagates silently into
-every invoice touching that service. If you tell us you are unsure, a human
-reviews it and the cost is a few minutes. Scoring reflects this: your stated
-`confidence` is used, and calibration is measured. Say what you do not know.
-
-## Time budget
-
-Six to eight hours, spread over one week. That is a **cap**, not a target. Do
-not exceed it. If you find yourself at the cap with work outstanding, stop and
-write down what you would have done next — that write-up is worth more to us
-than the extra hours.
-
-## AI assistance
-
-Using AI assistance is permitted and expected. It must be disclosed. Include
-your prompts as versioned files in the repository (see deliverables) so we can
-see how you worked, not just what you produced.
+| `python3 -m audit rules` | `rules/hospital_N.json` from the contracts |
+| `python3 -m audit verify` | `verification/report.md` |
+| `python3 -m audit.evaluation` | `outputs/evaluation/scorecard.md`, `ablation.md` |
+| `python3 -m audit.stress` | `outputs/evaluation/stress_*.{csv,md}`, `lookalike_seeds.md` (~1 min) |
+| `python3 -m audit.llm_extract_contracts` / `audit.llm_map_descriptions` | Re-run the LLM steps. Needs a logged-in Claude Code CLI; skips outputs that already exist unless `--force`. |
 
 ## Deliverables
 
-1. **A runnable repository.** We should be able to clone it, follow your README,
-   and reproduce your submission file. Pin your dependencies.
-2. **`submission.csv`** in the template format.
-3. **A short evaluation report** giving per-category performance on the
-   hospital 1 development set, and an error analysis grouped by *failure type*
-   — not a list of individual misses, but the three or four systematic ways
-   your approach goes wrong, with an example of each.
-4. **Your prompts, as versioned files** in the repository. If you iterated on a
-   prompt, we would like to see that it was iterated on.
-5. **A one-page decision log**: the assumptions you made, the ambiguities you
-   found and could not resolve, and what you decided to do about each. If you
-   read a clause two ways and had to pick one, that belongs here.
+| # | Deliverable | Where |
+|---|---|---|
+| 1 | Runnable repository | this README; `audit/`, `tests/` |
+| 2 | Submission | [submission.csv](submission.csv): 3,942 rows (H2–H5, one per invoice ID) |
+| 3 | Evaluation report | [docs/evaluation_report.md](docs/evaluation_report.md) |
+| 4 | Prompts, versioned | [prompts/session/](prompts/session/) (every prompt given to the assistant, verbatim) and [prompts/pipeline/](prompts/pipeline/) (prompts the code sends to the LLM) |
+| 5 | Decision log | [docs/decision_log.md](docs/decision_log.md) |
+| — | What I would do next | [docs/next_steps.md](docs/next_steps.md) |
 
-## Ground rules
+Supporting outputs: [outputs/review_queue.csv](outputs/review_queue.csv) (33 invoices for a person, each
+with `review_type`: flag or amount uncertain, and a reason), `outputs/predictions_detailed.csv`
+(every invoice with line-level findings), [verification/report.md](verification/report.md).
 
-- The data is synthetic. There are no real patients and no real hospitals.
-- Everything you need is in this package. There is nothing to look up
-  externally.
-- If something in a contract seems genuinely ambiguous, it may well be. Record
-  your reading and move on; do not spend the budget on it.
+## How it works
+
+1. **Contracts → rules** (`audit/contracts.py`). Deterministic parsers: a Markdown-table reader (H1, H3,
+   H4, H5) and a sentence-pattern reader for H2's prose. 830/830 internal consistency checks pass.
+2. **Verification** (`audit/verify.py`). Parser checks; an independent LLM reading of every contract
+   (0 differences); and for every service, the share of billed prices equal to our price (≥96%).
+3. **Descriptions → services** (`audit/mapping.py`). Abbreviation-aware matching. Ties are broken by
+   billed unit, then price, at lower confidence. An LLM text-only second opinion covers every non-exact
+   match (`mappings/`).
+4. **Checks and pricing** (`audit/engine.py`). All invoices of a hospital are processed together in
+   service-date order: header, dates, unit, arithmetic, bundle → facility → tier → premium → discount
+   (half-up rounding each step), caps, exclusion windows, cross-invoice duplicates.
+5. **Ambiguity test** (`audit/pipeline.py`). Re-run under alternative clause readings; any invoice whose
+   answer changes is marked.
+6. **Confidence** (`audit/confidence.py`). Evidence tiers for the flag (the submission's `confidence`)
+   plus a separate amount confidence for the review queue.
+
+**Results.** H1 (development set): 58/58 erroneous invoices flagged, 0 false alarms, expected total exact
+on 909/913. A stress test planting 2,040 known errors into all five hospitals flags 99.2%, and every
+miss is routed to review. Four systematic weaknesses are described in the evaluation report.
+
+## Repository map
+
+```
+audit/            pipeline code (see "How it works")
+tests/            unittest suite
+rules/            contracts as structured rules (generated)
+verification/     extraction checks + saved LLM contract readings
+mappings/         saved LLM second opinions on descriptions
+outputs/          review queue, detailed predictions, evaluation tables
+docs/             phase 1 understanding, phase 2 design, evaluation report, decision log, next steps
+prompts/          session prompts (verbatim) and pipeline prompts (versioned)
+contracts/ invoices/ labels/ submission_template.csv   exercise inputs, unchanged
+```
+
+## Time and AI assistance
+
+About **4.6 hours** of the 6–8 hour cap: understanding ~0.6, design ~0.6, implementation ~1.8,
+evaluation ~1.1, write-up ~0.5 (per-prompt estimates in `prompts/session/`, excluding a pause while a
+subscription usage limit reset).
+
+Built with Claude Code (Claude Opus 5):
+- Every prompt given to the assistant is stored verbatim in `prompts/session/` (001–012), with what was
+  done and why.
+- The pipeline's own LLM calls ran through `claude -p` (`audit/llm.py`). Each saved output records model,
+  date, prompt file and Claude Code version.
+- Both pipeline prompts are still v1: contract extraction matched the parser exactly, and the mapping
+  prompt's proposed v2 is described in next steps.
+- The LLM never prices an invoice. It only cross-checks the parsers and gives a second opinion on
+  uncertain description matches.

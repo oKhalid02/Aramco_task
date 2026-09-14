@@ -1,0 +1,47 @@
+{
+  "1": {
+    "parser_checks": [
+      126,
+      126
+    ],
+    "llm_differences": 0,
+    "majority_suspect_services": [],
+    "services_never_billed": []
+  },
+  "2": {
+    "parser_checks": [
+      306,
+      306
+    ],
+    "llm_differences": 0,
+    "majority_suspect_services": [],
+    "services_never_billed": []
+  },
+  "3": {
+    "parser_checks": [
+      173,
+      173
+    ],
+    "llm_differences": 0,
+    "majority_suspect_services": [],
+    "services_never_billed": []
+  },
+  "4": {
+    "parser_checks": [
+      127,
+      127
+    ],
+    "llm_differences": 0,
+    "majority_suspect_services": [],
+    "services_never_billed": []
+  },
+  "5": {
+    "parser_checks": [
+      98,
+      98
+    ],
+    "llm_differences": 0,
+    "majority_suspect_services": [],
+    "services_never_billed": []
+  }
+}

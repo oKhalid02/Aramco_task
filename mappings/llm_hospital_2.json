@@ -1,0 +1,2370 @@
+{
+  "meta": {
+    "prompt_file": "prompts/pipeline/description_mapping_v1.md",
+    "model": "claude-opus-5",
+    "models_used": [
+      "claude-haiku-4-5-20251001",
+      "claude-opus-5"
+    ],
+    "run_at": "2026-09-14T14:30:26",
+    "estimated_cost_usd": 0.5648834999999999,
+    "claude_code_version": "2.1.270 (Claude Code)",
+    "missing_descriptions": [],
+    "matcher_view": {
+      "ADMIN OPHTH ANAES /SA-6486": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Intermittent Ophthalmic Anaesthesia Administration",
+          "Postoperative Ophthalmic Anaesthesia Administration"
+        ]
+      },
+      "ADV  GI PROC": {
+        "service": "Advanced Gastrointestinal Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Gastrointestinal Endoscopic Procedure"
+        ]
+      },
+      "ADV DERM ANLY": {
+        "service": "Advanced Dermatologic Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Dermatologic Specimen Analysis"
+        ]
+      },
+      "ADV ENDOSCOPIC PROC /SA-6974": {
+        "service": "Advanced Gastrointestinal Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Gastrointestinal Endoscopic Procedure"
+        ]
+      },
+      "ADV RHEUM ISOLATION OCC": {
+        "service": "Advanced Rheumatologic Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Rheumatologic Isolation Room Occupancy"
+        ]
+      },
+      "ADV RHEUM RM OCC": {
+        "service": "Advanced Rheumatologic Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Rheumatologic Isolation Room Occupancy"
+        ]
+      },
+      "ADV RHEUM RM OCCUPANCY": {
+        "service": "Advanced Rheumatologic Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Rheumatologic Isolation Room Occupancy"
+        ]
+      },
+      "ADVANCED INFECT RM OCC": {
+        "service": "Advanced Infectious Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Infectious Isolation Room Occupancy"
+        ]
+      },
+      "ADVANCED RHEUM ISOL RM /SA-1731": {
+        "service": "Advanced Rheumatologic Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Rheumatologic Isolation Room Occupancy"
+        ]
+      },
+      "AMB - PALL DIAGNOSTIC IMG /SA-7135": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "AMB NUTRITIONAL SUPP /SA-7761": {
+        "service": "Ambulatory Haematology Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Haematology Nutritional Support"
+        ]
+      },
+      "AMBULATORY - OPHTH VENTILATION SUPP": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "ANALYSIS CARD SPCM": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Intermittent Cardiac Specimen Analysis",
+          "Preoperative Cardiac Specimen Analysis"
+        ]
+      },
+      "ANLY - DERM SPCM": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Advanced Dermatologic Specimen Analysis",
+          "Extended Dermatologic Specimen Analysis"
+        ]
+      },
+      "ASST - INFECT TELEM": {
+        "service": "Assisted Infectious Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Infectious Telemetry Monitoring"
+        ]
+      },
+      "ASST BIOP PROC": {
+        "service": "Assisted Gastrointestinal Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Gastrointestinal Biopsy Procedure"
+        ]
+      },
+      "ASST DIAG IMAGING": {
+        "service": "Assisted Musculoskeletal Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Musculoskeletal Diagnostic Imaging"
+        ]
+      },
+      "ASST DIAG IMG /SA-7926": {
+        "service": "Assisted Musculoskeletal Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Musculoskeletal Diagnostic Imaging"
+        ]
+      },
+      "ASST INFECT MONIT /SA-6965": {
+        "service": "Assisted Infectious Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Infectious Telemetry Monitoring"
+        ]
+      },
+      "BEDS PHARM DISP": {
+        "service": "Bedside Pulmonary Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Pulmonary Pharmaceutical Dispensing"
+        ]
+      },
+      "BEDS PULM DISP /SA-7949": {
+        "service": "Bedside Pulmonary Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Pulmonary Pharmaceutical Dispensing"
+        ]
+      },
+      "BIOPSY ASST GI /SA-6156": {
+        "service": "Assisted Gastrointestinal Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Gastrointestinal Biopsy Procedure"
+        ]
+      },
+      "CARD  NURS OBS": {
+        "service": "Elective Cardiac Nursing Observation",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Cardiac Nursing Observation"
+        ]
+      },
+      "CARDIAC  TRANSP SERVICE": {
+        "service": "Elective Cardiac Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Cardiac Transport Service"
+        ]
+      },
+      "COMPR  HAEM SVC /SA-2722": {
+        "service": "Comprehensive Haematology Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Haematology Transport Service"
+        ]
+      },
+      "CONT  REN SUPP": {
+        "service": "Continuous Renal Ventilation Support",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Renal Ventilation Support"
+        ]
+      },
+      "CS  ADV ENDO /SA-1786": {
+        "service": "Advanced Endocrine Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Endocrine Case Conference"
+        ]
+      },
+      "DIAG SUPERVISED MSK": {
+        "service": "Supervised Musculoskeletal Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Musculoskeletal Diagnostic Imaging"
+        ]
+      },
+      "DIAGNOSTIC SUPV MSK /SA-5988": {
+        "service": "Supervised Musculoskeletal Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Musculoskeletal Diagnostic Imaging"
+        ]
+      },
+      "DISP FOC PHARM": {
+        "service": "Focused Pulmonary Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Pulmonary Pharmaceutical Dispensing"
+        ]
+      },
+      "ELECT CARD SVC": {
+        "service": "Elective Cardiac Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Cardiac Transport Service"
+        ]
+      },
+      "ELECT TRANSP SVC": {
+        "service": "Elective Cardiac Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Cardiac Transport Service"
+        ]
+      },
+      "EMER  REN THER": {
+        "service": "Emergency Renal Infusion Therapy",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Renal Infusion Therapy"
+        ]
+      },
+      "EMER  TRANSP SERVICE /SA-9292": {
+        "service": "Emergency Haematology Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Haematology Transport Service"
+        ]
+      },
+      "EMER  TRANSP SVC /SA-1419": {
+        "service": "Emergency Haematology Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Haematology Transport Service"
+        ]
+      },
+      "EMER HAEM SVC /SA-3156": {
+        "service": "Emergency Haematology Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Haematology Transport Service"
+        ]
+      },
+      "EMER MSK PROG /SA-4534": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "EMER PULM VENT": {
+        "service": "Emergency Pulmonary Ventilation Support",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Pulmonary Ventilation Support"
+        ]
+      },
+      "EMER THTR TM /SA-2118": {
+        "service": "Emergency Paediatric Theatre Time",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Paediatric Theatre Time"
+        ]
+      },
+      "ENDO  CS CONF": {
+        "service": "Advanced Endocrine Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Endocrine Case Conference"
+        ]
+      },
+      "ENT CS CONF /SA-5963": {
+        "service": "Comprehensive Otolaryngologic Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Otolaryngologic Case Conference"
+        ]
+      },
+      "ENT CS CONF /SA-6459": {
+        "service": "Comprehensive Otolaryngologic Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Otolaryngologic Case Conference"
+        ]
+      },
+      "ENT REHAB PROG": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Intensive Otolaryngologic Rehabilitation Programme",
+          "Intermittent Otolaryngologic Rehabilitation Programme"
+        ]
+      },
+      "EXT  VASC HOME": {
+        "service": "Extended Vascular Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Vascular Home Visit"
+        ]
+      },
+      "EXT DERM ANLY /SA-1680": {
+        "service": "Extended Dermatologic Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Dermatologic Specimen Analysis"
+        ]
+      },
+      "EXT RADIOTHER FRACT": {
+        "service": "Extended Orthopaedic Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Orthopaedic Radiotherapy Fraction"
+        ]
+      },
+      "EXT VASC HM": {
+        "service": "Extended Vascular Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Vascular Home Visit"
+        ]
+      },
+      "EXT VASC VST": {
+        "service": "Extended Vascular Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Vascular Home Visit"
+        ]
+      },
+      "EXTENDED - HM VST": {
+        "service": "Extended Vascular Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Vascular Home Visit"
+        ]
+      },
+      "EXTENDED ENT NUTR": {
+        "service": "Extended Otolaryngologic Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Otolaryngologic Nutritional Support"
+        ]
+      },
+      "EXTENDED VASC VST /SA-2084": {
+        "service": "Extended Vascular Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Vascular Home Visit"
+        ]
+      },
+      "FOC  VASC PHARM DISP /SA-5164": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "FRACT BEDS RADIOTHER /SA-5851": {
+        "service": "Bedside Ophthalmic Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Ophthalmic Radiotherapy Fraction"
+        ]
+      },
+      "HAEM BIOP PROC /SA-6522": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Outpatient Haematology Biopsy Procedure",
+          "Supervised Haematology Biopsy Procedure"
+        ]
+      },
+      "IMG ASST DIAG": {
+        "service": "Assisted Musculoskeletal Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Musculoskeletal Diagnostic Imaging"
+        ]
+      },
+      "IMG CONT CARD DIAG /SA-4810": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "IMG PREOP VASC": {
+        "service": "Preoperative Vascular Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Vascular Imaging Interpretation"
+        ]
+      },
+      "INPATIENT OPHTH RECOV RM": {
+        "service": "Inpatient Ophthalmic Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Ophthalmic Recovery Room Occupancy"
+        ]
+      },
+      "INPT ISOL RM OCC": {
+        "service": "Inpatient Paediatric Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Paediatric Isolation Room Occupancy"
+        ]
+      },
+      "INPT OPHTH RECOV OCCUPANCY /SA-8706": {
+        "service": "Inpatient Ophthalmic Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Ophthalmic Recovery Room Occupancy"
+        ]
+      },
+      "INPT ORTHO RECOV OCC": {
+        "service": "Inpatient Orthopaedic Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Orthopaedic Recovery Room Occupancy"
+        ]
+      },
+      "INTENS  - METAB RECOV RM OCC": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "INTENS  PALL WD BD /SA-1182": {
+        "service": "Intensive Palliative Ward Bed Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Intensive Palliative Ward Bed Occupancy"
+        ]
+      },
+      "INTENS NEURO PROG /SA-3375": {
+        "service": "Intensive Neurological Rehabilitation Programme",
+        "certainty": "strong",
+        "candidates": [
+          "Intensive Neurological Rehabilitation Programme"
+        ]
+      },
+      "INTENS PALL BD OCCUPANCY": {
+        "service": "Intensive Palliative Ward Bed Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Intensive Palliative Ward Bed Occupancy"
+        ]
+      },
+      "INTERM  OPHTHALMIC ADMIN": {
+        "service": "Intermittent Ophthalmic Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Ophthalmic Anaesthesia Administration"
+        ]
+      },
+      "INTERM  REHAB PROG": {
+        "service": "Intermittent Otolaryngologic Rehabilitation Programme",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Otolaryngologic Rehabilitation Programme"
+        ]
+      },
+      "INTERM - MSK DIAL SESSION /SA-9704": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "INTERM CARD ANLY": {
+        "service": "Intermittent Cardiac Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Cardiac Specimen Analysis"
+        ]
+      },
+      "INTERM CARD SPCM": {
+        "service": "Intermittent Cardiac Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Cardiac Specimen Analysis"
+        ]
+      },
+      "INTERM ENT REHAB /SA-8030": {
+        "service": "Intermittent Otolaryngologic Rehabilitation Programme",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Otolaryngologic Rehabilitation Programme"
+        ]
+      },
+      "INTERM OPHTH ADMIN": {
+        "service": "Intermittent Ophthalmic Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Ophthalmic Anaesthesia Administration"
+        ]
+      },
+      "INTERM ORTHO RECOV OCC": {
+        "service": "Intermittent Orthopaedic Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Orthopaedic Recovery Room Occupancy"
+        ]
+      },
+      "INTERMITTENT PSYCH LAB": {
+        "service": "Intermittent Psychiatric Laboratory Panel",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Psychiatric Laboratory Panel"
+        ]
+      },
+      "INTERP  SUPERVISED IMG /SA-6042": {
+        "service": "Supervised Neurological Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Neurological Imaging Interpretation"
+        ]
+      },
+      "INTERPRETATION  ROUTINE NEURO": {
+        "service": "Routine Neurological Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Neurological Imaging Interpretation"
+        ]
+      },
+      "INTERPRETATION NEURO IMG /SA-5989": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Routine Neurological Imaging Interpretation",
+          "Supervised Neurological Imaging Interpretation"
+        ]
+      },
+      "LAB SUPV METAB": {
+        "service": "Supervised Metabolic Laboratory Panel",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Metabolic Laboratory Panel"
+        ]
+      },
+      "METAB LAB PANEL": {
+        "service": "Supervised Metabolic Laboratory Panel",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Metabolic Laboratory Panel"
+        ]
+      },
+      "MSK  DIAG IMG": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Assisted Musculoskeletal Diagnostic Imaging",
+          "Supervised Musculoskeletal Diagnostic Imaging"
+        ]
+      },
+      "MSK RECOVERY RM OCC": {
+        "service": "Standard Musculoskeletal Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Musculoskeletal Recovery Room Occupancy"
+        ]
+      },
+      "NEURO  REHAB PROG": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Intensive Neurological Rehabilitation Programme",
+          "Postoperative Neurological Rehabilitation Programme"
+        ]
+      },
+      "NEUROLOGICAL REHAB PROG /SA-9661": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Intensive Neurological Rehabilitation Programme",
+          "Postoperative Neurological Rehabilitation Programme"
+        ]
+      },
+      "OBSERVATION  CARD NURSING": {
+        "service": "Elective Cardiac Nursing Observation",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Cardiac Nursing Observation"
+        ]
+      },
+      "OCC  ADV RHEUM ISOL": {
+        "service": "Advanced Rheumatologic Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Rheumatologic Isolation Room Occupancy"
+        ]
+      },
+      "OCC ADV INFECT ISOL /SA-7328": {
+        "service": "Advanced Infectious Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Infectious Isolation Room Occupancy"
+        ]
+      },
+      "OCC INPATIENT OPHTH RECOV /SA-5374": {
+        "service": "Inpatient Ophthalmic Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Ophthalmic Recovery Room Occupancy"
+        ]
+      },
+      "OCC INTENS WD BD": {
+        "service": "Intensive Palliative Ward Bed Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Intensive Palliative Ward Bed Occupancy"
+        ]
+      },
+      "OCC PREOP ISOL RM": {
+        "service": "Preoperative Neurological Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Neurological Isolation Room Occupancy"
+        ]
+      },
+      "OCC STD NEURO ISOL": {
+        "service": "Standard Neurological Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Neurological Isolation Room Occupancy"
+        ]
+      },
+      "OCC STD RECOV RM": {
+        "service": "Standard Musculoskeletal Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Musculoskeletal Recovery Room Occupancy"
+        ]
+      },
+      "ONC WD BD OCC /SA-5889": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Intermittent Ophthalmic Anaesthesia Administration",
+          "Postoperative Ophthalmic Anaesthesia Administration"
+        ]
+      },
+      "OPHTH LAB PNL": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Focused Ophthalmic Laboratory Panel",
+          "Routine Ophthalmic Laboratory Panel"
+        ]
+      },
+      "ORTHOPAEDIC ISOL RM OCC": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Postoperative Orthopaedic Isolation Room Occupancy",
+          "Standard Orthopaedic Isolation Room Occupancy"
+        ]
+      },
+      "OTOLARYNGOLOGIC  DISCH PLNG /SA-6235": {
+        "service": "Continuous Otolaryngologic Discharge Planning",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Otolaryngologic Discharge Planning"
+        ]
+      },
+      "PAED  INF THER": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Intensive Paediatric Infusion Therapy",
+          "Standard Paediatric Infusion Therapy"
+        ]
+      },
+      "PAED THEATRE TM /SA-1156": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Emergency Paediatric Theatre Time",
+          "Postoperative Paediatric Theatre Time"
+        ]
+      },
+      "PAEDIATRIC  INF THER": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Intensive Paediatric Infusion Therapy",
+          "Standard Paediatric Infusion Therapy"
+        ]
+      },
+      "PALL RECOV ROOM OCC": {
+        "service": "Focused Palliative Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Palliative Recovery Room Occupancy"
+        ]
+      },
+      "PHARM FOC PULM": {
+        "service": "Focused Pulmonary Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Pulmonary Pharmaceutical Dispensing"
+        ]
+      },
+      "PHYSIOTHERAPY  BEDS OBST": {
+        "service": "Bedside Obstetric Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Obstetric Physiotherapy Session"
+        ]
+      },
+      "PLNG  BEDS GERIATRIC DISCH": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "PNL FOC LAB /SA-4377": {
+        "service": "Focused Ophthalmic Laboratory Panel",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Ophthalmic Laboratory Panel"
+        ]
+      },
+      "POSTOP  CARD PHYSIO": {
+        "service": "Postoperative Cardiac Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Cardiac Physiotherapy Session"
+        ]
+      },
+      "POSTOP  ORTHO ISOL OCC": {
+        "service": "Postoperative Orthopaedic Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Orthopaedic Isolation Room Occupancy"
+        ]
+      },
+      "POSTOP - NEURO PROG /SA-8363": {
+        "service": "Postoperative Neurological Rehabilitation Programme",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Neurological Rehabilitation Programme"
+        ]
+      },
+      "POSTOP ANAES ADMIN": {
+        "service": "Postoperative Ophthalmic Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Ophthalmic Anaesthesia Administration"
+        ]
+      },
+      "POSTOP CARD SESS": {
+        "service": "Postoperative Cardiac Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Cardiac Physiotherapy Session"
+        ]
+      },
+      "POSTOP INF THER": {
+        "service": "Postoperative Pulmonary Infusion Therapy",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Pulmonary Infusion Therapy"
+        ]
+      },
+      "POSTOP NEURO PROG /SA-1044": {
+        "service": "Postoperative Neurological Rehabilitation Programme",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Neurological Rehabilitation Programme"
+        ]
+      },
+      "POSTOP OPHTH ANAESTHESIA /SA-4633": {
+        "service": "Postoperative Ophthalmic Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Ophthalmic Anaesthesia Administration"
+        ]
+      },
+      "POSTOP THTR TM": {
+        "service": "Postoperative Paediatric Theatre Time",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Paediatric Theatre Time"
+        ]
+      },
+      "PREOP  ORTHO SUPP /SA-5284": {
+        "service": "Preoperative Orthopaedic Ventilation Support",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Orthopaedic Ventilation Support"
+        ]
+      },
+      "PREOP  VASC INTERP": {
+        "service": "Preoperative Vascular Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Vascular Imaging Interpretation"
+        ]
+      },
+      "PREOP CARD ANALYSIS": {
+        "service": "Preoperative Cardiac Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Cardiac Specimen Analysis"
+        ]
+      },
+      "PREOP NEURO ISOL RM": {
+        "service": "Preoperative Neurological Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Neurological Isolation Room Occupancy"
+        ]
+      },
+      "PREOP SPCM ANLY /SA-5067": {
+        "service": "Preoperative Cardiac Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Cardiac Specimen Analysis"
+        ]
+      },
+      "PREOP VASC INTERP /SA-3692": {
+        "service": "Preoperative Vascular Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Vascular Imaging Interpretation"
+        ]
+      },
+      "PREOPERATIVE  OBST SESS /SA-3810": {
+        "service": "Preoperative Obstetric Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Obstetric Physiotherapy Session"
+        ]
+      },
+      "PROC  - SUPV HEP": {
+        "service": "Supervised Hepatic Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Hepatic Endoscopic Procedure"
+        ]
+      },
+      "PROC ASST GASTROINTESTINAL": {
+        "service": "Assisted Gastrointestinal Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Gastrointestinal Biopsy Procedure"
+        ]
+      },
+      "PROC HEP ENDOSC": {
+        "service": "Supervised Hepatic Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Hepatic Endoscopic Procedure"
+        ]
+      },
+      "PSYCH TRANSF SVC": {
+        "service": "Standard Psychiatric Transfusion Service",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Psychiatric Transfusion Service"
+        ]
+      },
+      "PULM INF THER /SA-9868": {
+        "service": "Postoperative Pulmonary Infusion Therapy",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Pulmonary Infusion Therapy"
+        ]
+      },
+      "PULM PHARM DISP /SA-2727": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Bedside Pulmonary Pharmaceutical Dispensing",
+          "Focused Pulmonary Pharmaceutical Dispensing"
+        ]
+      },
+      "REHABILITATION INTERM ENT": {
+        "service": "Intermittent Otolaryngologic Rehabilitation Programme",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Otolaryngologic Rehabilitation Programme"
+        ]
+      },
+      "REHABILITATION POSTOP NEURO /SA-3507": {
+        "service": "Postoperative Neurological Rehabilitation Programme",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Neurological Rehabilitation Programme"
+        ]
+      },
+      "ROUTINE HEP CS CONF": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "ROUTINE INFECT RM OCC": {
+        "service": "Routine Infectious Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Infectious Isolation Room Occupancy"
+        ]
+      },
+      "ROUTINE LAB PNL /SA-5904": {
+        "service": "Routine Ophthalmic Laboratory Panel",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Ophthalmic Laboratory Panel"
+        ]
+      },
+      "RTN  INFECT ISOL RM": {
+        "service": "Routine Infectious Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Infectious Isolation Room Occupancy"
+        ]
+      },
+      "RTN  INFECT RM OCC /SA-3020": {
+        "service": "Routine Infectious Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Infectious Isolation Room Occupancy"
+        ]
+      },
+      "RTN GER SESS": {
+        "service": "Routine Geriatric Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Geriatric Physiotherapy Session"
+        ]
+      },
+      "RTN INFECT RM OCC": {
+        "service": "Routine Infectious Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Infectious Isolation Room Occupancy"
+        ]
+      },
+      "RTN PHYSIO SESS": {
+        "service": "Routine Geriatric Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Geriatric Physiotherapy Session"
+        ]
+      },
+      "SESS CARD DIAL": {
+        "service": "Focused Cardiac Dialysis Session",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Cardiac Dialysis Session"
+        ]
+      },
+      "SESS PREOP PHYSIO": {
+        "service": "Preoperative Obstetric Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Obstetric Physiotherapy Session"
+        ]
+      },
+      "SPCLST HEP NUTR SUPP": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "SPCLST STERILISATION SVC": {
+        "service": "Specialist Psychiatric Sterilisation Service",
+        "certainty": "strong",
+        "candidates": [
+          "Specialist Psychiatric Sterilisation Service"
+        ]
+      },
+      "SPCM  - INTERM CARD /SA-3094": {
+        "service": "Intermittent Cardiac Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Cardiac Specimen Analysis"
+        ]
+      },
+      "SPCM ADV DERM /SA-5608": {
+        "service": "Advanced Dermatologic Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Dermatologic Specimen Analysis"
+        ]
+      },
+      "STD  - TELEM MONIT": {
+        "service": "Standard Metabolic Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Metabolic Telemetry Monitoring"
+        ]
+      },
+      "STD  GI TELEM MONIT": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "STD - TELEM MONIT /SA-8775": {
+        "service": "Standard Metabolic Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Metabolic Telemetry Monitoring"
+        ]
+      },
+      "STD ENT ANAES ADMIN /SA-3414": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "STD ISOL RM OCC": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Standard Neurological Isolation Room Occupancy",
+          "Standard Orthopaedic Isolation Room Occupancy"
+        ]
+      },
+      "STD MSK RECOV RM /SA-7054": {
+        "service": "Standard Musculoskeletal Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Musculoskeletal Recovery Room Occupancy"
+        ]
+      },
+      "STD RECOV RM OCC": {
+        "service": "Standard Musculoskeletal Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Musculoskeletal Recovery Room Occupancy"
+        ]
+      },
+      "SUPERVISED BIOPSY PROC": {
+        "service": "Supervised Haematology Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Haematology Biopsy Procedure"
+        ]
+      },
+      "SUPP  AMB HAEMATOLOGY": {
+        "service": "Ambulatory Haematology Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Haematology Nutritional Support"
+        ]
+      },
+      "SUPV  IMG INTERP": {
+        "service": "Supervised Neurological Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Neurological Imaging Interpretation"
+        ]
+      },
+      "SUPV - NEURO IMG": {
+        "service": "Supervised Neurological Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Neurological Imaging Interpretation"
+        ]
+      },
+      "SUPV HEP ENDOSC": {
+        "service": "Supervised Hepatic Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Hepatic Endoscopic Procedure"
+        ]
+      },
+      "SUPV MSK DIAG /SA-7067": {
+        "service": "Supervised Musculoskeletal Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Musculoskeletal Diagnostic Imaging"
+        ]
+      },
+      "SUPV OPHTH IMG": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "SVC EMER TRANSP": {
+        "service": "Emergency Haematology Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Haematology Transport Service"
+        ]
+      },
+      "SVC FOC VASC /SA-2989": {
+        "service": "Focused Vascular Transfusion Service",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Vascular Transfusion Service"
+        ]
+      },
+      "THER  STANDARD INF": {
+        "service": "Standard Paediatric Infusion Therapy",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Paediatric Infusion Therapy"
+        ]
+      },
+      "THER AMB VASC": {
+        "service": "Ambulatory Vascular Infusion Therapy",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Vascular Infusion Therapy"
+        ]
+      },
+      "TM POSTOP PAEDIATRIC /SA-5370": {
+        "service": "Postoperative Paediatric Theatre Time",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Paediatric Theatre Time"
+        ]
+      },
+      "TRANSP EMERGENCY HAEM /SA-4837": {
+        "service": "Emergency Haematology Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Haematology Transport Service"
+        ]
+      },
+      "VASC IMAGING INTERP": {
+        "service": "Preoperative Vascular Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Vascular Imaging Interpretation"
+        ]
+      },
+      "VASC TRANSP SVC": {
+        "service": "Postoperative Vascular Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Vascular Transport Service"
+        ]
+      },
+      "VST VASCULAR HM /SA-8814": {
+        "service": "Extended Vascular Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Vascular Home Visit"
+        ]
+      }
+    }
+  },
+  "output": {
+    "results": [
+      {
+        "description": "ADMIN OPHTH ANAES /SA-6486",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Intermittent Ophthalmic Anaesthesia Administration",
+          "Postoperative Ophthalmic Anaesthesia Administration"
+        ],
+        "reason": "Modifier dropped; two ophthalmic anaesthesia services."
+      },
+      {
+        "description": "ADV  GI PROC",
+        "verdict": "match",
+        "service": "Advanced Gastrointestinal Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Only advanced GI procedure."
+      },
+      {
+        "description": "ADV DERM ANLY",
+        "verdict": "match",
+        "service": "Advanced Dermatologic Specimen Analysis",
+        "candidates": [],
+        "reason": "Advanced dermatologic analysis unique."
+      },
+      {
+        "description": "ADV ENDOSCOPIC PROC /SA-6974",
+        "verdict": "match",
+        "service": "Advanced Gastrointestinal Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Only advanced endoscopic procedure."
+      },
+      {
+        "description": "ADV RHEUM ISOLATION OCC",
+        "verdict": "match",
+        "service": "Advanced Rheumatologic Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "ADV RHEUM RM OCC",
+        "verdict": "match",
+        "service": "Advanced Rheumatologic Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Only advanced rheumatologic room occupancy."
+      },
+      {
+        "description": "ADV RHEUM RM OCCUPANCY",
+        "verdict": "match",
+        "service": "Advanced Rheumatologic Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Only advanced rheumatologic room occupancy."
+      },
+      {
+        "description": "ADVANCED INFECT RM OCC",
+        "verdict": "match",
+        "service": "Advanced Infectious Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Only advanced infectious room occupancy."
+      },
+      {
+        "description": "ADVANCED RHEUM ISOL RM /SA-1731",
+        "verdict": "match",
+        "service": "Advanced Rheumatologic Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "AMB - PALL DIAGNOSTIC IMG /SA-7135",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No ambulatory palliative diagnostic imaging service."
+      },
+      {
+        "description": "AMB NUTRITIONAL SUPP /SA-7761",
+        "verdict": "match",
+        "service": "Ambulatory Haematology Nutritional Support",
+        "candidates": [],
+        "reason": "Only ambulatory nutritional support."
+      },
+      {
+        "description": "AMBULATORY - OPHTH VENTILATION SUPP",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No ophthalmic ventilation support service."
+      },
+      {
+        "description": "ANALYSIS CARD SPCM",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Intermittent Cardiac Specimen Analysis",
+          "Preoperative Cardiac Specimen Analysis"
+        ],
+        "reason": "Modifier dropped; two cardiac specimen analyses."
+      },
+      {
+        "description": "ANLY - DERM SPCM",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Advanced Dermatologic Specimen Analysis",
+          "Extended Dermatologic Specimen Analysis"
+        ],
+        "reason": "Modifier dropped; two dermatologic specimen analyses."
+      },
+      {
+        "description": "ASST - INFECT TELEM",
+        "verdict": "match",
+        "service": "Assisted Infectious Telemetry Monitoring",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "ASST BIOP PROC",
+        "verdict": "match",
+        "service": "Assisted Gastrointestinal Biopsy Procedure",
+        "candidates": [],
+        "reason": "Only assisted biopsy procedure."
+      },
+      {
+        "description": "ASST DIAG IMAGING",
+        "verdict": "match",
+        "service": "Assisted Musculoskeletal Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Only assisted diagnostic imaging."
+      },
+      {
+        "description": "ASST DIAG IMG /SA-7926",
+        "verdict": "match",
+        "service": "Assisted Musculoskeletal Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Only assisted diagnostic imaging."
+      },
+      {
+        "description": "ASST INFECT MONIT /SA-6965",
+        "verdict": "match",
+        "service": "Assisted Infectious Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Only assisted infectious monitoring."
+      },
+      {
+        "description": "BEDS PHARM DISP",
+        "verdict": "match",
+        "service": "Bedside Pulmonary Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "Only bedside pharmaceutical dispensing."
+      },
+      {
+        "description": "BEDS PULM DISP /SA-7949",
+        "verdict": "match",
+        "service": "Bedside Pulmonary Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "BIOPSY ASST GI /SA-6156",
+        "verdict": "match",
+        "service": "Assisted Gastrointestinal Biopsy Procedure",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "CARD  NURS OBS",
+        "verdict": "match",
+        "service": "Elective Cardiac Nursing Observation",
+        "candidates": [],
+        "reason": "Only cardiac nursing observation."
+      },
+      {
+        "description": "CARDIAC  TRANSP SERVICE",
+        "verdict": "match",
+        "service": "Elective Cardiac Transport Service",
+        "candidates": [],
+        "reason": "Only cardiac transport service."
+      },
+      {
+        "description": "COMPR  HAEM SVC /SA-2722",
+        "verdict": "match",
+        "service": "Comprehensive Haematology Transport Service",
+        "candidates": [],
+        "reason": "Only comprehensive haematology service."
+      },
+      {
+        "description": "CONT  REN SUPP",
+        "verdict": "match",
+        "service": "Continuous Renal Ventilation Support",
+        "candidates": [],
+        "reason": "Only continuous renal support."
+      },
+      {
+        "description": "CS  ADV ENDO /SA-1786",
+        "verdict": "match",
+        "service": "Advanced Endocrine Case Conference",
+        "candidates": [],
+        "reason": "Advanced endocrine case unique."
+      },
+      {
+        "description": "DIAG SUPERVISED MSK",
+        "verdict": "match",
+        "service": "Supervised Musculoskeletal Diagnostic Imaging",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "DIAGNOSTIC SUPV MSK /SA-5988",
+        "verdict": "match",
+        "service": "Supervised Musculoskeletal Diagnostic Imaging",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "DISP FOC PHARM",
+        "verdict": "match",
+        "service": "Focused Pulmonary Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "Only focused pharmaceutical dispensing."
+      },
+      {
+        "description": "ELECT CARD SVC",
+        "verdict": "match",
+        "service": "Elective Cardiac Transport Service",
+        "candidates": [],
+        "reason": "Only elective cardiac service."
+      },
+      {
+        "description": "ELECT TRANSP SVC",
+        "verdict": "match",
+        "service": "Elective Cardiac Transport Service",
+        "candidates": [],
+        "reason": "Only elective transport service."
+      },
+      {
+        "description": "EMER  REN THER",
+        "verdict": "match",
+        "service": "Emergency Renal Infusion Therapy",
+        "candidates": [],
+        "reason": "Only emergency renal therapy."
+      },
+      {
+        "description": "EMER  TRANSP SERVICE /SA-9292",
+        "verdict": "match",
+        "service": "Emergency Haematology Transport Service",
+        "candidates": [],
+        "reason": "Only emergency transport service."
+      },
+      {
+        "description": "EMER  TRANSP SVC /SA-1419",
+        "verdict": "match",
+        "service": "Emergency Haematology Transport Service",
+        "candidates": [],
+        "reason": "Only emergency transport service."
+      },
+      {
+        "description": "EMER HAEM SVC /SA-3156",
+        "verdict": "match",
+        "service": "Emergency Haematology Transport Service",
+        "candidates": [],
+        "reason": "Only emergency haematology service."
+      },
+      {
+        "description": "EMER MSK PROG /SA-4534",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No emergency musculoskeletal programme."
+      },
+      {
+        "description": "EMER PULM VENT",
+        "verdict": "match",
+        "service": "Emergency Pulmonary Ventilation Support",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "EMER THTR TM /SA-2118",
+        "verdict": "match",
+        "service": "Emergency Paediatric Theatre Time",
+        "candidates": [],
+        "reason": "Only emergency theatre time."
+      },
+      {
+        "description": "ENDO  CS CONF",
+        "verdict": "match",
+        "service": "Advanced Endocrine Case Conference",
+        "candidates": [],
+        "reason": "Only endocrine case conference."
+      },
+      {
+        "description": "ENT CS CONF /SA-5963",
+        "verdict": "match",
+        "service": "Comprehensive Otolaryngologic Case Conference",
+        "candidates": [],
+        "reason": "Only ENT case conference."
+      },
+      {
+        "description": "ENT CS CONF /SA-6459",
+        "verdict": "match",
+        "service": "Comprehensive Otolaryngologic Case Conference",
+        "candidates": [],
+        "reason": "Only ENT case conference."
+      },
+      {
+        "description": "ENT REHAB PROG",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Intensive Otolaryngologic Rehabilitation Programme",
+          "Intermittent Otolaryngologic Rehabilitation Programme"
+        ],
+        "reason": "Modifier dropped; two ENT rehab programmes."
+      },
+      {
+        "description": "EXT  VASC HOME",
+        "verdict": "match",
+        "service": "Extended Vascular Home Visit",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "EXT DERM ANLY /SA-1680",
+        "verdict": "match",
+        "service": "Extended Dermatologic Specimen Analysis",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "EXT RADIOTHER FRACT",
+        "verdict": "match",
+        "service": "Extended Orthopaedic Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Only extended radiotherapy fraction."
+      },
+      {
+        "description": "EXT VASC HM",
+        "verdict": "match",
+        "service": "Extended Vascular Home Visit",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "EXT VASC VST",
+        "verdict": "match",
+        "service": "Extended Vascular Home Visit",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "EXTENDED - HM VST",
+        "verdict": "match",
+        "service": "Extended Vascular Home Visit",
+        "candidates": [],
+        "reason": "Only extended home visit."
+      },
+      {
+        "description": "EXTENDED ENT NUTR",
+        "verdict": "match",
+        "service": "Extended Otolaryngologic Nutritional Support",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "EXTENDED VASC VST /SA-2084",
+        "verdict": "match",
+        "service": "Extended Vascular Home Visit",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "FOC  VASC PHARM DISP /SA-5164",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No vascular pharmaceutical dispensing service."
+      },
+      {
+        "description": "FRACT BEDS RADIOTHER /SA-5851",
+        "verdict": "match",
+        "service": "Bedside Ophthalmic Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Only bedside radiotherapy fraction."
+      },
+      {
+        "description": "HAEM BIOP PROC /SA-6522",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Outpatient Haematology Biopsy Procedure",
+          "Supervised Haematology Biopsy Procedure"
+        ],
+        "reason": "Modifier dropped; two haematology biopsy procedures."
+      },
+      {
+        "description": "IMG ASST DIAG",
+        "verdict": "match",
+        "service": "Assisted Musculoskeletal Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Only assisted diagnostic imaging."
+      },
+      {
+        "description": "IMG CONT CARD DIAG /SA-4810",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No cardiac diagnostic imaging service."
+      },
+      {
+        "description": "IMG PREOP VASC",
+        "verdict": "match",
+        "service": "Preoperative Vascular Imaging Interpretation",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INPATIENT OPHTH RECOV RM",
+        "verdict": "match",
+        "service": "Inpatient Ophthalmic Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INPT ISOL RM OCC",
+        "verdict": "match",
+        "service": "Inpatient Paediatric Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Only inpatient isolation room."
+      },
+      {
+        "description": "INPT OPHTH RECOV OCCUPANCY /SA-8706",
+        "verdict": "match",
+        "service": "Inpatient Ophthalmic Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INPT ORTHO RECOV OCC",
+        "verdict": "match",
+        "service": "Inpatient Orthopaedic Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INTENS  - METAB RECOV RM OCC",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No metabolic recovery room service."
+      },
+      {
+        "description": "INTENS  PALL WD BD /SA-1182",
+        "verdict": "match",
+        "service": "Intensive Palliative Ward Bed Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INTENS NEURO PROG /SA-3375",
+        "verdict": "match",
+        "service": "Intensive Neurological Rehabilitation Programme",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INTENS PALL BD OCCUPANCY",
+        "verdict": "match",
+        "service": "Intensive Palliative Ward Bed Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INTERM  OPHTHALMIC ADMIN",
+        "verdict": "match",
+        "service": "Intermittent Ophthalmic Anaesthesia Administration",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INTERM  REHAB PROG",
+        "verdict": "match",
+        "service": "Intermittent Otolaryngologic Rehabilitation Programme",
+        "candidates": [],
+        "reason": "Only intermittent rehab programme."
+      },
+      {
+        "description": "INTERM - MSK DIAL SESSION /SA-9704",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No musculoskeletal dialysis session."
+      },
+      {
+        "description": "INTERM CARD ANLY",
+        "verdict": "match",
+        "service": "Intermittent Cardiac Specimen Analysis",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INTERM CARD SPCM",
+        "verdict": "match",
+        "service": "Intermittent Cardiac Specimen Analysis",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INTERM ENT REHAB /SA-8030",
+        "verdict": "match",
+        "service": "Intermittent Otolaryngologic Rehabilitation Programme",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INTERM OPHTH ADMIN",
+        "verdict": "match",
+        "service": "Intermittent Ophthalmic Anaesthesia Administration",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INTERM ORTHO RECOV OCC",
+        "verdict": "match",
+        "service": "Intermittent Orthopaedic Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INTERMITTENT PSYCH LAB",
+        "verdict": "match",
+        "service": "Intermittent Psychiatric Laboratory Panel",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INTERP  SUPERVISED IMG /SA-6042",
+        "verdict": "match",
+        "service": "Supervised Neurological Imaging Interpretation",
+        "candidates": [],
+        "reason": "Only supervised imaging interpretation."
+      },
+      {
+        "description": "INTERPRETATION  ROUTINE NEURO",
+        "verdict": "match",
+        "service": "Routine Neurological Imaging Interpretation",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "INTERPRETATION NEURO IMG /SA-5989",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Routine Neurological Imaging Interpretation",
+          "Supervised Neurological Imaging Interpretation"
+        ],
+        "reason": "Modifier dropped; two neuro imaging interpretations."
+      },
+      {
+        "description": "LAB SUPV METAB",
+        "verdict": "match",
+        "service": "Supervised Metabolic Laboratory Panel",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "METAB LAB PANEL",
+        "verdict": "match",
+        "service": "Supervised Metabolic Laboratory Panel",
+        "candidates": [],
+        "reason": "Only metabolic laboratory panel."
+      },
+      {
+        "description": "MSK  DIAG IMG",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Assisted Musculoskeletal Diagnostic Imaging",
+          "Supervised Musculoskeletal Diagnostic Imaging"
+        ],
+        "reason": "Modifier dropped; two MSK diagnostic imaging services."
+      },
+      {
+        "description": "MSK RECOVERY RM OCC",
+        "verdict": "match",
+        "service": "Standard Musculoskeletal Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Only MSK recovery room."
+      },
+      {
+        "description": "NEURO  REHAB PROG",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Intensive Neurological Rehabilitation Programme",
+          "Postoperative Neurological Rehabilitation Programme"
+        ],
+        "reason": "Modifier dropped; two neuro rehab programmes."
+      },
+      {
+        "description": "NEUROLOGICAL REHAB PROG /SA-9661",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Intensive Neurological Rehabilitation Programme",
+          "Postoperative Neurological Rehabilitation Programme"
+        ],
+        "reason": "Modifier dropped; two neuro rehab programmes."
+      },
+      {
+        "description": "OBSERVATION  CARD NURSING",
+        "verdict": "match",
+        "service": "Elective Cardiac Nursing Observation",
+        "candidates": [],
+        "reason": "Only cardiac nursing observation."
+      },
+      {
+        "description": "OCC  ADV RHEUM ISOL",
+        "verdict": "match",
+        "service": "Advanced Rheumatologic Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "OCC ADV INFECT ISOL /SA-7328",
+        "verdict": "match",
+        "service": "Advanced Infectious Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "OCC INPATIENT OPHTH RECOV /SA-5374",
+        "verdict": "match",
+        "service": "Inpatient Ophthalmic Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "OCC INTENS WD BD",
+        "verdict": "match",
+        "service": "Intensive Palliative Ward Bed Occupancy",
+        "candidates": [],
+        "reason": "Only intensive ward bed occupancy."
+      },
+      {
+        "description": "OCC PREOP ISOL RM",
+        "verdict": "match",
+        "service": "Preoperative Neurological Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Only preoperative isolation room."
+      },
+      {
+        "description": "OCC STD NEURO ISOL",
+        "verdict": "match",
+        "service": "Standard Neurological Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "OCC STD RECOV RM",
+        "verdict": "match",
+        "service": "Standard Musculoskeletal Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Only standard recovery room."
+      },
+      {
+        "description": "ONC WD BD OCC /SA-5889",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No oncology ward bed service."
+      },
+      {
+        "description": "OPHTH - ANAESTHESIA ADMIN /SA-3643",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Intermittent Ophthalmic Anaesthesia Administration",
+          "Postoperative Ophthalmic Anaesthesia Administration"
+        ],
+        "reason": "Modifier dropped; two ophthalmic anaesthesia services."
+      },
+      {
+        "description": "OPHTH LAB PNL",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Focused Ophthalmic Laboratory Panel",
+          "Routine Ophthalmic Laboratory Panel"
+        ],
+        "reason": "Modifier dropped; two ophthalmic lab panels."
+      },
+      {
+        "description": "ORTHOPAEDIC ISOL RM OCC",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Postoperative Orthopaedic Isolation Room Occupancy",
+          "Standard Orthopaedic Isolation Room Occupancy"
+        ],
+        "reason": "Modifier dropped; two orthopaedic isolation rooms."
+      },
+      {
+        "description": "OTOLARYNGOLOGIC  DISCH PLNG /SA-6235",
+        "verdict": "match",
+        "service": "Continuous Otolaryngologic Discharge Planning",
+        "candidates": [],
+        "reason": "Only ENT discharge planning."
+      },
+      {
+        "description": "PAED  INF THER",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Intensive Paediatric Infusion Therapy",
+          "Standard Paediatric Infusion Therapy"
+        ],
+        "reason": "Modifier dropped; two paediatric infusion therapies."
+      },
+      {
+        "description": "PAED THEATRE TM /SA-1156",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Emergency Paediatric Theatre Time",
+          "Postoperative Paediatric Theatre Time"
+        ],
+        "reason": "Modifier dropped; two paediatric theatre times."
+      },
+      {
+        "description": "PAEDIATRIC  INF THER",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Intensive Paediatric Infusion Therapy",
+          "Standard Paediatric Infusion Therapy"
+        ],
+        "reason": "Modifier dropped; two paediatric infusion therapies."
+      },
+      {
+        "description": "PALL RECOV ROOM OCC",
+        "verdict": "match",
+        "service": "Focused Palliative Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Only palliative recovery room."
+      },
+      {
+        "description": "PHARM FOC PULM",
+        "verdict": "match",
+        "service": "Focused Pulmonary Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "PHYSIOTHERAPY  BEDS OBST",
+        "verdict": "match",
+        "service": "Bedside Obstetric Physiotherapy Session",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "PLNG  BEDS GERIATRIC DISCH",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No geriatric discharge planning service."
+      },
+      {
+        "description": "PNL FOC LAB /SA-4377",
+        "verdict": "match",
+        "service": "Focused Ophthalmic Laboratory Panel",
+        "candidates": [],
+        "reason": "Only focused laboratory panel."
+      },
+      {
+        "description": "POSTOP  CARD PHYSIO",
+        "verdict": "match",
+        "service": "Postoperative Cardiac Physiotherapy Session",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "POSTOP  ORTHO ISOL OCC",
+        "verdict": "match",
+        "service": "Postoperative Orthopaedic Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "POSTOP - NEURO PROG /SA-8363",
+        "verdict": "match",
+        "service": "Postoperative Neurological Rehabilitation Programme",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "POSTOP ANAES ADMIN",
+        "verdict": "match",
+        "service": "Postoperative Ophthalmic Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Only postoperative anaesthesia administration."
+      },
+      {
+        "description": "POSTOP CARD SESS",
+        "verdict": "match",
+        "service": "Postoperative Cardiac Physiotherapy Session",
+        "candidates": [],
+        "reason": "Only postoperative cardiac session."
+      },
+      {
+        "description": "POSTOP INF THER",
+        "verdict": "match",
+        "service": "Postoperative Pulmonary Infusion Therapy",
+        "candidates": [],
+        "reason": "Only postoperative infusion therapy."
+      },
+      {
+        "description": "POSTOP NEURO PROG /SA-1044",
+        "verdict": "match",
+        "service": "Postoperative Neurological Rehabilitation Programme",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "POSTOP OPHTH ANAESTHESIA /SA-4633",
+        "verdict": "match",
+        "service": "Postoperative Ophthalmic Anaesthesia Administration",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "POSTOP THTR TM",
+        "verdict": "match",
+        "service": "Postoperative Paediatric Theatre Time",
+        "candidates": [],
+        "reason": "Only postoperative theatre time."
+      },
+      {
+        "description": "PREOP  ORTHO SUPP /SA-5284",
+        "verdict": "match",
+        "service": "Preoperative Orthopaedic Ventilation Support",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "PREOP  VASC INTERP",
+        "verdict": "match",
+        "service": "Preoperative Vascular Imaging Interpretation",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "PREOP CARD ANALYSIS",
+        "verdict": "match",
+        "service": "Preoperative Cardiac Specimen Analysis",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "PREOP NEURO ISOL RM",
+        "verdict": "match",
+        "service": "Preoperative Neurological Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "PREOP SPCM ANLY /SA-5067",
+        "verdict": "match",
+        "service": "Preoperative Cardiac Specimen Analysis",
+        "candidates": [],
+        "reason": "Only preoperative specimen analysis."
+      },
+      {
+        "description": "PREOP VASC INTERP /SA-3692",
+        "verdict": "match",
+        "service": "Preoperative Vascular Imaging Interpretation",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "PREOPERATIVE  OBST SESS /SA-3810",
+        "verdict": "match",
+        "service": "Preoperative Obstetric Physiotherapy Session",
+        "candidates": [],
+        "reason": "Session excludes home visit; unique."
+      },
+      {
+        "description": "PROC  - SUPV HEP",
+        "verdict": "match",
+        "service": "Supervised Hepatic Endoscopic Procedure",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "PROC ASST GASTROINTESTINAL",
+        "verdict": "match",
+        "service": "Assisted Gastrointestinal Biopsy Procedure",
+        "candidates": [],
+        "reason": "Only assisted GI procedure."
+      },
+      {
+        "description": "PROC HEP ENDOSC",
+        "verdict": "match",
+        "service": "Supervised Hepatic Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Only hepatic endoscopic procedure."
+      },
+      {
+        "description": "PSYCH TRANSF SVC",
+        "verdict": "match",
+        "service": "Standard Psychiatric Transfusion Service",
+        "candidates": [],
+        "reason": "Only psychiatric transfusion service."
+      },
+      {
+        "description": "PULM INF THER /SA-9868",
+        "verdict": "match",
+        "service": "Postoperative Pulmonary Infusion Therapy",
+        "candidates": [],
+        "reason": "Only pulmonary infusion therapy."
+      },
+      {
+        "description": "PULM PHARM DISP /SA-2727",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Bedside Pulmonary Pharmaceutical Dispensing",
+          "Focused Pulmonary Pharmaceutical Dispensing"
+        ],
+        "reason": "Modifier dropped; two pulmonary dispensing services."
+      },
+      {
+        "description": "REHABILITATION INTERM ENT",
+        "verdict": "match",
+        "service": "Intermittent Otolaryngologic Rehabilitation Programme",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "REHABILITATION POSTOP NEURO /SA-3507",
+        "verdict": "match",
+        "service": "Postoperative Neurological Rehabilitation Programme",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "ROUTINE HEP CS CONF",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No hepatic case conference service."
+      },
+      {
+        "description": "ROUTINE INFECT RM OCC",
+        "verdict": "match",
+        "service": "Routine Infectious Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "ROUTINE LAB PNL /SA-5904",
+        "verdict": "match",
+        "service": "Routine Ophthalmic Laboratory Panel",
+        "candidates": [],
+        "reason": "Only routine laboratory panel."
+      },
+      {
+        "description": "RTN  INFECT ISOL RM",
+        "verdict": "match",
+        "service": "Routine Infectious Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "RTN  INFECT RM OCC /SA-3020",
+        "verdict": "match",
+        "service": "Routine Infectious Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "RTN GER SESS",
+        "verdict": "match",
+        "service": "Routine Geriatric Physiotherapy Session",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "RTN INFECT RM OCC",
+        "verdict": "match",
+        "service": "Routine Infectious Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "RTN PHYSIO SESS",
+        "verdict": "match",
+        "service": "Routine Geriatric Physiotherapy Session",
+        "candidates": [],
+        "reason": "Only routine physiotherapy session."
+      },
+      {
+        "description": "SESS CARD DIAL",
+        "verdict": "match",
+        "service": "Focused Cardiac Dialysis Session",
+        "candidates": [],
+        "reason": "Only cardiac dialysis session."
+      },
+      {
+        "description": "SESS PREOP PHYSIO",
+        "verdict": "match",
+        "service": "Preoperative Obstetric Physiotherapy Session",
+        "candidates": [],
+        "reason": "Only preoperative physiotherapy session."
+      },
+      {
+        "description": "SPCLST HEP NUTR SUPP",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No hepatic nutritional support service."
+      },
+      {
+        "description": "SPCLST STERILISATION SVC",
+        "verdict": "match",
+        "service": "Specialist Psychiatric Sterilisation Service",
+        "candidates": [],
+        "reason": "Only specialist sterilisation service."
+      },
+      {
+        "description": "SPCM  - INTERM CARD /SA-3094",
+        "verdict": "match",
+        "service": "Intermittent Cardiac Specimen Analysis",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "SPCM ADV DERM /SA-5608",
+        "verdict": "match",
+        "service": "Advanced Dermatologic Specimen Analysis",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "STD  - TELEM MONIT",
+        "verdict": "match",
+        "service": "Standard Metabolic Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Only standard telemetry monitoring."
+      },
+      {
+        "description": "STD  GI TELEM MONIT",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No gastrointestinal telemetry monitoring service."
+      },
+      {
+        "description": "STD - TELEM MONIT /SA-8775",
+        "verdict": "match",
+        "service": "Standard Metabolic Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Only standard telemetry monitoring."
+      },
+      {
+        "description": "STD ENT ANAES ADMIN /SA-3414",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No ENT anaesthesia administration service."
+      },
+      {
+        "description": "STD ISOL RM OCC",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Standard Neurological Isolation Room Occupancy",
+          "Standard Orthopaedic Isolation Room Occupancy"
+        ],
+        "reason": "Specialty dropped; two standard isolation rooms."
+      },
+      {
+        "description": "STD MSK RECOV RM /SA-7054",
+        "verdict": "match",
+        "service": "Standard Musculoskeletal Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "STD RECOV RM OCC",
+        "verdict": "match",
+        "service": "Standard Musculoskeletal Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Only standard recovery room."
+      },
+      {
+        "description": "SUPERVISED BIOPSY PROC",
+        "verdict": "match",
+        "service": "Supervised Haematology Biopsy Procedure",
+        "candidates": [],
+        "reason": "Only supervised biopsy procedure."
+      },
+      {
+        "description": "SUPP  AMB HAEMATOLOGY",
+        "verdict": "match",
+        "service": "Ambulatory Haematology Nutritional Support",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "SUPV  IMG INTERP",
+        "verdict": "match",
+        "service": "Supervised Neurological Imaging Interpretation",
+        "candidates": [],
+        "reason": "Only supervised imaging interpretation."
+      },
+      {
+        "description": "SUPV - NEURO IMG",
+        "verdict": "match",
+        "service": "Supervised Neurological Imaging Interpretation",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "SUPV HEP ENDOSC",
+        "verdict": "match",
+        "service": "Supervised Hepatic Endoscopic Procedure",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "SUPV MSK DIAG /SA-7067",
+        "verdict": "match",
+        "service": "Supervised Musculoskeletal Diagnostic Imaging",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "SUPV OPHTH IMG",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No supervised ophthalmic imaging service."
+      },
+      {
+        "description": "SVC EMER TRANSP",
+        "verdict": "match",
+        "service": "Emergency Haematology Transport Service",
+        "candidates": [],
+        "reason": "Only emergency transport service."
+      },
+      {
+        "description": "SVC FOC VASC /SA-2989",
+        "verdict": "match",
+        "service": "Focused Vascular Transfusion Service",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "THER  STANDARD INF",
+        "verdict": "match",
+        "service": "Standard Paediatric Infusion Therapy",
+        "candidates": [],
+        "reason": "Only standard infusion therapy."
+      },
+      {
+        "description": "THER AMB VASC",
+        "verdict": "match",
+        "service": "Ambulatory Vascular Infusion Therapy",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "TM POSTOP PAEDIATRIC /SA-5370",
+        "verdict": "match",
+        "service": "Postoperative Paediatric Theatre Time",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "TRANSP EMERGENCY HAEM /SA-4837",
+        "verdict": "match",
+        "service": "Emergency Haematology Transport Service",
+        "candidates": [],
+        "reason": "All words fit uniquely."
+      },
+      {
+        "description": "VASC IMAGING INTERP",
+        "verdict": "match",
+        "service": "Preoperative Vascular Imaging Interpretation",
+        "candidates": [],
+        "reason": "Only vascular imaging interpretation."
+      },
+      {
+        "description": "VASC TRANSP SVC",
+        "verdict": "match",
+        "service": "Postoperative Vascular Transport Service",
+        "candidates": [],
+        "reason": "Only vascular transport service."
+      },
+      {
+        "description": "VST VASCULAR HM /SA-8814",
+        "verdict": "match",
+        "service": "Extended Vascular Home Visit",
+        "candidates": [],
+        "reason": "Only vascular home visit."
+      }
+    ]
+  }
+}

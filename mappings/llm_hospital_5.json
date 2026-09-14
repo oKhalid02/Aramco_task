@@ -1,0 +1,1274 @@
+{
+  "meta": {
+    "prompt_file": "prompts/pipeline/description_mapping_v1.md",
+    "model": "claude-opus-5",
+    "models_used": [
+      "claude-haiku-4-5-20251001",
+      "claude-opus-5"
+    ],
+    "run_at": "2026-09-14T14:25:51",
+    "estimated_cost_usd": 0.346754,
+    "claude_code_version": "2.1.270 (Claude Code)",
+    "missing_descriptions": [],
+    "matcher_view": {
+      "ADV - DERM DISPENSING": {
+        "service": "Advanced Dermatologic Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Dermatologic Pharmaceutical Dispensing"
+        ]
+      },
+      "ADV - PHARM DISP": {
+        "service": "Advanced Dermatologic Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Dermatologic Pharmaceutical Dispensing"
+        ]
+      },
+      "ADV DERM PHARM /PH-3728": {
+        "service": "Advanced Dermatologic Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Dermatologic Pharmaceutical Dispensing"
+        ]
+      },
+      "AMB  METABOLIC IMAGING /PH-2931": {
+        "service": "Ambulatory Metabolic Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Metabolic Imaging Interpretation"
+        ]
+      },
+      "AMB - HEP CS": {
+        "service": "Ambulatory Hepatic Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Hepatic Case Conference"
+        ]
+      },
+      "AMBULATORY  HEP ENDOSC PROC /PH-2434": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "ASSISTED  - STERIL SVC /PH-6091": {
+        "service": "Assisted Immunologic Sterilisation Service",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Immunologic Sterilisation Service"
+        ]
+      },
+      "ASSISTED GERIATRIC LAB PNL /PH-5880": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "ASST  METAB PROCEDURE /PH-3748": {
+        "service": "Assisted Metabolic Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Metabolic Endoscopic Procedure"
+        ]
+      },
+      "ASST  PSYCH PHARM DISP /PH-6086": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "ASST IMMUN STERIL /PH-1150": {
+        "service": "Assisted Immunologic Sterilisation Service",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Immunologic Sterilisation Service"
+        ]
+      },
+      "ASST STERIL SERVICE /PH-7778": {
+        "service": "Assisted Immunologic Sterilisation Service",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Immunologic Sterilisation Service"
+        ]
+      },
+      "ASST VENT SUPP": {
+        "service": "Assisted Cardiac Ventilation Support",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Cardiac Ventilation Support"
+        ]
+      },
+      "BEDSIDE  ONC SVC": {
+        "service": "Bedside Oncology Transfusion Service",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Oncology Transfusion Service"
+        ]
+      },
+      "COMPR  - CONSULT": {
+        "service": "Comprehensive Palliative Consultation",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Palliative Consultation"
+        ]
+      },
+      "COMPR  VENT SUPP /PH-7497": {
+        "service": "Comprehensive Metabolic Ventilation Support",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Metabolic Ventilation Support"
+        ]
+      },
+      "COMPR ENDOSC PROC": {
+        "service": "Comprehensive Gastrointestinal Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Gastrointestinal Endoscopic Procedure"
+        ]
+      },
+      "COMPR WND CARE /PH-1784": {
+        "service": "Comprehensive Geriatric Wound Care",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Geriatric Wound Care"
+        ]
+      },
+      "CONF  AMB CS": {
+        "service": "Ambulatory Hepatic Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Hepatic Case Conference"
+        ]
+      },
+      "CONT - CS CONF": {
+        "service": "Continuous Pulmonary Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Pulmonary Case Conference"
+        ]
+      },
+      "CONT GASTROINTESTINAL ISOL RM OCC": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "CR  INPATIENT PULM CRIT /PH-5924": {
+        "service": "Inpatient Pulmonary Critical Care Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Pulmonary Critical Care Occupancy"
+        ]
+      },
+      "DERM - NURS OBSERVATION": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Inpatient Dermatologic Nursing Observation",
+          "Specialist Dermatologic Nursing Observation"
+        ]
+      },
+      "DIAGNOSTIC - ELECT VASCULAR /PH-3569": {
+        "service": "Elective Vascular Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Vascular Diagnostic Imaging"
+        ]
+      },
+      "DISP  - ELECT METAB /PH-6137": {
+        "service": "Elective Metabolic Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Metabolic Pharmaceutical Dispensing"
+        ]
+      },
+      "DISP INPT REN PHARM": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "ELECT  - INFECT WARD BD OCC": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "ELECT METAB DISP": {
+        "service": "Elective Metabolic Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Metabolic Pharmaceutical Dispensing"
+        ]
+      },
+      "ELECTIVE  OPHTH RECOVERY OCC /PH-7463": {
+        "service": "Elective Ophthalmic Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Ophthalmic Recovery Room Occupancy"
+        ]
+      },
+      "ELECTIVE  PHARM DISP /PH-2792": {
+        "service": "Elective Metabolic Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Metabolic Pharmaceutical Dispensing"
+        ]
+      },
+      "ELECTIVE OPHTH RECOV OCC": {
+        "service": "Elective Ophthalmic Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Ophthalmic Recovery Room Occupancy"
+        ]
+      },
+      "EMER  BIOP PROC": {
+        "service": "Emergency Neurological Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Neurological Biopsy Procedure"
+        ]
+      },
+      "EMER  METAB DISCH /PH-9998": {
+        "service": "Emergency Metabolic Discharge Planning",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Metabolic Discharge Planning"
+        ]
+      },
+      "EMER - METAB PLNG /PH-9105": {
+        "service": "Emergency Metabolic Discharge Planning",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Metabolic Discharge Planning"
+        ]
+      },
+      "EMER - PALL STERIL SVC": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "EMER UROL VISIT /PH-9513": {
+        "service": "Emergency Urologic Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Urologic Home Visit"
+        ]
+      },
+      "EMERGENCY PULM FRACT": {
+        "service": "Emergency Pulmonary Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Pulmonary Radiotherapy Fraction"
+        ]
+      },
+      "EXT INF THER": {
+        "service": "Extended Urologic Infusion Therapy",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Urologic Infusion Therapy"
+        ]
+      },
+      "FOC - NUTR SUPP": {
+        "service": "Focused Urologic Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Urologic Nutritional Support"
+        ]
+      },
+      "FOC UROL NUTR": {
+        "service": "Focused Urologic Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Urologic Nutritional Support"
+        ]
+      },
+      "FOC UROL NUTR /PH-6864": {
+        "service": "Focused Urologic Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Urologic Nutritional Support"
+        ]
+      },
+      "FRACT UROL RADIOTHER": {
+        "service": "Routine Urologic Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Urologic Radiotherapy Fraction"
+        ]
+      },
+      "GER  - RECOV ROOM OCC": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "HAEM - LABORATORY PNL": {
+        "service": "Outpatient Haematology Laboratory Panel",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Haematology Laboratory Panel"
+        ]
+      },
+      "HEP CS CONF /PH-8928": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Ambulatory Hepatic Case Conference",
+          "Intensive Hepatic Case Conference"
+        ]
+      },
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Inpatient Immunologic Recovery Room Occupancy",
+          "Preoperative Immunologic Recovery Room Occupancy"
+        ]
+      },
+      "INFECT  - VENT SUPP /PH-8261": {
+        "service": "Standard Infectious Ventilation Support",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Infectious Ventilation Support"
+        ]
+      },
+      "INPT  IMMUN RECOV RM": {
+        "service": "Inpatient Immunologic Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Immunologic Recovery Room Occupancy"
+        ]
+      },
+      "INPT PSYCH CONFERENCE /PH-2719": {
+        "service": "Inpatient Psychiatric Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Psychiatric Case Conference"
+        ]
+      },
+      "INTERM  REN STERIL SVC": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "INTERM  VASCULAR TELEM": {
+        "service": "Intermittent Vascular Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Vascular Telemetry Monitoring"
+        ]
+      },
+      "INTERM ENDO NURS OBS": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "INTERMITTENT  ORTHO PLNG": {
+        "service": "Intermittent Orthopaedic Discharge Planning",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Orthopaedic Discharge Planning"
+        ]
+      },
+      "INTERMITTENT - VASC MONIT": {
+        "service": "Intermittent Vascular Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Vascular Telemetry Monitoring"
+        ]
+      },
+      "LAB CONT IMMUN": {
+        "service": "Continuous Immunologic Laboratory Panel",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Immunologic Laboratory Panel"
+        ]
+      },
+      "METABOLIC  DISCH PLNG": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Emergency Metabolic Discharge Planning",
+          "Supervised Metabolic Discharge Planning"
+        ]
+      },
+      "MSK NUTR SUPP /PH-5455": {
+        "service": "Preoperative Musculoskeletal Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Musculoskeletal Nutritional Support"
+        ]
+      },
+      "OBS  DERM NURSING /PH-3348": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Inpatient Dermatologic Nursing Observation",
+          "Specialist Dermatologic Nursing Observation"
+        ]
+      },
+      "OCC AMB PAED RM": {
+        "service": "Ambulatory Paediatric Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Paediatric Isolation Room Occupancy"
+        ]
+      },
+      "OCC OPHTHALMIC ISOL ROOM": {
+        "service": "Comprehensive Ophthalmic Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Ophthalmic Isolation Room Occupancy"
+        ]
+      },
+      "OCC OUTPT RECOV RM /PH-1028": {
+        "service": "Outpatient Neurological Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Neurological Recovery Room Occupancy"
+        ]
+      },
+      "OPHTH  NUTR SUPP": {
+        "service": "Elective Ophthalmic Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Ophthalmic Nutritional Support"
+        ]
+      },
+      "OPHTH NUTRITIONAL SUPP /PH-3490": {
+        "service": "Elective Ophthalmic Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Ophthalmic Nutritional Support"
+        ]
+      },
+      "OUTPATIENT DERM HM": {
+        "service": "Outpatient Dermatologic Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Dermatologic Home Visit"
+        ]
+      },
+      "OUTPT  - DERM VISIT /PH-3323": {
+        "service": "Outpatient Dermatologic Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Dermatologic Home Visit"
+        ]
+      },
+      "OUTPT  - DERMATOLOGIC VST": {
+        "service": "Outpatient Dermatologic Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Dermatologic Home Visit"
+        ]
+      },
+      "OUTPT  PHYSIO SESSION": {
+        "service": "Outpatient Metabolic Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Metabolic Physiotherapy Session"
+        ]
+      },
+      "PALL CONSULT": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Comprehensive Palliative Consultation",
+          "Supervised Palliative Consultation"
+        ]
+      },
+      "PALL CONSULTATION": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Comprehensive Palliative Consultation",
+          "Supervised Palliative Consultation"
+        ]
+      },
+      "PLNG  OUTPATIENT DISCH": {
+        "service": "Outpatient Psychiatric Discharge Planning",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Psychiatric Discharge Planning"
+        ]
+      },
+      "POSTOPERATIVE  OTOLARYNGOLOGIC DIAG IMG /PH-6206": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "PREOP PAED BIOP": {
+        "service": "Preoperative Paediatric Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Paediatric Biopsy Procedure"
+        ]
+      },
+      "PSYCH  TELEM MONITORING": {
+        "service": "Routine Psychiatric Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Psychiatric Telemetry Monitoring"
+        ]
+      },
+      "PSYCHIATRIC CS CONFERENCE /PH-3349": {
+        "service": "Inpatient Psychiatric Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Psychiatric Case Conference"
+        ]
+      },
+      "ROUTINE PSYCH MONITORING": {
+        "service": "Routine Psychiatric Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Psychiatric Telemetry Monitoring"
+        ]
+      },
+      "RTN  GER TELEMETRY": {
+        "service": "Routine Geriatric Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Geriatric Telemetry Monitoring"
+        ]
+      },
+      "RTN  PHYSIOTHERAPY SESS": {
+        "service": "Routine Psychiatric Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Psychiatric Physiotherapy Session"
+        ]
+      },
+      "SPCM  STD PULMONARY /PH-7123": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "SUPERVISED SPCM ANLY /PH-7244": {
+        "service": "Supervised Otolaryngologic Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Otolaryngologic Specimen Analysis"
+        ]
+      },
+      "SUPPORT - ADV CARD": {
+        "service": "Advanced Cardiac Ventilation Support",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Cardiac Ventilation Support"
+        ]
+      },
+      "SUPV  - STERIL SVC": {
+        "service": "Supervised Immunologic Sterilisation Service",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Immunologic Sterilisation Service"
+        ]
+      },
+      "SUPV  IMMUNOLOGIC STERIL /PH-7453": {
+        "service": "Supervised Immunologic Sterilisation Service",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Immunologic Sterilisation Service"
+        ]
+      },
+      "SUPV DIAG IMG /PH-4513": {
+        "service": "Supervised Vascular Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Vascular Diagnostic Imaging"
+        ]
+      },
+      "SUPV DIAG IMG /PH-9633": {
+        "service": "Supervised Vascular Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Vascular Diagnostic Imaging"
+        ]
+      },
+      "THEATRE FOC ENDO": {
+        "service": "Focused Endocrine Theatre Time",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Endocrine Theatre Time"
+        ]
+      },
+      "TRANSP  CONT ENT /PH-1091": {
+        "service": "Continuous Otolaryngologic Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Otolaryngologic Transport Service"
+        ]
+      },
+      "UROL HM VST /PH-1437": {
+        "service": "Emergency Urologic Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Urologic Home Visit"
+        ]
+      },
+      "VASC  - DIAGNOSTIC IMG": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Elective Vascular Diagnostic Imaging",
+          "Supervised Vascular Diagnostic Imaging"
+        ]
+      },
+      "VST RTN DERM /PH-7550": {
+        "service": "Routine Dermatologic Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Dermatologic Home Visit"
+        ]
+      }
+    }
+  },
+  "output": {
+    "results": [
+      {
+        "description": "ADV - DERM DISPENSING",
+        "verdict": "match",
+        "service": "Advanced Dermatologic Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "Advanced dermatologic dispensing is unique."
+      },
+      {
+        "description": "ADV - PHARM DISP",
+        "verdict": "match",
+        "service": "Advanced Dermatologic Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "Only Advanced pharmaceutical dispensing service."
+      },
+      {
+        "description": "ADV DERM PHARM /PH-3728",
+        "verdict": "match",
+        "service": "Advanced Dermatologic Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "Advanced dermatologic pharmaceutical is unique."
+      },
+      {
+        "description": "AMB  METABOLIC IMAGING /PH-2931",
+        "verdict": "match",
+        "service": "Ambulatory Metabolic Imaging Interpretation",
+        "candidates": [],
+        "reason": "Ambulatory metabolic imaging is unique."
+      },
+      {
+        "description": "AMB - HEP CS",
+        "verdict": "match",
+        "service": "Ambulatory Hepatic Case Conference",
+        "candidates": [],
+        "reason": "Ambulatory hepatic case is unique."
+      },
+      {
+        "description": "AMBULATORY  HEP ENDOSC PROC /PH-2434",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No hepatic endoscopic procedure in contract."
+      },
+      {
+        "description": "ASSISTED  - STERIL SVC /PH-6091",
+        "verdict": "match",
+        "service": "Assisted Immunologic Sterilisation Service",
+        "candidates": [],
+        "reason": "Only Assisted sterilisation service."
+      },
+      {
+        "description": "ASSISTED GERIATRIC LAB PNL /PH-5880",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No geriatric laboratory panel in contract."
+      },
+      {
+        "description": "ASST  METAB PROCEDURE /PH-3748",
+        "verdict": "match",
+        "service": "Assisted Metabolic Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Assisted metabolic procedure is unique."
+      },
+      {
+        "description": "ASST  PSYCH PHARM DISP /PH-6086",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No psychiatric pharmaceutical dispensing in contract."
+      },
+      {
+        "description": "ASST IMMUN STERIL /PH-1150",
+        "verdict": "match",
+        "service": "Assisted Immunologic Sterilisation Service",
+        "candidates": [],
+        "reason": "Assisted immunologic sterilisation is unique."
+      },
+      {
+        "description": "ASST STERIL SERVICE /PH-7778",
+        "verdict": "match",
+        "service": "Assisted Immunologic Sterilisation Service",
+        "candidates": [],
+        "reason": "Only Assisted sterilisation service."
+      },
+      {
+        "description": "ASST VENT SUPP",
+        "verdict": "match",
+        "service": "Assisted Cardiac Ventilation Support",
+        "candidates": [],
+        "reason": "Only Assisted ventilation support."
+      },
+      {
+        "description": "BEDSIDE  ONC SVC",
+        "verdict": "match",
+        "service": "Bedside Oncology Transfusion Service",
+        "candidates": [],
+        "reason": "Bedside oncology service is unique."
+      },
+      {
+        "description": "COMPR  - CONSULT",
+        "verdict": "match",
+        "service": "Comprehensive Palliative Consultation",
+        "candidates": [],
+        "reason": "Only Comprehensive consultation."
+      },
+      {
+        "description": "COMPR  VENT SUPP /PH-7497",
+        "verdict": "match",
+        "service": "Comprehensive Metabolic Ventilation Support",
+        "candidates": [],
+        "reason": "Only Comprehensive ventilation support."
+      },
+      {
+        "description": "COMPR ENDOSC PROC",
+        "verdict": "match",
+        "service": "Comprehensive Gastrointestinal Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Only Comprehensive endoscopic procedure."
+      },
+      {
+        "description": "COMPR WND CARE /PH-1784",
+        "verdict": "match",
+        "service": "Comprehensive Geriatric Wound Care",
+        "candidates": [],
+        "reason": "Only wound care service."
+      },
+      {
+        "description": "CONF  AMB CS",
+        "verdict": "match",
+        "service": "Ambulatory Hepatic Case Conference",
+        "candidates": [],
+        "reason": "Only Ambulatory case conference."
+      },
+      {
+        "description": "CONT - CS CONF",
+        "verdict": "match",
+        "service": "Continuous Pulmonary Case Conference",
+        "candidates": [],
+        "reason": "Only Continuous case conference."
+      },
+      {
+        "description": "CONT GASTROINTESTINAL ISOL RM OCC",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No gastrointestinal isolation room occupancy in contract."
+      },
+      {
+        "description": "CR  INPATIENT PULM CRIT /PH-5924",
+        "verdict": "match",
+        "service": "Inpatient Pulmonary Critical Care Occupancy",
+        "candidates": [],
+        "reason": "Inpatient pulmonary critical care is unique."
+      },
+      {
+        "description": "DERM - NURS OBSERVATION",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Inpatient Dermatologic Nursing Observation",
+          "Specialist Dermatologic Nursing Observation"
+        ],
+        "reason": "Modifier dropped; two dermatologic nursing observation services."
+      },
+      {
+        "description": "DIAGNOSTIC - ELECT VASCULAR /PH-3569",
+        "verdict": "match",
+        "service": "Elective Vascular Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Elective vascular diagnostic is unique."
+      },
+      {
+        "description": "DISP  - ELECT METAB /PH-6137",
+        "verdict": "match",
+        "service": "Elective Metabolic Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "Elective metabolic dispensing is unique."
+      },
+      {
+        "description": "DISP INPT REN PHARM",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No renal pharmaceutical dispensing in contract."
+      },
+      {
+        "description": "ELECT  - INFECT WARD BD OCC",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No ward bed occupancy service in contract."
+      },
+      {
+        "description": "ELECT METAB DISP",
+        "verdict": "match",
+        "service": "Elective Metabolic Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "Elective metabolic dispensing is unique."
+      },
+      {
+        "description": "ELECTIVE  OPHTH RECOVERY OCC /PH-7463",
+        "verdict": "match",
+        "service": "Elective Ophthalmic Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Elective ophthalmic recovery occupancy is unique."
+      },
+      {
+        "description": "ELECTIVE  PHARM DISP /PH-2792",
+        "verdict": "match",
+        "service": "Elective Metabolic Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "Only Elective pharmaceutical dispensing."
+      },
+      {
+        "description": "ELECTIVE OPHTH RECOV OCC",
+        "verdict": "match",
+        "service": "Elective Ophthalmic Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Elective ophthalmic recovery occupancy is unique."
+      },
+      {
+        "description": "EMER  BIOP PROC",
+        "verdict": "match",
+        "service": "Emergency Neurological Biopsy Procedure",
+        "candidates": [],
+        "reason": "Only Emergency biopsy procedure."
+      },
+      {
+        "description": "EMER  METAB DISCH /PH-9998",
+        "verdict": "match",
+        "service": "Emergency Metabolic Discharge Planning",
+        "candidates": [],
+        "reason": "Emergency metabolic discharge is unique."
+      },
+      {
+        "description": "EMER - METAB PLNG /PH-9105",
+        "verdict": "match",
+        "service": "Emergency Metabolic Discharge Planning",
+        "candidates": [],
+        "reason": "Emergency metabolic planning is unique."
+      },
+      {
+        "description": "EMER - PALL STERIL SVC",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No palliative sterilisation service in contract."
+      },
+      {
+        "description": "EMER UROL VISIT /PH-9513",
+        "verdict": "match",
+        "service": "Emergency Urologic Home Visit",
+        "candidates": [],
+        "reason": "Emergency urologic visit is unique."
+      },
+      {
+        "description": "EMERGENCY PULM FRACT",
+        "verdict": "match",
+        "service": "Emergency Pulmonary Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Emergency pulmonary fraction is unique."
+      },
+      {
+        "description": "EXT INF THER",
+        "verdict": "match",
+        "service": "Extended Urologic Infusion Therapy",
+        "candidates": [],
+        "reason": "Only Extended infusion therapy."
+      },
+      {
+        "description": "FOC - NUTR SUPP",
+        "verdict": "match",
+        "service": "Focused Urologic Nutritional Support",
+        "candidates": [],
+        "reason": "Only Focused nutritional support."
+      },
+      {
+        "description": "FOC UROL NUTR",
+        "verdict": "match",
+        "service": "Focused Urologic Nutritional Support",
+        "candidates": [],
+        "reason": "Focused urologic nutritional is unique."
+      },
+      {
+        "description": "FOC UROL NUTR /PH-6864",
+        "verdict": "match",
+        "service": "Focused Urologic Nutritional Support",
+        "candidates": [],
+        "reason": "Focused urologic nutritional is unique."
+      },
+      {
+        "description": "FRACT UROL RADIOTHER",
+        "verdict": "match",
+        "service": "Routine Urologic Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Only urologic radiotherapy fraction."
+      },
+      {
+        "description": "GER  - RECOV ROOM OCC",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No geriatric recovery room occupancy in contract."
+      },
+      {
+        "description": "HAEM - LABORATORY PNL",
+        "verdict": "match",
+        "service": "Outpatient Haematology Laboratory Panel",
+        "candidates": [],
+        "reason": "Only haematology laboratory panel."
+      },
+      {
+        "description": "HEP CS CONF /PH-8928",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Ambulatory Hepatic Case Conference",
+          "Intensive Hepatic Case Conference"
+        ],
+        "reason": "Modifier dropped; two hepatic case conferences."
+      },
+      {
+        "description": "IMMUNOLOGIC  RECOV RM OCC /PH-9870",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Inpatient Immunologic Recovery Room Occupancy",
+          "Preoperative Immunologic Recovery Room Occupancy"
+        ],
+        "reason": "Modifier dropped; two immunologic recovery room services."
+      },
+      {
+        "description": "INFECT  - VENT SUPP /PH-8261",
+        "verdict": "match",
+        "service": "Standard Infectious Ventilation Support",
+        "candidates": [],
+        "reason": "Only infectious ventilation support."
+      },
+      {
+        "description": "INPT  IMMUN RECOV RM",
+        "verdict": "match",
+        "service": "Inpatient Immunologic Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Inpatient immunologic recovery room is unique."
+      },
+      {
+        "description": "INPT PSYCH CONFERENCE /PH-2719",
+        "verdict": "match",
+        "service": "Inpatient Psychiatric Case Conference",
+        "candidates": [],
+        "reason": "Inpatient psychiatric conference is unique."
+      },
+      {
+        "description": "INTERM  REN STERIL SVC",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No renal sterilisation service in contract."
+      },
+      {
+        "description": "INTERM  VASCULAR TELEM",
+        "verdict": "match",
+        "service": "Intermittent Vascular Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Intermittent vascular telemetry is unique."
+      },
+      {
+        "description": "INTERM ENDO NURS OBS",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No endocrine nursing observation in contract."
+      },
+      {
+        "description": "INTERMITTENT  ORTHO PLNG",
+        "verdict": "match",
+        "service": "Intermittent Orthopaedic Discharge Planning",
+        "candidates": [],
+        "reason": "Intermittent orthopaedic planning is unique."
+      },
+      {
+        "description": "INTERMITTENT - VASC MONIT",
+        "verdict": "match",
+        "service": "Intermittent Vascular Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Intermittent vascular monitoring is unique."
+      },
+      {
+        "description": "LAB CONT IMMUN",
+        "verdict": "match",
+        "service": "Continuous Immunologic Laboratory Panel",
+        "candidates": [],
+        "reason": "Continuous immunologic lab is unique."
+      },
+      {
+        "description": "METABOLIC  DISCH PLNG",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Emergency Metabolic Discharge Planning",
+          "Supervised Metabolic Discharge Planning"
+        ],
+        "reason": "Modifier dropped; two metabolic discharge planning services."
+      },
+      {
+        "description": "MSK NUTR SUPP /PH-5455",
+        "verdict": "match",
+        "service": "Preoperative Musculoskeletal Nutritional Support",
+        "candidates": [],
+        "reason": "Only musculoskeletal nutritional support."
+      },
+      {
+        "description": "OBS  DERM NURSING /PH-3348",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Inpatient Dermatologic Nursing Observation",
+          "Specialist Dermatologic Nursing Observation"
+        ],
+        "reason": "Modifier dropped; two dermatologic nursing observation services."
+      },
+      {
+        "description": "OCC AMB PAED RM",
+        "verdict": "match",
+        "service": "Ambulatory Paediatric Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Ambulatory paediatric room occupancy is unique."
+      },
+      {
+        "description": "OCC OPHTHALMIC ISOL ROOM",
+        "verdict": "match",
+        "service": "Comprehensive Ophthalmic Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Only ophthalmic isolation room occupancy."
+      },
+      {
+        "description": "OCC OUTPT RECOV RM /PH-1028",
+        "verdict": "match",
+        "service": "Outpatient Neurological Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Only Outpatient recovery room occupancy."
+      },
+      {
+        "description": "OPHTH  NUTR SUPP",
+        "verdict": "match",
+        "service": "Elective Ophthalmic Nutritional Support",
+        "candidates": [],
+        "reason": "Only ophthalmic nutritional support."
+      },
+      {
+        "description": "OPHTH NUTRITIONAL SUPP /PH-3490",
+        "verdict": "match",
+        "service": "Elective Ophthalmic Nutritional Support",
+        "candidates": [],
+        "reason": "Only ophthalmic nutritional support."
+      },
+      {
+        "description": "OUTPATIENT DERM HM",
+        "verdict": "match",
+        "service": "Outpatient Dermatologic Home Visit",
+        "candidates": [],
+        "reason": "Outpatient dermatologic home is unique."
+      },
+      {
+        "description": "OUTPT  - DERM VISIT /PH-3323",
+        "verdict": "match",
+        "service": "Outpatient Dermatologic Home Visit",
+        "candidates": [],
+        "reason": "Outpatient dermatologic visit is unique."
+      },
+      {
+        "description": "OUTPT  - DERMATOLOGIC VST",
+        "verdict": "match",
+        "service": "Outpatient Dermatologic Home Visit",
+        "candidates": [],
+        "reason": "Outpatient dermatologic visit is unique."
+      },
+      {
+        "description": "OUTPT  PHYSIO SESSION",
+        "verdict": "match",
+        "service": "Outpatient Metabolic Physiotherapy Session",
+        "candidates": [],
+        "reason": "Only Outpatient physiotherapy session."
+      },
+      {
+        "description": "PALL CONSULT",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Comprehensive Palliative Consultation",
+          "Supervised Palliative Consultation"
+        ],
+        "reason": "Modifier dropped; two palliative consultations."
+      },
+      {
+        "description": "PALL CONSULTATION",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Comprehensive Palliative Consultation",
+          "Supervised Palliative Consultation"
+        ],
+        "reason": "Modifier dropped; two palliative consultations."
+      },
+      {
+        "description": "PLNG  OUTPATIENT DISCH",
+        "verdict": "match",
+        "service": "Outpatient Psychiatric Discharge Planning",
+        "candidates": [],
+        "reason": "Only Outpatient discharge planning."
+      },
+      {
+        "description": "POSTOPERATIVE  OTOLARYNGOLOGIC DIAG IMG /PH-6206",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No otolaryngologic diagnostic imaging in contract."
+      },
+      {
+        "description": "PREOP PAED BIOP",
+        "verdict": "match",
+        "service": "Preoperative Paediatric Biopsy Procedure",
+        "candidates": [],
+        "reason": "Preoperative paediatric biopsy is unique."
+      },
+      {
+        "description": "PSYCH  TELEM MONITORING",
+        "verdict": "match",
+        "service": "Routine Psychiatric Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Only psychiatric telemetry monitoring."
+      },
+      {
+        "description": "PSYCHIATRIC CS CONFERENCE /PH-3349",
+        "verdict": "match",
+        "service": "Inpatient Psychiatric Case Conference",
+        "candidates": [],
+        "reason": "Only psychiatric case conference."
+      },
+      {
+        "description": "ROUTINE PSYCH MONITORING",
+        "verdict": "match",
+        "service": "Routine Psychiatric Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Routine psychiatric monitoring is unique."
+      },
+      {
+        "description": "RTN  GER TELEMETRY",
+        "verdict": "match",
+        "service": "Routine Geriatric Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Routine geriatric telemetry is unique."
+      },
+      {
+        "description": "RTN  PHYSIOTHERAPY SESS",
+        "verdict": "match",
+        "service": "Routine Psychiatric Physiotherapy Session",
+        "candidates": [],
+        "reason": "Only Routine physiotherapy session."
+      },
+      {
+        "description": "SPCM  STD PULMONARY /PH-7123",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No pulmonary specimen analysis in contract."
+      },
+      {
+        "description": "SUPERVISED SPCM ANLY /PH-7244",
+        "verdict": "match",
+        "service": "Supervised Otolaryngologic Specimen Analysis",
+        "candidates": [],
+        "reason": "Only specimen analysis service."
+      },
+      {
+        "description": "SUPPORT - ADV CARD",
+        "verdict": "match",
+        "service": "Advanced Cardiac Ventilation Support",
+        "candidates": [],
+        "reason": "Advanced cardiac support is unique."
+      },
+      {
+        "description": "SUPV  - STERIL SVC",
+        "verdict": "match",
+        "service": "Supervised Immunologic Sterilisation Service",
+        "candidates": [],
+        "reason": "Only Supervised sterilisation service."
+      },
+      {
+        "description": "SUPV  IMMUNOLOGIC STERIL /PH-7453",
+        "verdict": "match",
+        "service": "Supervised Immunologic Sterilisation Service",
+        "candidates": [],
+        "reason": "Supervised immunologic sterilisation is unique."
+      },
+      {
+        "description": "SUPV DIAG IMG /PH-4513",
+        "verdict": "match",
+        "service": "Supervised Vascular Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Only Supervised diagnostic imaging."
+      },
+      {
+        "description": "SUPV DIAG IMG /PH-9633",
+        "verdict": "match",
+        "service": "Supervised Vascular Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Only Supervised diagnostic imaging."
+      },
+      {
+        "description": "THEATRE FOC ENDO",
+        "verdict": "match",
+        "service": "Focused Endocrine Theatre Time",
+        "candidates": [],
+        "reason": "Focused endocrine theatre is unique."
+      },
+      {
+        "description": "TRANSP  CONT ENT /PH-1091",
+        "verdict": "match",
+        "service": "Continuous Otolaryngologic Transport Service",
+        "candidates": [],
+        "reason": "Continuous otolaryngologic transport is unique."
+      },
+      {
+        "description": "UROL HM VST /PH-1437",
+        "verdict": "match",
+        "service": "Emergency Urologic Home Visit",
+        "candidates": [],
+        "reason": "Only urologic home visit."
+      },
+      {
+        "description": "VASC  - DIAGNOSTIC IMG",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Elective Vascular Diagnostic Imaging",
+          "Supervised Vascular Diagnostic Imaging"
+        ],
+        "reason": "Modifier dropped; two vascular diagnostic imaging services."
+      },
+      {
+        "description": "VST RTN DERM /PH-7550",
+        "verdict": "match",
+        "service": "Routine Dermatologic Home Visit",
+        "candidates": [],
+        "reason": "Routine dermatologic visit is unique."
+      }
+    ]
+  }
+}

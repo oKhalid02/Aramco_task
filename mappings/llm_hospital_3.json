@@ -1,0 +1,1378 @@
+{
+  "meta": {
+    "prompt_file": "prompts/pipeline/description_mapping_v1.md",
+    "model": "claude-opus-5",
+    "models_used": [
+      "claude-haiku-4-5-20251001",
+      "claude-opus-5"
+    ],
+    "run_at": "2026-09-14T14:27:31",
+    "estimated_cost_usd": 0.3393685,
+    "claude_code_version": "2.1.270 (Claude Code)",
+    "missing_descriptions": [],
+    "matcher_view": {
+      "admin - rheumatologic anaes /RM-8208": {
+        "service": "Postoperative Rheumatologic Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Rheumatologic Anaesthesia Administration"
+        ]
+      },
+      "administration - inpt hepatic anaes /RM-1221": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "adv - gi telemetry /RM-2615": {
+        "service": "Advanced Gastrointestinal Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Gastrointestinal Telemetry Monitoring"
+        ]
+      },
+      "adv - metab disch": {
+        "service": "Advanced Metabolic Discharge Planning",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Metabolic Discharge Planning"
+        ]
+      },
+      "adv - msk radiother": {
+        "service": "Advanced Musculoskeletal Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Musculoskeletal Radiotherapy Fraction"
+        ]
+      },
+      "adv - telemetry monit /RM-3459": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Advanced Gastrointestinal Telemetry Monitoring",
+          "Advanced Paediatric Telemetry Monitoring"
+        ]
+      },
+      "adv metab discharge": {
+        "service": "Advanced Metabolic Discharge Planning",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Metabolic Discharge Planning"
+        ]
+      },
+      "amb cs conf /RM-3664": {
+        "service": "Ambulatory Renal Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Renal Case Conference"
+        ]
+      },
+      "amb msk disch planning /RM-1463": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "anaesthesia  outpatient infect /RM-6395": {
+        "service": "Outpatient Infectious Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Infectious Anaesthesia Administration"
+        ]
+      },
+      "beds  - geriatric telem": {
+        "service": "Bedside Geriatric Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Geriatric Telemetry Monitoring"
+        ]
+      },
+      "beds - imaging interpretation /RM-1489": {
+        "service": "Bedside Renal Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Renal Imaging Interpretation"
+        ]
+      },
+      "beds - pall care": {
+        "service": "Bedside Palliative Wound Care",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Palliative Wound Care"
+        ]
+      },
+      "beds - pulm steril /RM-3745": {
+        "service": "Bedside Pulmonary Sterilisation Service",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Pulmonary Sterilisation Service"
+        ]
+      },
+      "beds - pulm svc /RM-4889": {
+        "service": "Bedside Pulmonary Sterilisation Service",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Pulmonary Sterilisation Service"
+        ]
+      },
+      "beds laboratory pnl": {
+        "service": "Bedside Urologic Laboratory Panel",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Urologic Laboratory Panel"
+        ]
+      },
+      "bedside - metab infusion": {
+        "service": "Bedside Metabolic Infusion Therapy",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Metabolic Infusion Therapy"
+        ]
+      },
+      "card disch plng /RM-1761": {
+        "service": "Preoperative Cardiac Discharge Planning",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Cardiac Discharge Planning"
+        ]
+      },
+      "care bedside pall": {
+        "service": "Bedside Palliative Wound Care",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Palliative Wound Care"
+        ]
+      },
+      "compr - ortho cr": {
+        "service": "Comprehensive Orthopaedic Wound Care",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Orthopaedic Wound Care"
+        ]
+      },
+      "compr oncology wnd cr /RM-4911": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "compr pall img /RM-7888": {
+        "service": "Comprehensive Palliative Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Palliative Diagnostic Imaging"
+        ]
+      },
+      "conf  preop paed": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "conf - amb ren /RM-2011": {
+        "service": "Ambulatory Renal Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Renal Case Conference"
+        ]
+      },
+      "conference - onc cs /RM-3304": {
+        "service": "Bedside Oncology Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Oncology Case Conference"
+        ]
+      },
+      "cont - ren isol occ /RM-7098": {
+        "service": "Continuous Renal Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Renal Isolation Room Occupancy"
+        ]
+      },
+      "cont - rheum critical cr occ": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "cont crit cr occ /RM-2927": {
+        "service": "Continuous Immunologic Critical Care Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Immunologic Critical Care Occupancy"
+        ]
+      },
+      "cont lab panel /RM-6683": {
+        "service": "Continuous Gastrointestinal Laboratory Panel",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Gastrointestinal Laboratory Panel"
+        ]
+      },
+      "cont ren isolation occupancy /RM-8586": {
+        "service": "Continuous Renal Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Renal Isolation Room Occupancy"
+        ]
+      },
+      "derm physiotherapy sess /RM-1399": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Intermittent Dermatologic Physiotherapy Session",
+          "Postoperative Dermatologic Physiotherapy Session"
+        ]
+      },
+      "dispensing inpt pharm /RM-6838": {
+        "service": "Inpatient Gastrointestinal Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Gastrointestinal Pharmaceutical Dispensing"
+        ]
+      },
+      "elect - gastrointestinal disch plng /RM-9438": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "elect vascular physio sess /RM-8458": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "emer  - msk inf therapy": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "emer - derm steril /RM-6305": {
+        "service": "Emergency Dermatologic Sterilisation Service",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Dermatologic Sterilisation Service"
+        ]
+      },
+      "emer - ren room occ /RM-9004": {
+        "service": "Emergency Renal Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Renal Isolation Room Occupancy"
+        ]
+      },
+      "emergency - steril service /RM-6059": {
+        "service": "Emergency Dermatologic Sterilisation Service",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Dermatologic Sterilisation Service"
+        ]
+      },
+      "emergency steril service /RM-4697": {
+        "service": "Emergency Dermatologic Sterilisation Service",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Dermatologic Sterilisation Service"
+        ]
+      },
+      "ext derm svc": {
+        "service": "Extended Dermatologic Sterilisation Service",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Dermatologic Sterilisation Service"
+        ]
+      },
+      "ext endoscopic proc": {
+        "service": "Extended Musculoskeletal Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Musculoskeletal Endoscopic Procedure"
+        ]
+      },
+      "foc - metab theatre /RM-4359": {
+        "service": "Focused Metabolic Theatre Time",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Metabolic Theatre Time"
+        ]
+      },
+      "foc - rheum consult /RM-2110": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "foc nutr supp /RM-8954": {
+        "service": "Focused Obstetric Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Obstetric Nutritional Support"
+        ]
+      },
+      "focused - metab time /RM-1678": {
+        "service": "Focused Metabolic Theatre Time",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Metabolic Theatre Time"
+        ]
+      },
+      "fract gastrointestinal radiotherapy": {
+        "service": "Preoperative Gastrointestinal Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Gastrointestinal Radiotherapy Fraction"
+        ]
+      },
+      "fract psych radiotherapy": {
+        "service": "Preoperative Psychiatric Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Psychiatric Radiotherapy Fraction"
+        ]
+      },
+      "gi - endosc proc": {
+        "service": "Intermittent Gastrointestinal Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Gastrointestinal Endoscopic Procedure"
+        ]
+      },
+      "imaging inpt obstetric /RM-6043": {
+        "service": "Inpatient Obstetric Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Obstetric Diagnostic Imaging"
+        ]
+      },
+      "infect  telemetry monit": {
+        "service": "Extended Infectious Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Infectious Telemetry Monitoring"
+        ]
+      },
+      "inpt infect spcm /RM-2707": {
+        "service": "Inpatient Infectious Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Infectious Specimen Analysis"
+        ]
+      },
+      "inpt thtr tm": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Inpatient Metabolic Theatre Time",
+          "Inpatient Musculoskeletal Theatre Time"
+        ]
+      },
+      "inpt wnd care /RM-7406": {
+        "service": "Inpatient Obstetric Wound Care",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Obstetric Wound Care"
+        ]
+      },
+      "intens - nutr supp": {
+        "service": "Intensive Oncology Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Intensive Oncology Nutritional Support"
+        ]
+      },
+      "intens - steril svc": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "intensive - laboratory pnl /RM-3168": {
+        "service": "Intensive Ophthalmic Laboratory Panel",
+        "certainty": "strong",
+        "candidates": [
+          "Intensive Ophthalmic Laboratory Panel"
+        ]
+      },
+      "interm - endosc proc /RM-8678": {
+        "service": "Intermittent Gastrointestinal Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Gastrointestinal Endoscopic Procedure"
+        ]
+      },
+      "interm derm physio /RM-4730": {
+        "service": "Intermittent Dermatologic Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Dermatologic Physiotherapy Session"
+        ]
+      },
+      "intermittent - ent cr /RM-1347": {
+        "service": "Intermittent Otolaryngologic Wound Care",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Otolaryngologic Wound Care"
+        ]
+      },
+      "intermittent - isolation rm occ /RM-6947": {
+        "service": "Intermittent Immunologic Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Immunologic Isolation Room Occupancy"
+        ]
+      },
+      "intermittent infect cs conf /RM-4829": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "interp - elect img": {
+        "service": "Elective Pulmonary Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Pulmonary Imaging Interpretation"
+        ]
+      },
+      "metab diagnostic img /RM-3735": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "monit - foc telemetry": {
+        "service": "Focused Urologic Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Urologic Telemetry Monitoring"
+        ]
+      },
+      "monitoring - outpt metabolic telem": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "neuro - pharm dispensing /RM-3736": {
+        "service": "Bedside Neurological Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Neurological Pharmaceutical Dispensing"
+        ]
+      },
+      "obst - diag img": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Inpatient Obstetric Diagnostic Imaging",
+          "Routine Obstetric Diagnostic Imaging"
+        ]
+      },
+      "occupancy continuous isol room /RM-3671": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Continuous Immunologic Isolation Room Occupancy",
+          "Continuous Renal Isolation Room Occupancy"
+        ]
+      },
+      "onc biop proc": {
+        "service": "Emergency Oncology Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Oncology Biopsy Procedure"
+        ]
+      },
+      "outpt - pulm transport /RM-4112": {
+        "service": "Outpatient Pulmonary Transport Service",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Pulmonary Transport Service"
+        ]
+      },
+      "outpt pharm disp": {
+        "service": "Outpatient Rheumatologic Pharmaceutical Dispensing",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Rheumatologic Pharmaceutical Dispensing"
+        ]
+      },
+      "pnl - supv lab": {
+        "service": "Supervised Neurological Laboratory Panel",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Neurological Laboratory Panel"
+        ]
+      },
+      "postop - endoscopic proc": {
+        "service": "Postoperative Psychiatric Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Psychiatric Endoscopic Procedure"
+        ]
+      },
+      "postop - pulm": {
+        "service": "Postoperative Pulmonary Consultation",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Pulmonary Consultation"
+        ]
+      },
+      "postop ent rehab": {
+        "service": "Postoperative Otolaryngologic Rehabilitation Programme",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Otolaryngologic Rehabilitation Programme"
+        ]
+      },
+      "postoperative card wd occ /RM-8367": {
+        "service": "Postoperative Cardiac Ward Bed Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Cardiac Ward Bed Occupancy"
+        ]
+      },
+      "postoperative neuro diagnostic /RM-6927": {
+        "service": "Postoperative Neurological Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Neurological Diagnostic Imaging"
+        ]
+      },
+      "proc urologic endosc": {
+        "service": "Assisted Urologic Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Urologic Endoscopic Procedure"
+        ]
+      },
+      "procedure - spclst pulmonary /RM-4002": {
+        "service": "Specialist Pulmonary Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Specialist Pulmonary Biopsy Procedure"
+        ]
+      },
+      "procedure intens paed /RM-3709": {
+        "service": "Intensive Paediatric Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Intensive Paediatric Biopsy Procedure"
+        ]
+      },
+      "psych rtn /RM-8308": {
+        "service": "Routine Psychiatric Consultation",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Psychiatric Consultation"
+        ]
+      },
+      "pulm - postoperative": {
+        "service": "Postoperative Pulmonary Consultation",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Pulmonary Consultation"
+        ]
+      },
+      "radiother beds neuro /RM-9011": {
+        "service": "Bedside Neurological Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Neurological Radiotherapy Fraction"
+        ]
+      },
+      "rheum - pharm disp /RM-5213": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Advanced Rheumatologic Pharmaceutical Dispensing",
+          "Outpatient Rheumatologic Pharmaceutical Dispensing"
+        ]
+      },
+      "rheum img interp": {
+        "service": "Standard Rheumatologic Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Rheumatologic Imaging Interpretation"
+        ]
+      },
+      "room - amb metab isol": {
+        "service": "Ambulatory Metabolic Isolation Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Metabolic Isolation Room Occupancy"
+        ]
+      },
+      "rtn endo specimen": {
+        "service": "Routine Endocrine Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Routine Endocrine Specimen Analysis"
+        ]
+      },
+      "sess assisted paed /RM-2967": {
+        "service": "Assisted Paediatric Dialysis Session",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Paediatric Dialysis Session"
+        ]
+      },
+      "spclst pulm biop /RM-1381": {
+        "service": "Specialist Pulmonary Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Specialist Pulmonary Biopsy Procedure"
+        ]
+      },
+      "spclst pulm sess /RM-7065": {
+        "service": "Specialist Pulmonary Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Specialist Pulmonary Physiotherapy Session"
+        ]
+      },
+      "specialist - physio sess /RM-7734": {
+        "service": "Specialist Pulmonary Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Specialist Pulmonary Physiotherapy Session"
+        ]
+      },
+      "supp adv nutr": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Advanced Dermatologic Nutritional Support",
+          "Advanced Geriatric Nutritional Support"
+        ]
+      },
+      "supv - neuro lab /RM-9260": {
+        "service": "Supervised Neurological Laboratory Panel",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Neurological Laboratory Panel"
+        ]
+      },
+      "supv ent wnd /RM-5245": {
+        "service": "Supervised Otolaryngologic Wound Care",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Otolaryngologic Wound Care"
+        ]
+      },
+      "ther beds metab": {
+        "service": "Bedside Metabolic Infusion Therapy",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Metabolic Infusion Therapy"
+        ]
+      },
+      "vst - intens infectious home": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "wound - cont pulm": {
+        "service": "Continuous Pulmonary Wound Care",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Pulmonary Wound Care"
+        ]
+      }
+    }
+  },
+  "output": {
+    "results": [
+      {
+        "description": "admin - rheumatologic anaes /RM-8208",
+        "verdict": "match",
+        "service": "Postoperative Rheumatologic Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Only rheumatologic anaesthesia administration service."
+      },
+      {
+        "description": "administration - inpt hepatic anaes /RM-1221",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No hepatic anaesthesia administration service in contract."
+      },
+      {
+        "description": "adv - gi telemetry /RM-2615",
+        "verdict": "match",
+        "service": "Advanced Gastrointestinal Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Advanced gastrointestinal telemetry uniquely matches."
+      },
+      {
+        "description": "adv - metab disch",
+        "verdict": "match",
+        "service": "Advanced Metabolic Discharge Planning",
+        "candidates": [],
+        "reason": "Advanced metabolic discharge uniquely matches."
+      },
+      {
+        "description": "adv - msk radiother",
+        "verdict": "match",
+        "service": "Advanced Musculoskeletal Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Advanced musculoskeletal radiotherapy uniquely matches."
+      },
+      {
+        "description": "adv - telemetry monit /RM-3459",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Advanced Gastrointestinal Telemetry Monitoring",
+          "Advanced Paediatric Telemetry Monitoring"
+        ],
+        "reason": "Specialty dropped; two advanced telemetry services."
+      },
+      {
+        "description": "adv metab discharge",
+        "verdict": "match",
+        "service": "Advanced Metabolic Discharge Planning",
+        "candidates": [],
+        "reason": "Advanced metabolic discharge uniquely matches."
+      },
+      {
+        "description": "amb cs conf /RM-3664",
+        "verdict": "match",
+        "service": "Ambulatory Renal Case Conference",
+        "candidates": [],
+        "reason": "Only ambulatory case conference."
+      },
+      {
+        "description": "amb msk disch planning /RM-1463",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No musculoskeletal discharge planning service."
+      },
+      {
+        "description": "anaesthesia  outpatient infect /RM-6395",
+        "verdict": "match",
+        "service": "Outpatient Infectious Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Outpatient infectious anaesthesia uniquely matches."
+      },
+      {
+        "description": "beds  - geriatric telem",
+        "verdict": "match",
+        "service": "Bedside Geriatric Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Bedside geriatric telemetry uniquely matches."
+      },
+      {
+        "description": "beds - imaging interpretation /RM-1489",
+        "verdict": "match",
+        "service": "Bedside Renal Imaging Interpretation",
+        "candidates": [],
+        "reason": "Only bedside imaging interpretation service."
+      },
+      {
+        "description": "beds - pall care",
+        "verdict": "match",
+        "service": "Bedside Palliative Wound Care",
+        "candidates": [],
+        "reason": "Bedside palliative care uniquely matches."
+      },
+      {
+        "description": "beds - pulm steril /RM-3745",
+        "verdict": "match",
+        "service": "Bedside Pulmonary Sterilisation Service",
+        "candidates": [],
+        "reason": "Bedside pulmonary sterilisation uniquely matches."
+      },
+      {
+        "description": "beds - pulm svc /RM-4889",
+        "verdict": "match",
+        "service": "Bedside Pulmonary Sterilisation Service",
+        "candidates": [],
+        "reason": "Only bedside pulmonary service."
+      },
+      {
+        "description": "beds laboratory pnl",
+        "verdict": "match",
+        "service": "Bedside Urologic Laboratory Panel",
+        "candidates": [],
+        "reason": "Only bedside laboratory panel."
+      },
+      {
+        "description": "bedside - metab infusion",
+        "verdict": "match",
+        "service": "Bedside Metabolic Infusion Therapy",
+        "candidates": [],
+        "reason": "Bedside metabolic infusion uniquely matches."
+      },
+      {
+        "description": "card disch plng /RM-1761",
+        "verdict": "match",
+        "service": "Preoperative Cardiac Discharge Planning",
+        "candidates": [],
+        "reason": "Only cardiac discharge planning."
+      },
+      {
+        "description": "care bedside pall",
+        "verdict": "match",
+        "service": "Bedside Palliative Wound Care",
+        "candidates": [],
+        "reason": "Bedside palliative care uniquely matches."
+      },
+      {
+        "description": "compr - ortho cr",
+        "verdict": "match",
+        "service": "Comprehensive Orthopaedic Wound Care",
+        "candidates": [],
+        "reason": "Comprehensive orthopaedic care uniquely matches."
+      },
+      {
+        "description": "compr oncology wnd cr /RM-4911",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No comprehensive oncology wound care service."
+      },
+      {
+        "description": "compr pall img /RM-7888",
+        "verdict": "match",
+        "service": "Comprehensive Palliative Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Comprehensive palliative imaging uniquely matches."
+      },
+      {
+        "description": "conf  preop paed",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No preoperative paediatric case conference."
+      },
+      {
+        "description": "conf - amb ren /RM-2011",
+        "verdict": "match",
+        "service": "Ambulatory Renal Case Conference",
+        "candidates": [],
+        "reason": "Ambulatory renal conference uniquely matches."
+      },
+      {
+        "description": "conference - onc cs /RM-3304",
+        "verdict": "match",
+        "service": "Bedside Oncology Case Conference",
+        "candidates": [],
+        "reason": "Only oncology case conference."
+      },
+      {
+        "description": "cont - ren isol occ /RM-7098",
+        "verdict": "match",
+        "service": "Continuous Renal Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Continuous renal isolation uniquely matches."
+      },
+      {
+        "description": "cont - rheum critical cr occ",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No rheumatologic critical care occupancy service."
+      },
+      {
+        "description": "cont crit cr occ /RM-2927",
+        "verdict": "match",
+        "service": "Continuous Immunologic Critical Care Occupancy",
+        "candidates": [],
+        "reason": "Only continuous critical care occupancy."
+      },
+      {
+        "description": "cont lab panel /RM-6683",
+        "verdict": "match",
+        "service": "Continuous Gastrointestinal Laboratory Panel",
+        "candidates": [],
+        "reason": "Only continuous laboratory panel."
+      },
+      {
+        "description": "cont ren isolation occupancy /RM-8586",
+        "verdict": "match",
+        "service": "Continuous Renal Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Continuous renal isolation uniquely matches."
+      },
+      {
+        "description": "derm physiotherapy sess /RM-1399",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Intermittent Dermatologic Physiotherapy Session",
+          "Postoperative Dermatologic Physiotherapy Session"
+        ],
+        "reason": "Modifier dropped; two dermatologic physiotherapy sessions."
+      },
+      {
+        "description": "dispensing inpt pharm /RM-6838",
+        "verdict": "match",
+        "service": "Inpatient Gastrointestinal Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "Only inpatient pharmaceutical dispensing."
+      },
+      {
+        "description": "elect - gastrointestinal disch plng /RM-9438",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No elective gastrointestinal discharge planning."
+      },
+      {
+        "description": "elect vascular physio sess /RM-8458",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No vascular physiotherapy session service."
+      },
+      {
+        "description": "emer  - msk inf therapy",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No musculoskeletal infusion therapy service."
+      },
+      {
+        "description": "emer - derm steril /RM-6305",
+        "verdict": "match",
+        "service": "Emergency Dermatologic Sterilisation Service",
+        "candidates": [],
+        "reason": "Emergency dermatologic sterilisation uniquely matches."
+      },
+      {
+        "description": "emer - ren room occ /RM-9004",
+        "verdict": "match",
+        "service": "Emergency Renal Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Emergency renal room occupancy uniquely matches."
+      },
+      {
+        "description": "emergency - steril service /RM-6059",
+        "verdict": "match",
+        "service": "Emergency Dermatologic Sterilisation Service",
+        "candidates": [],
+        "reason": "Only emergency sterilisation service."
+      },
+      {
+        "description": "emergency steril service /RM-4697",
+        "verdict": "match",
+        "service": "Emergency Dermatologic Sterilisation Service",
+        "candidates": [],
+        "reason": "Only emergency sterilisation service."
+      },
+      {
+        "description": "ext derm svc",
+        "verdict": "match",
+        "service": "Extended Dermatologic Sterilisation Service",
+        "candidates": [],
+        "reason": "Only extended dermatologic service with 'Service'."
+      },
+      {
+        "description": "ext endoscopic proc",
+        "verdict": "match",
+        "service": "Extended Musculoskeletal Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Only extended endoscopic procedure."
+      },
+      {
+        "description": "foc - metab theatre /RM-4359",
+        "verdict": "match",
+        "service": "Focused Metabolic Theatre Time",
+        "candidates": [],
+        "reason": "Focused metabolic theatre uniquely matches."
+      },
+      {
+        "description": "foc - rheum consult /RM-2110",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No rheumatologic consultation service."
+      },
+      {
+        "description": "foc nutr supp /RM-8954",
+        "verdict": "match",
+        "service": "Focused Obstetric Nutritional Support",
+        "candidates": [],
+        "reason": "Only focused nutritional support."
+      },
+      {
+        "description": "focused - metab time /RM-1678",
+        "verdict": "match",
+        "service": "Focused Metabolic Theatre Time",
+        "candidates": [],
+        "reason": "Focused metabolic time uniquely matches."
+      },
+      {
+        "description": "fract gastrointestinal radiotherapy",
+        "verdict": "match",
+        "service": "Preoperative Gastrointestinal Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Only gastrointestinal radiotherapy fraction."
+      },
+      {
+        "description": "fract psych radiotherapy",
+        "verdict": "match",
+        "service": "Preoperative Psychiatric Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Only psychiatric radiotherapy fraction."
+      },
+      {
+        "description": "gi - endosc proc",
+        "verdict": "match",
+        "service": "Intermittent Gastrointestinal Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Only gastrointestinal endoscopic procedure."
+      },
+      {
+        "description": "imaging inpt obstetric /RM-6043",
+        "verdict": "match",
+        "service": "Inpatient Obstetric Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Inpatient obstetric imaging uniquely matches."
+      },
+      {
+        "description": "infect  telemetry monit",
+        "verdict": "match",
+        "service": "Extended Infectious Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Only infectious telemetry monitoring."
+      },
+      {
+        "description": "inpt infect spcm /RM-2707",
+        "verdict": "match",
+        "service": "Inpatient Infectious Specimen Analysis",
+        "candidates": [],
+        "reason": "Inpatient infectious specimen uniquely matches."
+      },
+      {
+        "description": "inpt thtr tm",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Inpatient Metabolic Theatre Time",
+          "Inpatient Musculoskeletal Theatre Time"
+        ],
+        "reason": "Specialty dropped; two inpatient theatre time services."
+      },
+      {
+        "description": "inpt wnd care /RM-7406",
+        "verdict": "match",
+        "service": "Inpatient Obstetric Wound Care",
+        "candidates": [],
+        "reason": "Only inpatient wound care."
+      },
+      {
+        "description": "intens - nutr supp",
+        "verdict": "match",
+        "service": "Intensive Oncology Nutritional Support",
+        "candidates": [],
+        "reason": "Only intensive nutritional support."
+      },
+      {
+        "description": "intens - steril svc",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No intensive sterilisation service."
+      },
+      {
+        "description": "intensive - laboratory pnl /RM-3168",
+        "verdict": "match",
+        "service": "Intensive Ophthalmic Laboratory Panel",
+        "candidates": [],
+        "reason": "Only intensive laboratory panel."
+      },
+      {
+        "description": "interm - endosc proc /RM-8678",
+        "verdict": "match",
+        "service": "Intermittent Gastrointestinal Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Only intermittent endoscopic procedure."
+      },
+      {
+        "description": "interm derm physio /RM-4730",
+        "verdict": "match",
+        "service": "Intermittent Dermatologic Physiotherapy Session",
+        "candidates": [],
+        "reason": "Intermittent dermatologic physiotherapy uniquely matches."
+      },
+      {
+        "description": "intermittent - ent cr /RM-1347",
+        "verdict": "match",
+        "service": "Intermittent Otolaryngologic Wound Care",
+        "candidates": [],
+        "reason": "Intermittent otolaryngologic care uniquely matches."
+      },
+      {
+        "description": "intermittent - isolation rm occ /RM-6947",
+        "verdict": "match",
+        "service": "Intermittent Immunologic Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Only intermittent isolation room occupancy."
+      },
+      {
+        "description": "intermittent infect cs conf /RM-4829",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No infectious case conference service."
+      },
+      {
+        "description": "interp - elect img",
+        "verdict": "match",
+        "service": "Elective Pulmonary Imaging Interpretation",
+        "candidates": [],
+        "reason": "Only elective imaging interpretation."
+      },
+      {
+        "description": "metab diagnostic img /RM-3735",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No metabolic diagnostic imaging service."
+      },
+      {
+        "description": "monit - foc telemetry",
+        "verdict": "match",
+        "service": "Focused Urologic Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Only focused telemetry monitoring."
+      },
+      {
+        "description": "monitoring - outpt metabolic telem",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No outpatient metabolic telemetry service."
+      },
+      {
+        "description": "neuro - pharm dispensing /RM-3736",
+        "verdict": "match",
+        "service": "Bedside Neurological Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "Only neurological pharmaceutical dispensing."
+      },
+      {
+        "description": "obst - diag img",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Inpatient Obstetric Diagnostic Imaging",
+          "Routine Obstetric Diagnostic Imaging"
+        ],
+        "reason": "Modifier dropped; two obstetric diagnostic imaging services."
+      },
+      {
+        "description": "occupancy continuous isol room /RM-3671",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Continuous Immunologic Isolation Room Occupancy",
+          "Continuous Renal Isolation Room Occupancy"
+        ],
+        "reason": "Specialty dropped; two continuous isolation room services."
+      },
+      {
+        "description": "onc biop proc",
+        "verdict": "match",
+        "service": "Emergency Oncology Biopsy Procedure",
+        "candidates": [],
+        "reason": "Only oncology biopsy procedure."
+      },
+      {
+        "description": "outpt - pulm transport /RM-4112",
+        "verdict": "match",
+        "service": "Outpatient Pulmonary Transport Service",
+        "candidates": [],
+        "reason": "Outpatient pulmonary transport uniquely matches."
+      },
+      {
+        "description": "outpt pharm disp",
+        "verdict": "match",
+        "service": "Outpatient Rheumatologic Pharmaceutical Dispensing",
+        "candidates": [],
+        "reason": "Only outpatient pharmaceutical dispensing."
+      },
+      {
+        "description": "pnl - supv lab",
+        "verdict": "match",
+        "service": "Supervised Neurological Laboratory Panel",
+        "candidates": [],
+        "reason": "Only supervised laboratory panel."
+      },
+      {
+        "description": "postop - endoscopic proc",
+        "verdict": "match",
+        "service": "Postoperative Psychiatric Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Only postoperative endoscopic procedure."
+      },
+      {
+        "description": "postop - pulm",
+        "verdict": "match",
+        "service": "Postoperative Pulmonary Consultation",
+        "candidates": [],
+        "reason": "Only postoperative pulmonary service."
+      },
+      {
+        "description": "postop ent rehab",
+        "verdict": "match",
+        "service": "Postoperative Otolaryngologic Rehabilitation Programme",
+        "candidates": [],
+        "reason": "Postoperative otolaryngologic rehabilitation uniquely matches."
+      },
+      {
+        "description": "postoperative card wd occ /RM-8367",
+        "verdict": "match",
+        "service": "Postoperative Cardiac Ward Bed Occupancy",
+        "candidates": [],
+        "reason": "Postoperative cardiac ward occupancy uniquely matches."
+      },
+      {
+        "description": "postoperative neuro diagnostic /RM-6927",
+        "verdict": "match",
+        "service": "Postoperative Neurological Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Postoperative neurological diagnostic uniquely matches."
+      },
+      {
+        "description": "proc urologic endosc",
+        "verdict": "match",
+        "service": "Assisted Urologic Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Only urologic endoscopic procedure."
+      },
+      {
+        "description": "procedure - spclst pulmonary /RM-4002",
+        "verdict": "match",
+        "service": "Specialist Pulmonary Biopsy Procedure",
+        "candidates": [],
+        "reason": "Only specialist pulmonary procedure."
+      },
+      {
+        "description": "procedure intens paed /RM-3709",
+        "verdict": "match",
+        "service": "Intensive Paediatric Biopsy Procedure",
+        "candidates": [],
+        "reason": "Only intensive paediatric procedure."
+      },
+      {
+        "description": "psych rtn /RM-8308",
+        "verdict": "match",
+        "service": "Routine Psychiatric Consultation",
+        "candidates": [],
+        "reason": "Only routine psychiatric service."
+      },
+      {
+        "description": "pulm - postoperative",
+        "verdict": "match",
+        "service": "Postoperative Pulmonary Consultation",
+        "candidates": [],
+        "reason": "Only postoperative pulmonary service."
+      },
+      {
+        "description": "radiother beds neuro /RM-9011",
+        "verdict": "match",
+        "service": "Bedside Neurological Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Bedside neurological radiotherapy uniquely matches."
+      },
+      {
+        "description": "rheum - pharm disp /RM-5213",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Advanced Rheumatologic Pharmaceutical Dispensing",
+          "Outpatient Rheumatologic Pharmaceutical Dispensing"
+        ],
+        "reason": "Modifier dropped; two rheumatologic dispensing services."
+      },
+      {
+        "description": "rheum img interp",
+        "verdict": "match",
+        "service": "Standard Rheumatologic Imaging Interpretation",
+        "candidates": [],
+        "reason": "Only rheumatologic imaging interpretation."
+      },
+      {
+        "description": "room - amb metab isol",
+        "verdict": "match",
+        "service": "Ambulatory Metabolic Isolation Room Occupancy",
+        "candidates": [],
+        "reason": "Ambulatory metabolic isolation room uniquely matches."
+      },
+      {
+        "description": "rtn endo specimen",
+        "verdict": "match",
+        "service": "Routine Endocrine Specimen Analysis",
+        "candidates": [],
+        "reason": "Routine endocrine specimen uniquely matches."
+      },
+      {
+        "description": "sess assisted paed /RM-2967",
+        "verdict": "match",
+        "service": "Assisted Paediatric Dialysis Session",
+        "candidates": [],
+        "reason": "Only assisted paediatric session."
+      },
+      {
+        "description": "spclst pulm biop /RM-1381",
+        "verdict": "match",
+        "service": "Specialist Pulmonary Biopsy Procedure",
+        "candidates": [],
+        "reason": "Specialist pulmonary biopsy uniquely matches."
+      },
+      {
+        "description": "spclst pulm sess /RM-7065",
+        "verdict": "match",
+        "service": "Specialist Pulmonary Physiotherapy Session",
+        "candidates": [],
+        "reason": "Only specialist pulmonary session."
+      },
+      {
+        "description": "specialist - physio sess /RM-7734",
+        "verdict": "match",
+        "service": "Specialist Pulmonary Physiotherapy Session",
+        "candidates": [],
+        "reason": "Only specialist physiotherapy session."
+      },
+      {
+        "description": "supp adv nutr",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Advanced Dermatologic Nutritional Support",
+          "Advanced Geriatric Nutritional Support"
+        ],
+        "reason": "Specialty dropped; two advanced nutritional support services."
+      },
+      {
+        "description": "supv - neuro lab /RM-9260",
+        "verdict": "match",
+        "service": "Supervised Neurological Laboratory Panel",
+        "candidates": [],
+        "reason": "Supervised neurological lab uniquely matches."
+      },
+      {
+        "description": "supv ent wnd /RM-5245",
+        "verdict": "match",
+        "service": "Supervised Otolaryngologic Wound Care",
+        "candidates": [],
+        "reason": "Supervised otolaryngologic wound uniquely matches."
+      },
+      {
+        "description": "ther beds metab",
+        "verdict": "match",
+        "service": "Bedside Metabolic Infusion Therapy",
+        "candidates": [],
+        "reason": "Bedside metabolic therapy uniquely matches."
+      },
+      {
+        "description": "vst - intens infectious home",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No intensive infectious home visit service."
+      },
+      {
+        "description": "wound - cont pulm",
+        "verdict": "match",
+        "service": "Continuous Pulmonary Wound Care",
+        "candidates": [],
+        "reason": "Continuous pulmonary wound uniquely matches."
+      }
+    ]
+  }
+}

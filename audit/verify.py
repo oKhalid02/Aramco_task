@@ -1,0 +1,141 @@
+"""Step 3: verify the extracted rules three ways and write verification/report.md.
+
+(a) parser self-consistency checks (audit/contracts.py)
+(b) independent LLM reading (verification/llm_extraction/hospital_N.json), diffed field by field
+(c) data majority: per service, the share of billed unit prices equal to our expected price
+"""
+
+import json
+from collections import Counter, defaultdict
+from fractions import Fraction
+
+from .contracts import ROOT, UNIT_CODES, build
+from .engine import HospitalAudit
+from .loader import load
+from .money import gbp_to_cents
+
+OUT = ROOT / "verification"
+MAJORITY_MIN = Fraction(80, 100)  # a service whose billed prices mostly disagree with us is suspect
+
+
+def num(text):
+    return Fraction(str(text).strip().rstrip("%") or "0")
+
+
+def rules_view(r):
+    v = {
+        "service": {n: (s["unit"], s["rates"][0]["rate_cents"]) for n, s in r["services"].items()},
+        "rate_change": {n: tuple((x["from"], x["rate_cents"]) for x in s["rates"][1:]) for n, s in r["services"].items()},
+        "billable_from": {n: s["available_from"] for n, s in r["services"].items()},
+        "cap": dict(r["caps"]),
+        "premium": {n: (p["threshold"], num(p["uplift_pct"])) for n, p in r["premiums"].items()},
+        "weekend": {n: num(p) for n, p in r["weekend_uplifts"].items()},
+        "discount": {n: tuple((t["threshold"], num(t["pct"])) for t in ts) for n, ts in r["discounts"].items()},
+        "bundle": {frozenset((b["a"], b["b"])): frozenset(((b["a"], b["rate_a_cents"]), (b["b"], b["rate_b_cents"])))
+                   for b in r["bundles"]},
+        "exclusion": {(e["service"], e["excluded_by"]): e["days"] for e in r["exclusions"]},
+        "multiplier": {(n, k): num(val) for kind in ("facility_multipliers", "tier_multipliers")
+                       for n, m in r[kind].items() for k, val in m.items()},
+        "deadline": {"days": r["submission_deadline_days"]},
+    }
+    return v
+
+
+def llm_view(o):
+    services = o["services"]
+    v = {
+        "service": {s["name"]: (UNIT_CODES.get(s["unit_basis"].strip().lower(), s["unit_basis"]), gbp_to_cents(s["rate_gbp"]))
+                    for s in services},
+        "rate_change": {s["name"]: tuple((c["from_date"], gbp_to_cents(c["rate_gbp"])) for c in s["rate_changes"])
+                        for s in services},
+        "billable_from": {s["name"]: s["billable_from"] for s in services},
+        "cap": {s["name"]: s["daily_cap"] for s in services if s["daily_cap"] is not None},
+        "premium": {p["service"]: (p["threshold"], num(p["uplift_percent"])) for p in o["threshold_premiums"]},
+        "weekend": {p["service"]: num(p["uplift_percent"]) for p in o["non_business_day_uplifts"]},
+        "discount": {},
+        "bundle": {frozenset((b["service_a"], b["service_b"])): frozenset(
+            ((b["service_a"], gbp_to_cents(b["rate_a_gbp"])), (b["service_b"], gbp_to_cents(b["rate_b_gbp"]))))
+            for b in o["bundles"]},
+        "exclusion": {(e["service"], e["excluded_by"]): e["days"] for e in o["exclusions"]},
+        "multiplier": {(m["service"], m[key]): num(m["multiplier"])
+                       for kind, key in (("facility_multipliers", "facility"), ("tier_multipliers", "tier"))
+                       for m in o[kind]},
+        "deadline": {"days": o["submission_deadline_days"]},
+    }
+    tiers = defaultdict(list)
+    for d in o["volume_discounts"]:
+        tiers[d["service"]].append((d["threshold"], num(d["discount_percent"])))
+    v["discount"] = {n: tuple(sorted(ts)) for n, ts in tiers.items()}
+    return v
+
+
+def diff(parser, other):
+    out = []
+    for kind in parser:
+        a, b = parser[kind], other[kind]
+        for key in sorted(set(a) | set(b), key=str):
+            if key not in b:
+                out.append((kind, key, a[key], "missing in LLM reading"))
+            elif key not in a:
+                out.append((kind, key, "missing in parser", b[key]))
+            elif a[key] != b[key]:
+                out.append((kind, key, a[key], b[key]))
+    return out
+
+
+def majority(hospital, rules):
+    invoices = HospitalAudit(hospital, rules, load(hospital)).run()
+    stats = defaultdict(Counter)
+    for inv in invoices:
+        price_findings = {lid for cat, lid, _ in inv["findings"] if cat in (
+            "unit_price_mismatch", "bundle_not_applied", "premium_omitted", "premium_incorrectly_applied",
+            "volume_discount_omitted", "volume_discount_incorrectly_applied")}
+        skipped = {lid for cat, lid, _ in inv["findings"] if cat in ("cross_invoice_duplicate", "exclusion_window_violation")}
+        for li in inv["line_items"]:
+            if li["priceable"] and li["line_id"] not in skipped:
+                stats[li["service"]]["disagree" if li["line_id"] in price_findings else "agree"] += 1
+    return {s: (c["agree"], c["agree"] + c["disagree"]) for s, c in stats.items()}
+
+
+def main():
+    OUT.mkdir(exist_ok=True)
+    lines = ["# Extraction verification report", "",
+             "Generated by `python -m audit.verify`. Three independent checks per contract (Phase 2 plan, step 3).", ""]
+    summary = {}
+    for h in range(1, 6):
+        rs = build(h)
+        rules = rs.data
+        failed = [c["message"] for c in rs.checks if not c["ok"]]
+        llm_file = OUT / "llm_extraction" / f"hospital_{h}.json"
+        differences = None
+        if llm_file.exists():
+            llm = json.loads(llm_file.read_text())
+            differences = diff(rules_view(rules), llm_view(llm["output"]))
+        maj = majority(h, rules)
+        suspects = {s: v for s, v in maj.items() if v[1] and Fraction(v[0], v[1]) < MAJORITY_MIN}
+        unused = sorted(set(rules["services"]) - set(maj))
+        worst = min((Fraction(a, n), s) for s, (a, n) in maj.items() if n)
+        summary[h] = {"parser_checks": [len(rs.checks) - len(failed), len(rs.checks)],
+                      "llm_differences": None if differences is None else len(differences),
+                      "majority_suspect_services": sorted(suspects), "services_never_billed": unused}
+        lines += [f"## Hospital {h} — {rules['contract_number']}", "",
+                  f"- **(a) Parser checks:** {len(rs.checks) - len(failed)}/{len(rs.checks)} passed"
+                  + ("" if not failed else "; failed: " + "; ".join(failed)),
+                  "- **(b) LLM second reading:** " + ("not run" if differences is None else
+                                                      f"{len(differences)} difference(s)"
+                                                      + (f" (model {llm['meta']['model']}, {llm['meta']['run_at']}, "
+                                                         f"prompt `{llm['meta']['prompt_file']}`)")),
+                  f"- **(c) Data majority:** {len(maj)} services billed; lowest agreement "
+                  f"{float(worst[0]):.1%} ({worst[1]}); services below {float(MAJORITY_MIN):.0%}: "
+                  f"{sorted(suspects) or 'none'}; contracted but never billed: {len(unused)}", ""]
+        if differences:
+            lines += ["| Rule | Key | Parser | LLM |", "|---|---|---|---|"]
+            lines += [f"| {k} | {str(key).replace('|', '/')} | {a} | {b} |" for k, key, a, b in differences]
+            lines.append("")
+    (OUT / "report.md").write_text("\n".join(lines) + "\n")
+    (OUT / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
+    print("\n".join(lines))
+
+
+if __name__ == "__main__":
+    main()

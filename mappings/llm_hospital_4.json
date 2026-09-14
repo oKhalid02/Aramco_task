@@ -1,0 +1,1785 @@
+{
+  "meta": {
+    "prompt_file": "prompts/pipeline/description_mapping_v1.md",
+    "model": "claude-opus-5",
+    "models_used": [
+      "claude-haiku-4-5-20251001",
+      "claude-opus-5"
+    ],
+    "run_at": "2026-09-14T11:30:17",
+    "estimated_cost_usd": 0.44859150000000003,
+    "claude_code_version": "2.1.270 (Claude Code)",
+    "missing_descriptions": [],
+    "matcher_view": {
+      "ADMIN  - gi ANAES /CW-1500": {
+        "service": "Assisted Gastrointestinal Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Gastrointestinal Anaesthesia Administration"
+        ]
+      },
+      "ADMIN - outpt RHEUM": {
+        "service": "Outpatient Rheumatologic Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Rheumatologic Anaesthesia Administration"
+        ]
+      },
+      "ADMIN spclst NEURO anaes /CW-6871": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "AMB haem ENDOSC proc /CW-9607": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "AMB obst CONF /CW-5695": {
+        "service": "Ambulatory Obstetric Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Obstetric Case Conference"
+        ]
+      },
+      "ASSISTED spcm ANALYSIS /CW-2232": {
+        "service": "Assisted Obstetric Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Obstetric Specimen Analysis"
+        ]
+      },
+      "ASST  urol OBSERVATION /CW-2070": {
+        "service": "Assisted Urologic Nursing Observation",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Urologic Nursing Observation"
+        ]
+      },
+      "ASST - obstetric TRANSP svc /CW-7850": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "ASST - paed TM /CW-5883": {
+        "service": "Assisted Paediatric Theatre Time",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Paediatric Theatre Time"
+        ]
+      },
+      "BEDS - oncology TRANSF /CW-9855": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "CARDIAC physio SESS /CW-4455": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Emergency Cardiac Physiotherapy Session",
+          "Outpatient Cardiac Physiotherapy Session"
+        ]
+      },
+      "CONF ger CS": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Intensive Geriatric Case Conference",
+          "Postoperative Geriatric Case Conference"
+        ]
+      },
+      "CONSULT rtn NEURO /CW-8916": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "CONTINUOUS infectious CRITICAL occ": {
+        "service": "Continuous Infectious Critical Care Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Infectious Critical Care Occupancy"
+        ]
+      },
+      "CR std ORTHOPAEDIC crit": {
+        "service": "Standard Orthopaedic Critical Care Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Orthopaedic Critical Care Occupancy"
+        ]
+      },
+      "ELECT - nurs OBS": {
+        "service": "Elective Gastrointestinal Nursing Observation",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Gastrointestinal Nursing Observation"
+        ]
+      },
+      "ELECT - ophth RADIOTHER /CW-6461": {
+        "service": "Elective Ophthalmic Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Ophthalmic Radiotherapy Fraction"
+        ]
+      },
+      "ENDOSC - ext PSYCHIATRIC /CW-9075": {
+        "service": "Extended Psychiatric Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Psychiatric Endoscopic Procedure"
+        ]
+      },
+      "ENDOSC - outpatient UROLOGIC /CW-5618": {
+        "service": "Outpatient Urologic Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Urologic Endoscopic Procedure"
+        ]
+      },
+      "EXT ren BD occupancy /CW-7024": {
+        "service": "Extended Renal Ward Bed Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Renal Ward Bed Occupancy"
+        ]
+      },
+      "EXT ren WD occ /CW-7113": {
+        "service": "Extended Renal Ward Bed Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Renal Ward Bed Occupancy"
+        ]
+      },
+      "FOCUSED biop PROC": {
+        "service": "Focused Metabolic Biopsy Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Metabolic Biopsy Procedure"
+        ]
+      },
+      "GI - transfusion SVC /CW-9161": {
+        "service": "Continuous Gastrointestinal Transfusion Service",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Gastrointestinal Transfusion Service"
+        ]
+      },
+      "HEP - inf THERAPY": {
+        "service": "Standard Hepatic Infusion Therapy",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Hepatic Infusion Therapy"
+        ]
+      },
+      "IMG - preoperative ONC": {
+        "service": "Preoperative Oncology Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Oncology Diagnostic Imaging"
+        ]
+      },
+      "IMG preoperative ONCOLOGY /CW-9430": {
+        "service": "Preoperative Oncology Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Oncology Diagnostic Imaging"
+        ]
+      },
+      "IMMUN - spclst /CW-9956": {
+        "service": "Specialist Immunologic Consultation",
+        "certainty": "strong",
+        "candidates": [
+          "Specialist Immunologic Consultation"
+        ]
+      },
+      "INFECT - critical CARE occ": {
+        "service": "Continuous Infectious Critical Care Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Infectious Critical Care Occupancy"
+        ]
+      },
+      "INTENS  neurological DIAG img /CW-9312": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "INTERM - rheum SESS /CW-7476": {
+        "service": "Intermittent Rheumatologic Dialysis Session",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Rheumatologic Dialysis Session"
+        ]
+      },
+      "INTERM - urol TELEMETRY /CW-3304": {
+        "service": "Intermittent Urologic Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Urologic Telemetry Monitoring"
+        ]
+      },
+      "LAB  - emer DERM /CW-2124": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "NURS - elect GASTROINTESTINAL /CW-1281": {
+        "service": "Elective Gastrointestinal Nursing Observation",
+        "certainty": "strong",
+        "candidates": [
+          "Elective Gastrointestinal Nursing Observation"
+        ]
+      },
+      "OBS - gi NURS /CW-2992": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Elective Gastrointestinal Nursing Observation",
+          "Supervised Gastrointestinal Nursing Observation"
+        ]
+      },
+      "OCC  - standard ORTHO cr /CW-6124": {
+        "service": "Standard Orthopaedic Critical Care Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Orthopaedic Critical Care Occupancy"
+        ]
+      },
+      "OCC - std CRIT cr /CW-1779": {
+        "service": "Standard Orthopaedic Critical Care Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Orthopaedic Critical Care Occupancy"
+        ]
+      },
+      "OCC advanced ORTHO wd": {
+        "service": "Advanced Orthopaedic Ward Bed Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Orthopaedic Ward Bed Occupancy"
+        ]
+      },
+      "OCCUPANCY  adv ONC bd /CW-4545": {
+        "service": "Advanced Oncology Ward Bed Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Oncology Ward Bed Occupancy"
+        ]
+      },
+      "ORTHOPAEDIC recov RM occupancy /CW-4525": {
+        "service": "Outpatient Orthopaedic Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Orthopaedic Recovery Room Occupancy"
+        ]
+      },
+      "OUTPATIENT - rheum ADMINISTRATION /CW-5971": {
+        "service": "Outpatient Rheumatologic Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Rheumatologic Anaesthesia Administration"
+        ]
+      },
+      "OUTPT - obst DIAL /CW-3474": {
+        "service": "Outpatient Obstetric Dialysis Session",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Obstetric Dialysis Session"
+        ]
+      },
+      "OUTPT metabolic PHARM disp": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "OUTPT recov RM occ": {
+        "service": "Outpatient Orthopaedic Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Orthopaedic Recovery Room Occupancy"
+        ]
+      },
+      "PLNG cont OTOLARYNGOLOGIC disch": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "POSTOP - ger INTERP /CW-6488": {
+        "service": "Postoperative Geriatric Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Geriatric Imaging Interpretation"
+        ]
+      },
+      "POSTOPERATIVE card CR": {
+        "service": "Postoperative Cardiac Wound Care",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Cardiac Wound Care"
+        ]
+      },
+      "PREOP - ger DIAG /CW-2259": {
+        "service": "Preoperative Geriatric Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Geriatric Diagnostic Imaging"
+        ]
+      },
+      "PREOP - haem INTERP": {
+        "service": "Preoperative Haematology Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Haematology Imaging Interpretation"
+        ]
+      },
+      "PREOP - haematology IMG": {
+        "service": "Preoperative Haematology Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Haematology Imaging Interpretation"
+        ]
+      },
+      "PREOP - onc DIAG /CW-5837": {
+        "service": "Preoperative Oncology Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Oncology Diagnostic Imaging"
+        ]
+      },
+      "PREOP geriatric IMG /CW-3234": {
+        "service": "Preoperative Geriatric Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Geriatric Diagnostic Imaging"
+        ]
+      },
+      "PREOP msk ROOM occ": {
+        "service": "Preoperative Musculoskeletal Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Preoperative Musculoskeletal Recovery Room Occupancy"
+        ]
+      },
+      "PROC - ext PSYCH /CW-9029": {
+        "service": "Extended Psychiatric Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Psychiatric Endoscopic Procedure"
+        ]
+      },
+      "PROG - interm PSYCH": {
+        "service": "Intermittent Psychiatric Rehabilitation Programme",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Psychiatric Rehabilitation Programme"
+        ]
+      },
+      "REN - wd BD occ /CW-4382": {
+        "service": "Extended Renal Ward Bed Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Renal Ward Bed Occupancy"
+        ]
+      },
+      "RHEUM rehabilitation PROGRAMME /CW-4700": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Ambulatory Rheumatologic Rehabilitation Programme",
+          "Emergency Rheumatologic Rehabilitation Programme"
+        ]
+      },
+      "RTN - ortho TRANSF service /CW-3818": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "SPCLST - consult": {
+        "service": "Specialist Immunologic Consultation",
+        "certainty": "strong",
+        "candidates": [
+          "Specialist Immunologic Consultation"
+        ]
+      },
+      "SPCLST immunologic /CW-6493": {
+        "service": "Specialist Immunologic Consultation",
+        "certainty": "strong",
+        "candidates": [
+          "Specialist Immunologic Consultation"
+        ]
+      },
+      "SPCLST wnd CR /CW-6542": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "SPCM  - asst OBST /CW-9843": {
+        "service": "Assisted Obstetric Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Obstetric Specimen Analysis"
+        ]
+      },
+      "SUPERVISED  - vasc RADIOTHER": {
+        "service": "Supervised Vascular Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Vascular Radiotherapy Fraction"
+        ]
+      },
+      "SUPP asst VENTILATION /CW-3888": {
+        "service": "Assisted Cardiac Ventilation Support",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Cardiac Ventilation Support"
+        ]
+      },
+      "SVC - ortho STERILISATION": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "TRANSF - cont GI": {
+        "service": "Continuous Gastrointestinal Transfusion Service",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Gastrointestinal Transfusion Service"
+        ]
+      },
+      "VST  foc NEURO /CW-8682": {
+        "service": null,
+        "certainty": "none",
+        "candidates": []
+      },
+      "VST - supv PULMONARY /CW-3511": {
+        "service": "Supervised Pulmonary Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Pulmonary Home Visit"
+        ]
+      },
+      "admin REN anaesthesia": {
+        "service": "Intermittent Renal Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Renal Anaesthesia Administration"
+        ]
+      },
+      "adv  - PAED thtr /CW-9651": {
+        "service": "Advanced Paediatric Theatre Time",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Paediatric Theatre Time"
+        ]
+      },
+      "adv - VASC proc": {
+        "service": "Advanced Vascular Endoscopic Procedure",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Vascular Endoscopic Procedure"
+        ]
+      },
+      "amb MSK spcm": {
+        "service": "Ambulatory Musculoskeletal Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Musculoskeletal Specimen Analysis"
+        ]
+      },
+      "amb WD bed OCC /CW-2964": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Ambulatory Cardiac Ward Bed Occupancy",
+          "Ambulatory Immunologic Ward Bed Occupancy"
+        ]
+      },
+      "anly INTENS spcm": {
+        "service": "Intensive Urologic Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Intensive Urologic Specimen Analysis"
+        ]
+      },
+      "assisted - NUTR supp": {
+        "service": "Assisted Renal Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Renal Nutritional Support"
+        ]
+      },
+      "asst RENAL nutr /CW-4158": {
+        "service": "Assisted Renal Nutritional Support",
+        "certainty": "strong",
+        "candidates": [
+          "Assisted Renal Nutritional Support"
+        ]
+      },
+      "beds CARD hm /CW-4363": {
+        "service": "Bedside Cardiac Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Cardiac Home Visit"
+        ]
+      },
+      "bedside OBST img": {
+        "service": "Bedside Obstetric Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Bedside Obstetric Imaging Interpretation"
+        ]
+      },
+      "card  - HOME vst": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Bedside Cardiac Home Visit",
+          "Routine Cardiac Home Visit"
+        ]
+      },
+      "card VENT support": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Assisted Cardiac Ventilation Support",
+          "Specialist Cardiac Ventilation Support"
+        ]
+      },
+      "conf - UROL cs /CW-3094": {
+        "service": "Focused Urologic Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Focused Urologic Case Conference"
+        ]
+      },
+      "emer  - METAB radiother": {
+        "service": "Emergency Metabolic Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Metabolic Radiotherapy Fraction"
+        ]
+      },
+      "emer - RHEUMATOLOGIC prog /CW-1178": {
+        "service": "Emergency Rheumatologic Rehabilitation Programme",
+        "certainty": "strong",
+        "candidates": [
+          "Emergency Rheumatologic Rehabilitation Programme"
+        ]
+      },
+      "ext  UROLOGIC telem": {
+        "service": "Extended Urologic Telemetry Monitoring",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Urologic Telemetry Monitoring"
+        ]
+      },
+      "ext - OBSTETRIC conf": {
+        "service": "Extended Obstetric Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Obstetric Case Conference"
+        ]
+      },
+      "ext - RHEUMATOLOGIC observation /CW-5150": {
+        "service": "Extended Rheumatologic Nursing Observation",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Rheumatologic Nursing Observation"
+        ]
+      },
+      "ext RHEUM obs": {
+        "service": "Extended Rheumatologic Nursing Observation",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Rheumatologic Nursing Observation"
+        ]
+      },
+      "ger - CASE conf": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Intensive Geriatric Case Conference",
+          "Postoperative Geriatric Case Conference"
+        ]
+      },
+      "gi - IMG interp": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Postoperative Geriatric Imaging Interpretation",
+          "Specialist Gastrointestinal Imaging Interpretation"
+        ]
+      },
+      "haematology - TRANSF svc": {
+        "service": "Ambulatory Haematology Transfusion Service",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Haematology Transfusion Service"
+        ]
+      },
+      "hep - DISCHARGE plng /CW-2290": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Extended Hepatic Discharge Planning",
+          "Specialist Hepatic Discharge Planning"
+        ]
+      },
+      "hm - ADV palliative": {
+        "service": "Advanced Palliative Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Advanced Palliative Home Visit"
+        ]
+      },
+      "img  COMPREHENSIVE urologic /CW-6158": {
+        "service": "Comprehensive Urologic Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Urologic Imaging Interpretation"
+        ]
+      },
+      "img - OUTPT ger": {
+        "service": "Outpatient Geriatric Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Geriatric Diagnostic Imaging"
+        ]
+      },
+      "intens - RHEUM radiotherapy /CW-4273": {
+        "service": "Intensive Rheumatologic Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Intensive Rheumatologic Radiotherapy Fraction"
+        ]
+      },
+      "intermittent - REN anaes": {
+        "service": "Intermittent Renal Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Renal Anaesthesia Administration"
+        ]
+      },
+      "interp COMPR img /CW-6998": {
+        "service": "Comprehensive Urologic Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Urologic Imaging Interpretation"
+        ]
+      },
+      "interpretation - COMPR img /CW-2951": {
+        "service": "Comprehensive Urologic Imaging Interpretation",
+        "certainty": "strong",
+        "candidates": [
+          "Comprehensive Urologic Imaging Interpretation"
+        ]
+      },
+      "msk - SPCM analysis": {
+        "service": "Ambulatory Musculoskeletal Specimen Analysis",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Musculoskeletal Specimen Analysis"
+        ]
+      },
+      "occ AMB card WARD /CW-1077": {
+        "service": "Ambulatory Cardiac Ward Bed Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Ambulatory Cardiac Ward Bed Occupancy"
+        ]
+      },
+      "occ PALLIATIVE recov RM": {
+        "service": "Postoperative Palliative Recovery Room Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Palliative Recovery Room Occupancy"
+        ]
+      },
+      "occupancy ONC wd BD": {
+        "service": null,
+        "certainty": "ambiguous",
+        "candidates": [
+          "Advanced Oncology Ward Bed Occupancy",
+          "Standard Oncology Ward Bed Occupancy"
+        ]
+      },
+      "ortho  - ANAES admin /CW-7356": {
+        "service": "Inpatient Orthopaedic Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Orthopaedic Anaesthesia Administration"
+        ]
+      },
+      "ortho - ANAES admin /CW-8548": {
+        "service": "Inpatient Orthopaedic Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Orthopaedic Anaesthesia Administration"
+        ]
+      },
+      "ortho - ANAES administration": {
+        "service": "Inpatient Orthopaedic Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Inpatient Orthopaedic Anaesthesia Administration"
+        ]
+      },
+      "outpatient  - GER diag /CW-5691": {
+        "service": "Outpatient Geriatric Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Geriatric Diagnostic Imaging"
+        ]
+      },
+      "outpt - CARDIAC physio": {
+        "service": "Outpatient Cardiac Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Cardiac Physiotherapy Session"
+        ]
+      },
+      "outpt CARD sess": {
+        "service": "Outpatient Cardiac Physiotherapy Session",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Cardiac Physiotherapy Session"
+        ]
+      },
+      "plng EXT disch /CW-9928": {
+        "service": "Extended Hepatic Discharge Planning",
+        "certainty": "strong",
+        "candidates": [
+          "Extended Hepatic Discharge Planning"
+        ]
+      },
+      "postop  - ONC img": {
+        "service": "Postoperative Oncology Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Oncology Diagnostic Imaging"
+        ]
+      },
+      "postop ONC img /CW-9715": {
+        "service": "Postoperative Oncology Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Oncology Diagnostic Imaging"
+        ]
+      },
+      "postop ONCOLOGY imaging /CW-3721": {
+        "service": "Postoperative Oncology Diagnostic Imaging",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Oncology Diagnostic Imaging"
+        ]
+      },
+      "postoperative CS conference /CW-1435": {
+        "service": "Postoperative Geriatric Case Conference",
+        "certainty": "strong",
+        "candidates": [
+          "Postoperative Geriatric Case Conference"
+        ]
+      },
+      "prog CONT rehab /CW-3359": {
+        "service": "Continuous Psychiatric Rehabilitation Programme",
+        "certainty": "strong",
+        "candidates": [
+          "Continuous Psychiatric Rehabilitation Programme"
+        ]
+      },
+      "renal ANAES admin": {
+        "service": "Intermittent Renal Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Intermittent Renal Anaesthesia Administration"
+        ]
+      },
+      "rheum - RADIOTHERAPY fract /CW-5238": {
+        "service": "Intensive Rheumatologic Radiotherapy Fraction",
+        "certainty": "strong",
+        "candidates": [
+          "Intensive Rheumatologic Radiotherapy Fraction"
+        ]
+      },
+      "service - INTENS steril /CW-8257": {
+        "service": "Intensive Vascular Sterilisation Service",
+        "certainty": "strong",
+        "candidates": [
+          "Intensive Vascular Sterilisation Service"
+        ]
+      },
+      "standard - ONC bd OCC": {
+        "service": "Standard Oncology Ward Bed Occupancy",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Oncology Ward Bed Occupancy"
+        ]
+      },
+      "std - DIAL sess /CW-2606": {
+        "service": "Standard Paediatric Dialysis Session",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Paediatric Dialysis Session"
+        ]
+      },
+      "std - VASC vst": {
+        "service": "Standard Vascular Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Vascular Home Visit"
+        ]
+      },
+      "supervised - PULM admin": {
+        "service": "Supervised Pulmonary Anaesthesia Administration",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Pulmonary Anaesthesia Administration"
+        ]
+      },
+      "supv  - DIAL sess /CW-1782": {
+        "service": "Supervised Rheumatologic Dialysis Session",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Rheumatologic Dialysis Session"
+        ]
+      },
+      "supv  NURSING obs": {
+        "service": "Supervised Gastrointestinal Nursing Observation",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Gastrointestinal Nursing Observation"
+        ]
+      },
+      "supv RHEUM sess /CW-6316": {
+        "service": "Supervised Rheumatologic Dialysis Session",
+        "certainty": "strong",
+        "candidates": [
+          "Supervised Rheumatologic Dialysis Session"
+        ]
+      },
+      "tm OUTPATIENT urol /CW-9136": {
+        "service": "Outpatient Urologic Theatre Time",
+        "certainty": "strong",
+        "candidates": [
+          "Outpatient Urologic Theatre Time"
+        ]
+      },
+      "visit STD vasc": {
+        "service": "Standard Vascular Home Visit",
+        "certainty": "strong",
+        "candidates": [
+          "Standard Vascular Home Visit"
+        ]
+      }
+    }
+  },
+  "output": {
+    "results": [
+      {
+        "description": "ADMIN  - gi ANAES /CW-1500",
+        "verdict": "match",
+        "service": "Assisted Gastrointestinal Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Only gastrointestinal anaesthesia administration service."
+      },
+      {
+        "description": "ADMIN - outpt RHEUM",
+        "verdict": "match",
+        "service": "Outpatient Rheumatologic Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Outpatient rheumatologic administration is unique."
+      },
+      {
+        "description": "ADMIN spclst NEURO anaes /CW-6871",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No specialist neurological anaesthesia service listed."
+      },
+      {
+        "description": "AMB haem ENDOSC proc /CW-9607",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No haematology endoscopic procedure listed."
+      },
+      {
+        "description": "AMB obst CONF /CW-5695",
+        "verdict": "match",
+        "service": "Ambulatory Obstetric Case Conference",
+        "candidates": [],
+        "reason": "Ambulatory obstetric conference is unique."
+      },
+      {
+        "description": "ASSISTED spcm ANALYSIS /CW-2232",
+        "verdict": "match",
+        "service": "Assisted Obstetric Specimen Analysis",
+        "candidates": [],
+        "reason": "Only assisted specimen analysis service."
+      },
+      {
+        "description": "ASST  urol OBSERVATION /CW-2070",
+        "verdict": "match",
+        "service": "Assisted Urologic Nursing Observation",
+        "candidates": [],
+        "reason": "Assisted urologic observation is unique."
+      },
+      {
+        "description": "ASST - obstetric TRANSP svc /CW-7850",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No obstetric transport service listed."
+      },
+      {
+        "description": "ASST - paed TM /CW-5883",
+        "verdict": "match",
+        "service": "Assisted Paediatric Theatre Time",
+        "candidates": [],
+        "reason": "Assisted paediatric time matches theatre time."
+      },
+      {
+        "description": "BEDS - oncology TRANSF /CW-9855",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No oncology transfusion service listed."
+      },
+      {
+        "description": "CARDIAC physio SESS /CW-4455",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Emergency Cardiac Physiotherapy Session",
+          "Outpatient Cardiac Physiotherapy Session"
+        ],
+        "reason": "Modifier dropped; two cardiac physiotherapy sessions."
+      },
+      {
+        "description": "CONF ger CS",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Intensive Geriatric Case Conference",
+          "Postoperative Geriatric Case Conference"
+        ],
+        "reason": "Modifier dropped; two geriatric case conferences."
+      },
+      {
+        "description": "CONSULT rtn NEURO /CW-8916",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No routine neurological consultation listed."
+      },
+      {
+        "description": "CONTINUOUS infectious CRITICAL occ",
+        "verdict": "match",
+        "service": "Continuous Infectious Critical Care Occupancy",
+        "candidates": [],
+        "reason": "All words match unique service."
+      },
+      {
+        "description": "CR std ORTHOPAEDIC crit",
+        "verdict": "match",
+        "service": "Standard Orthopaedic Critical Care Occupancy",
+        "candidates": [],
+        "reason": "Standard orthopaedic critical care unique."
+      },
+      {
+        "description": "ELECT - nurs OBS",
+        "verdict": "match",
+        "service": "Elective Gastrointestinal Nursing Observation",
+        "candidates": [],
+        "reason": "Only elective nursing observation."
+      },
+      {
+        "description": "ELECT - ophth RADIOTHER /CW-6461",
+        "verdict": "match",
+        "service": "Elective Ophthalmic Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Elective ophthalmic radiotherapy unique."
+      },
+      {
+        "description": "ENDOSC - ext PSYCHIATRIC /CW-9075",
+        "verdict": "match",
+        "service": "Extended Psychiatric Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Extended psychiatric endoscopic unique."
+      },
+      {
+        "description": "ENDOSC - outpatient UROLOGIC /CW-5618",
+        "verdict": "match",
+        "service": "Outpatient Urologic Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Outpatient urologic endoscopic unique."
+      },
+      {
+        "description": "EXT ren BD occupancy /CW-7024",
+        "verdict": "match",
+        "service": "Extended Renal Ward Bed Occupancy",
+        "candidates": [],
+        "reason": "Extended renal bed occupancy unique."
+      },
+      {
+        "description": "EXT ren WD occ /CW-7113",
+        "verdict": "match",
+        "service": "Extended Renal Ward Bed Occupancy",
+        "candidates": [],
+        "reason": "Extended renal ward occupancy unique."
+      },
+      {
+        "description": "FOCUSED biop PROC",
+        "verdict": "match",
+        "service": "Focused Metabolic Biopsy Procedure",
+        "candidates": [],
+        "reason": "Only focused biopsy procedure."
+      },
+      {
+        "description": "GI - transfusion SVC /CW-9161",
+        "verdict": "match",
+        "service": "Continuous Gastrointestinal Transfusion Service",
+        "candidates": [],
+        "reason": "Only GI transfusion service."
+      },
+      {
+        "description": "HEP - inf THERAPY",
+        "verdict": "match",
+        "service": "Standard Hepatic Infusion Therapy",
+        "candidates": [],
+        "reason": "Only hepatic infusion therapy."
+      },
+      {
+        "description": "IMG - preoperative ONC",
+        "verdict": "match",
+        "service": "Preoperative Oncology Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Preoperative oncology imaging unique."
+      },
+      {
+        "description": "IMG preoperative ONCOLOGY /CW-9430",
+        "verdict": "match",
+        "service": "Preoperative Oncology Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Preoperative oncology imaging unique."
+      },
+      {
+        "description": "IMMUN - spclst /CW-9956",
+        "verdict": "match",
+        "service": "Specialist Immunologic Consultation",
+        "candidates": [],
+        "reason": "Only specialist immunologic service."
+      },
+      {
+        "description": "INFECT - critical CARE occ",
+        "verdict": "match",
+        "service": "Continuous Infectious Critical Care Occupancy",
+        "candidates": [],
+        "reason": "Only infectious critical care occupancy."
+      },
+      {
+        "description": "INTENS  neurological DIAG img /CW-9312",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No neurological diagnostic imaging listed."
+      },
+      {
+        "description": "INTERM - rheum SESS /CW-7476",
+        "verdict": "match",
+        "service": "Intermittent Rheumatologic Dialysis Session",
+        "candidates": [],
+        "reason": "Intermittent rheumatologic session unique."
+      },
+      {
+        "description": "INTERM - urol TELEMETRY /CW-3304",
+        "verdict": "match",
+        "service": "Intermittent Urologic Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Intermittent urologic telemetry unique."
+      },
+      {
+        "description": "LAB  - emer DERM /CW-2124",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No dermatologic laboratory service listed."
+      },
+      {
+        "description": "NURS - elect GASTROINTESTINAL /CW-1281",
+        "verdict": "match",
+        "service": "Elective Gastrointestinal Nursing Observation",
+        "candidates": [],
+        "reason": "Elective GI nursing unique."
+      },
+      {
+        "description": "OBS - gi NURS /CW-2992",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Elective Gastrointestinal Nursing Observation",
+          "Supervised Gastrointestinal Nursing Observation"
+        ],
+        "reason": "Modifier dropped; two GI nursing observations."
+      },
+      {
+        "description": "OCC  - standard ORTHO cr /CW-6124",
+        "verdict": "match",
+        "service": "Standard Orthopaedic Critical Care Occupancy",
+        "candidates": [],
+        "reason": "Standard orthopaedic critical care unique."
+      },
+      {
+        "description": "OCC - std CRIT cr /CW-1779",
+        "verdict": "match",
+        "service": "Standard Orthopaedic Critical Care Occupancy",
+        "candidates": [],
+        "reason": "Only standard critical care occupancy."
+      },
+      {
+        "description": "OCC advanced ORTHO wd",
+        "verdict": "match",
+        "service": "Advanced Orthopaedic Ward Bed Occupancy",
+        "candidates": [],
+        "reason": "Advanced orthopaedic ward occupancy unique."
+      },
+      {
+        "description": "OCCUPANCY  adv ONC bd /CW-4545",
+        "verdict": "match",
+        "service": "Advanced Oncology Ward Bed Occupancy",
+        "candidates": [],
+        "reason": "Advanced oncology bed occupancy unique."
+      },
+      {
+        "description": "ORTHOPAEDIC recov RM occupancy /CW-4525",
+        "verdict": "match",
+        "service": "Outpatient Orthopaedic Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Only orthopaedic recovery room occupancy."
+      },
+      {
+        "description": "OUTPATIENT - rheum ADMINISTRATION /CW-5971",
+        "verdict": "match",
+        "service": "Outpatient Rheumatologic Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Outpatient rheumatologic administration unique."
+      },
+      {
+        "description": "OUTPT - obst DIAL /CW-3474",
+        "verdict": "match",
+        "service": "Outpatient Obstetric Dialysis Session",
+        "candidates": [],
+        "reason": "Outpatient obstetric dialysis unique."
+      },
+      {
+        "description": "OUTPT metabolic PHARM disp",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No pharmacy dispensing service listed."
+      },
+      {
+        "description": "OUTPT recov RM occ",
+        "verdict": "match",
+        "service": "Outpatient Orthopaedic Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Only outpatient recovery room occupancy."
+      },
+      {
+        "description": "PLNG cont OTOLARYNGOLOGIC disch",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No otolaryngologic discharge planning listed."
+      },
+      {
+        "description": "POSTOP - ger INTERP /CW-6488",
+        "verdict": "match",
+        "service": "Postoperative Geriatric Imaging Interpretation",
+        "candidates": [],
+        "reason": "Postoperative geriatric interpretation unique."
+      },
+      {
+        "description": "POSTOPERATIVE card CR",
+        "verdict": "match",
+        "service": "Postoperative Cardiac Wound Care",
+        "candidates": [],
+        "reason": "Postoperative cardiac care unique."
+      },
+      {
+        "description": "PREOP - ger DIAG /CW-2259",
+        "verdict": "match",
+        "service": "Preoperative Geriatric Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Preoperative geriatric diagnostic unique."
+      },
+      {
+        "description": "PREOP - haem INTERP",
+        "verdict": "match",
+        "service": "Preoperative Haematology Imaging Interpretation",
+        "candidates": [],
+        "reason": "Preoperative haematology interpretation unique."
+      },
+      {
+        "description": "PREOP - haematology IMG",
+        "verdict": "match",
+        "service": "Preoperative Haematology Imaging Interpretation",
+        "candidates": [],
+        "reason": "Preoperative haematology imaging unique."
+      },
+      {
+        "description": "PREOP - onc DIAG /CW-5837",
+        "verdict": "match",
+        "service": "Preoperative Oncology Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Preoperative oncology diagnostic unique."
+      },
+      {
+        "description": "PREOP geriatric IMG /CW-3234",
+        "verdict": "match",
+        "service": "Preoperative Geriatric Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Preoperative geriatric imaging unique."
+      },
+      {
+        "description": "PREOP msk ROOM occ",
+        "verdict": "match",
+        "service": "Preoperative Musculoskeletal Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Preoperative MSK room occupancy unique."
+      },
+      {
+        "description": "PROC - ext PSYCH /CW-9029",
+        "verdict": "match",
+        "service": "Extended Psychiatric Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Extended psychiatric procedure unique."
+      },
+      {
+        "description": "PROG - interm PSYCH",
+        "verdict": "match",
+        "service": "Intermittent Psychiatric Rehabilitation Programme",
+        "candidates": [],
+        "reason": "Intermittent psychiatric programme unique."
+      },
+      {
+        "description": "REN - wd BD occ /CW-4382",
+        "verdict": "match",
+        "service": "Extended Renal Ward Bed Occupancy",
+        "candidates": [],
+        "reason": "Only renal ward bed occupancy."
+      },
+      {
+        "description": "RHEUM rehabilitation PROGRAMME /CW-4700",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Ambulatory Rheumatologic Rehabilitation Programme",
+          "Emergency Rheumatologic Rehabilitation Programme"
+        ],
+        "reason": "Modifier dropped; two rheumatologic rehabilitation programmes."
+      },
+      {
+        "description": "RTN - ortho TRANSF service /CW-3818",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No orthopaedic transfusion service listed."
+      },
+      {
+        "description": "SPCLST - consult",
+        "verdict": "match",
+        "service": "Specialist Immunologic Consultation",
+        "candidates": [],
+        "reason": "Only specialist consultation."
+      },
+      {
+        "description": "SPCLST immunologic /CW-6493",
+        "verdict": "match",
+        "service": "Specialist Immunologic Consultation",
+        "candidates": [],
+        "reason": "Specialist immunologic unique."
+      },
+      {
+        "description": "SPCLST wnd CR /CW-6542",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "Wound care only listed as postoperative, not specialist."
+      },
+      {
+        "description": "SPCM  - asst OBST /CW-9843",
+        "verdict": "match",
+        "service": "Assisted Obstetric Specimen Analysis",
+        "candidates": [],
+        "reason": "Assisted obstetric specimen unique."
+      },
+      {
+        "description": "SUPERVISED  - vasc RADIOTHER",
+        "verdict": "match",
+        "service": "Supervised Vascular Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Supervised vascular radiotherapy unique."
+      },
+      {
+        "description": "SUPP asst VENTILATION /CW-3888",
+        "verdict": "match",
+        "service": "Assisted Cardiac Ventilation Support",
+        "candidates": [],
+        "reason": "Only assisted ventilation support."
+      },
+      {
+        "description": "SVC - ortho STERILISATION",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No orthopaedic sterilisation service listed."
+      },
+      {
+        "description": "TRANSF - cont GI",
+        "verdict": "match",
+        "service": "Continuous Gastrointestinal Transfusion Service",
+        "candidates": [],
+        "reason": "Continuous GI transfusion unique."
+      },
+      {
+        "description": "VST  foc NEURO /CW-8682",
+        "verdict": "none",
+        "service": null,
+        "candidates": [],
+        "reason": "No neurological home visit listed."
+      },
+      {
+        "description": "VST - supv PULMONARY /CW-3511",
+        "verdict": "match",
+        "service": "Supervised Pulmonary Home Visit",
+        "candidates": [],
+        "reason": "Supervised pulmonary visit unique."
+      },
+      {
+        "description": "admin REN anaesthesia",
+        "verdict": "match",
+        "service": "Intermittent Renal Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Only renal anaesthesia administration."
+      },
+      {
+        "description": "adv  - PAED thtr /CW-9651",
+        "verdict": "match",
+        "service": "Advanced Paediatric Theatre Time",
+        "candidates": [],
+        "reason": "Advanced paediatric theatre unique."
+      },
+      {
+        "description": "adv - VASC proc",
+        "verdict": "match",
+        "service": "Advanced Vascular Endoscopic Procedure",
+        "candidates": [],
+        "reason": "Advanced vascular procedure unique."
+      },
+      {
+        "description": "amb MSK spcm",
+        "verdict": "match",
+        "service": "Ambulatory Musculoskeletal Specimen Analysis",
+        "candidates": [],
+        "reason": "Ambulatory MSK specimen unique."
+      },
+      {
+        "description": "amb WD bed OCC /CW-2964",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Ambulatory Cardiac Ward Bed Occupancy",
+          "Ambulatory Immunologic Ward Bed Occupancy"
+        ],
+        "reason": "Specialty dropped; two ambulatory ward bed occupancies."
+      },
+      {
+        "description": "anly INTENS spcm",
+        "verdict": "match",
+        "service": "Intensive Urologic Specimen Analysis",
+        "candidates": [],
+        "reason": "Only intensive specimen analysis."
+      },
+      {
+        "description": "assisted - NUTR supp",
+        "verdict": "match",
+        "service": "Assisted Renal Nutritional Support",
+        "candidates": [],
+        "reason": "Only assisted nutritional support."
+      },
+      {
+        "description": "asst RENAL nutr /CW-4158",
+        "verdict": "match",
+        "service": "Assisted Renal Nutritional Support",
+        "candidates": [],
+        "reason": "Assisted renal nutrition unique."
+      },
+      {
+        "description": "beds CARD hm /CW-4363",
+        "verdict": "match",
+        "service": "Bedside Cardiac Home Visit",
+        "candidates": [],
+        "reason": "Bedside cardiac home unique."
+      },
+      {
+        "description": "bedside OBST img",
+        "verdict": "match",
+        "service": "Bedside Obstetric Imaging Interpretation",
+        "candidates": [],
+        "reason": "Bedside obstetric imaging unique."
+      },
+      {
+        "description": "card  - HOME vst",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Bedside Cardiac Home Visit",
+          "Routine Cardiac Home Visit"
+        ],
+        "reason": "Modifier dropped; two cardiac home visits."
+      },
+      {
+        "description": "card VENT support",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Assisted Cardiac Ventilation Support",
+          "Specialist Cardiac Ventilation Support"
+        ],
+        "reason": "Modifier dropped; two cardiac ventilation supports."
+      },
+      {
+        "description": "conf - UROL cs /CW-3094",
+        "verdict": "match",
+        "service": "Focused Urologic Case Conference",
+        "candidates": [],
+        "reason": "Only urologic case conference."
+      },
+      {
+        "description": "emer  - METAB radiother",
+        "verdict": "match",
+        "service": "Emergency Metabolic Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Emergency metabolic radiotherapy unique."
+      },
+      {
+        "description": "emer - RHEUMATOLOGIC prog /CW-1178",
+        "verdict": "match",
+        "service": "Emergency Rheumatologic Rehabilitation Programme",
+        "candidates": [],
+        "reason": "Emergency rheumatologic programme unique."
+      },
+      {
+        "description": "ext  UROLOGIC telem",
+        "verdict": "match",
+        "service": "Extended Urologic Telemetry Monitoring",
+        "candidates": [],
+        "reason": "Extended urologic telemetry unique."
+      },
+      {
+        "description": "ext - OBSTETRIC conf",
+        "verdict": "match",
+        "service": "Extended Obstetric Case Conference",
+        "candidates": [],
+        "reason": "Extended obstetric conference unique."
+      },
+      {
+        "description": "ext - RHEUMATOLOGIC observation /CW-5150",
+        "verdict": "match",
+        "service": "Extended Rheumatologic Nursing Observation",
+        "candidates": [],
+        "reason": "Extended rheumatologic observation unique."
+      },
+      {
+        "description": "ext RHEUM obs",
+        "verdict": "match",
+        "service": "Extended Rheumatologic Nursing Observation",
+        "candidates": [],
+        "reason": "Extended rheumatologic observation unique."
+      },
+      {
+        "description": "ger - CASE conf",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Intensive Geriatric Case Conference",
+          "Postoperative Geriatric Case Conference"
+        ],
+        "reason": "Modifier dropped; two geriatric case conferences."
+      },
+      {
+        "description": "gi - IMG interp",
+        "verdict": "match",
+        "service": "Specialist Gastrointestinal Imaging Interpretation",
+        "candidates": [],
+        "reason": "Only GI imaging interpretation."
+      },
+      {
+        "description": "haematology - TRANSF svc",
+        "verdict": "match",
+        "service": "Ambulatory Haematology Transfusion Service",
+        "candidates": [],
+        "reason": "Only haematology transfusion service."
+      },
+      {
+        "description": "hep - DISCHARGE plng /CW-2290",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Extended Hepatic Discharge Planning",
+          "Specialist Hepatic Discharge Planning"
+        ],
+        "reason": "Modifier dropped; two hepatic discharge plannings."
+      },
+      {
+        "description": "hm - ADV palliative",
+        "verdict": "match",
+        "service": "Advanced Palliative Home Visit",
+        "candidates": [],
+        "reason": "Advanced palliative home unique."
+      },
+      {
+        "description": "img  COMPREHENSIVE urologic /CW-6158",
+        "verdict": "match",
+        "service": "Comprehensive Urologic Imaging Interpretation",
+        "candidates": [],
+        "reason": "Comprehensive urologic imaging unique."
+      },
+      {
+        "description": "img - OUTPT ger",
+        "verdict": "match",
+        "service": "Outpatient Geriatric Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Outpatient geriatric imaging unique."
+      },
+      {
+        "description": "intens - RHEUM radiotherapy /CW-4273",
+        "verdict": "match",
+        "service": "Intensive Rheumatologic Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Intensive rheumatologic radiotherapy unique."
+      },
+      {
+        "description": "intermittent - REN anaes",
+        "verdict": "match",
+        "service": "Intermittent Renal Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Intermittent renal anaesthesia unique."
+      },
+      {
+        "description": "interp COMPR img /CW-6998",
+        "verdict": "match",
+        "service": "Comprehensive Urologic Imaging Interpretation",
+        "candidates": [],
+        "reason": "Only comprehensive imaging interpretation."
+      },
+      {
+        "description": "interpretation - COMPR img /CW-2951",
+        "verdict": "match",
+        "service": "Comprehensive Urologic Imaging Interpretation",
+        "candidates": [],
+        "reason": "Only comprehensive imaging interpretation."
+      },
+      {
+        "description": "msk - SPCM analysis",
+        "verdict": "match",
+        "service": "Ambulatory Musculoskeletal Specimen Analysis",
+        "candidates": [],
+        "reason": "Only MSK specimen analysis."
+      },
+      {
+        "description": "occ AMB card WARD /CW-1077",
+        "verdict": "match",
+        "service": "Ambulatory Cardiac Ward Bed Occupancy",
+        "candidates": [],
+        "reason": "Ambulatory cardiac ward unique."
+      },
+      {
+        "description": "occ PALLIATIVE recov RM",
+        "verdict": "match",
+        "service": "Postoperative Palliative Recovery Room Occupancy",
+        "candidates": [],
+        "reason": "Only palliative recovery room occupancy."
+      },
+      {
+        "description": "occupancy ONC wd BD",
+        "verdict": "ambiguous",
+        "service": null,
+        "candidates": [
+          "Advanced Oncology Ward Bed Occupancy",
+          "Standard Oncology Ward Bed Occupancy"
+        ],
+        "reason": "Modifier dropped; two oncology ward bed occupancies."
+      },
+      {
+        "description": "ortho  - ANAES admin /CW-7356",
+        "verdict": "match",
+        "service": "Inpatient Orthopaedic Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Only orthopaedic anaesthesia administration."
+      },
+      {
+        "description": "ortho - ANAES admin /CW-8548",
+        "verdict": "match",
+        "service": "Inpatient Orthopaedic Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Only orthopaedic anaesthesia administration."
+      },
+      {
+        "description": "ortho - ANAES administration",
+        "verdict": "match",
+        "service": "Inpatient Orthopaedic Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Only orthopaedic anaesthesia administration."
+      },
+      {
+        "description": "outpatient  - GER diag /CW-5691",
+        "verdict": "match",
+        "service": "Outpatient Geriatric Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Outpatient geriatric diagnostic unique."
+      },
+      {
+        "description": "outpt - CARDIAC physio",
+        "verdict": "match",
+        "service": "Outpatient Cardiac Physiotherapy Session",
+        "candidates": [],
+        "reason": "Outpatient cardiac physiotherapy unique."
+      },
+      {
+        "description": "outpt CARD sess",
+        "verdict": "match",
+        "service": "Outpatient Cardiac Physiotherapy Session",
+        "candidates": [],
+        "reason": "Only outpatient cardiac session."
+      },
+      {
+        "description": "plng EXT disch /CW-9928",
+        "verdict": "match",
+        "service": "Extended Hepatic Discharge Planning",
+        "candidates": [],
+        "reason": "Only extended discharge planning."
+      },
+      {
+        "description": "postop  - ONC img",
+        "verdict": "match",
+        "service": "Postoperative Oncology Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Postoperative oncology imaging unique."
+      },
+      {
+        "description": "postop ONC img /CW-9715",
+        "verdict": "match",
+        "service": "Postoperative Oncology Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Postoperative oncology imaging unique."
+      },
+      {
+        "description": "postop ONCOLOGY imaging /CW-3721",
+        "verdict": "match",
+        "service": "Postoperative Oncology Diagnostic Imaging",
+        "candidates": [],
+        "reason": "Postoperative oncology imaging unique."
+      },
+      {
+        "description": "postoperative CS conference /CW-1435",
+        "verdict": "match",
+        "service": "Postoperative Geriatric Case Conference",
+        "candidates": [],
+        "reason": "Only postoperative case conference."
+      },
+      {
+        "description": "prog CONT rehab /CW-3359",
+        "verdict": "match",
+        "service": "Continuous Psychiatric Rehabilitation Programme",
+        "candidates": [],
+        "reason": "Only continuous rehabilitation programme."
+      },
+      {
+        "description": "renal ANAES admin",
+        "verdict": "match",
+        "service": "Intermittent Renal Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Only renal anaesthesia administration."
+      },
+      {
+        "description": "rheum - RADIOTHERAPY fract /CW-5238",
+        "verdict": "match",
+        "service": "Intensive Rheumatologic Radiotherapy Fraction",
+        "candidates": [],
+        "reason": "Only rheumatologic radiotherapy fraction."
+      },
+      {
+        "description": "service - INTENS steril /CW-8257",
+        "verdict": "match",
+        "service": "Intensive Vascular Sterilisation Service",
+        "candidates": [],
+        "reason": "Only intensive sterilisation service."
+      },
+      {
+        "description": "standard - ONC bd OCC",
+        "verdict": "match",
+        "service": "Standard Oncology Ward Bed Occupancy",
+        "candidates": [],
+        "reason": "Standard oncology bed occupancy unique."
+      },
+      {
+        "description": "std - DIAL sess /CW-2606",
+        "verdict": "match",
+        "service": "Standard Paediatric Dialysis Session",
+        "candidates": [],
+        "reason": "Only standard dialysis session."
+      },
+      {
+        "description": "std - VASC vst",
+        "verdict": "match",
+        "service": "Standard Vascular Home Visit",
+        "candidates": [],
+        "reason": "Standard vascular visit unique."
+      },
+      {
+        "description": "supervised - PULM admin",
+        "verdict": "match",
+        "service": "Supervised Pulmonary Anaesthesia Administration",
+        "candidates": [],
+        "reason": "Admin excludes home visit; anaesthesia administration unique."
+      },
+      {
+        "description": "supv  - DIAL sess /CW-1782",
+        "verdict": "match",
+        "service": "Supervised Rheumatologic Dialysis Session",
+        "candidates": [],
+        "reason": "Only supervised dialysis session."
+      },
+      {
+        "description": "supv  NURSING obs",
+        "verdict": "match",
+        "service": "Supervised Gastrointestinal Nursing Observation",
+        "candidates": [],
+        "reason": "Only supervised nursing observation."
+      },
+      {
+        "description": "supv RHEUM sess /CW-6316",
+        "verdict": "match",
+        "service": "Supervised Rheumatologic Dialysis Session",
+        "candidates": [],
+        "reason": "Supervised rheumatologic session unique."
+      },
+      {
+        "description": "tm OUTPATIENT urol /CW-9136",
+        "verdict": "match",
+        "service": "Outpatient Urologic Theatre Time",
+        "candidates": [],
+        "reason": "Outpatient urologic time unique."
+      },
+      {
+        "description": "visit STD vasc",
+        "verdict": "match",
+        "service": "Standard Vascular Home Visit",
+        "candidates": [],
+        "reason": "Standard vascular visit unique."
+      }
+    ]
+  }
+}

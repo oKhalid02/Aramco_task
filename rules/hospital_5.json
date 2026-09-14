@@ -1,0 +1,1897 @@
+{
+  "bundles": [
+    {
+      "a": "Elective Ophthalmic Recovery Room Occupancy",
+      "b": "Supervised Palliative Consultation",
+      "rate_a_cents": 172450,
+      "rate_b_cents": 388450
+    },
+    {
+      "a": "Emergency Metabolic Discharge Planning",
+      "b": "Specialist Gastrointestinal Pharmaceutical Dispensing",
+      "rate_a_cents": 17500,
+      "rate_b_cents": 3500
+    },
+    {
+      "a": "Extended Urologic Infusion Therapy",
+      "b": "Standard Paediatric Radiotherapy Fraction",
+      "rate_a_cents": 5925,
+      "rate_b_cents": 94325
+    }
+  ],
+  "caps": {
+    "Advanced Cardiac Ventilation Support": 24,
+    "Advanced Dermatologic Pharmaceutical Dispensing": 4,
+    "Assisted Hepatic Physiotherapy Session": 12,
+    "Comprehensive Oncology Transfusion Service": 8,
+    "Emergency Oncology Imaging Interpretation": 4,
+    "Extended Dermatologic Transport Service": 4,
+    "Intermittent Vascular Telemetry Monitoring": 8,
+    "Preoperative Ophthalmic Transport Service": 6,
+    "Routine Infectious Infusion Therapy": 24
+  },
+  "contract_number": "INS-H5-2024-0731",
+  "discounts": {
+    "Ambulatory Hepatic Case Conference": [
+      {
+        "pct": "12",
+        "threshold": 80
+      }
+    ],
+    "Continuous Metabolic Endoscopic Procedure": [
+      {
+        "pct": "12",
+        "threshold": 80
+      }
+    ],
+    "Elective Metabolic Pharmaceutical Dispensing": [
+      {
+        "pct": "12",
+        "threshold": 100
+      },
+      {
+        "pct": "25",
+        "threshold": 300
+      }
+    ],
+    "Extended Endocrine Theatre Time": [
+      {
+        "pct": "12",
+        "threshold": 100
+      },
+      {
+        "pct": "30",
+        "threshold": 300
+      }
+    ],
+    "Inpatient Dermatologic Nursing Observation": [
+      {
+        "pct": "12",
+        "threshold": 100
+      },
+      {
+        "pct": "20",
+        "threshold": 300
+      }
+    ],
+    "Intensive Oncology Sterilisation Service": [
+      {
+        "pct": "10",
+        "threshold": 120
+      }
+    ],
+    "Preoperative Gastrointestinal Nutritional Support": [
+      {
+        "pct": "10",
+        "threshold": 120
+      },
+      {
+        "pct": "25",
+        "threshold": 360
+      }
+    ],
+    "Supervised Immunologic Sterilisation Service": [
+      {
+        "pct": "15",
+        "threshold": 100
+      },
+      {
+        "pct": "25",
+        "threshold": 300
+      }
+    ],
+    "Supervised Otolaryngologic Specimen Analysis": [
+      {
+        "pct": "10",
+        "threshold": 60
+      },
+      {
+        "pct": "20",
+        "threshold": 180
+      }
+    ]
+  },
+  "exclusions": [
+    {
+      "days": 30,
+      "excluded_by": "Ambulatory Paediatric Isolation Room Occupancy",
+      "service": "Comprehensive Ophthalmic Isolation Room Occupancy"
+    },
+    {
+      "days": 30,
+      "excluded_by": "Elective Pulmonary Radiotherapy Fraction",
+      "service": "Elective Ophthalmic Nutritional Support"
+    },
+    {
+      "days": 14,
+      "excluded_by": "Ambulatory Oncology Imaging Interpretation",
+      "service": "Inpatient Immunologic Recovery Room Occupancy"
+    },
+    {
+      "days": 14,
+      "excluded_by": "Preoperative Paediatric Biopsy Procedure",
+      "service": "Intermittent Orthopaedic Discharge Planning"
+    },
+    {
+      "days": 10,
+      "excluded_by": "Continuous Pulmonary Case Conference",
+      "service": "Intermittent Urologic Discharge Planning"
+    },
+    {
+      "days": 10,
+      "excluded_by": "Ambulatory Paediatric Isolation Room Occupancy",
+      "service": "Preoperative Endocrine Rehabilitation Programme"
+    },
+    {
+      "days": 10,
+      "excluded_by": "Inpatient Pulmonary Critical Care Occupancy",
+      "service": "Routine Urologic Transport Service"
+    }
+  ],
+  "facility_multipliers": {
+    "Advanced Cardiac Ventilation Support": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Advanced Dermatologic Pharmaceutical Dispensing": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Ambulatory Hepatic Case Conference": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Ambulatory Metabolic Imaging Interpretation": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Ambulatory Oncology Imaging Interpretation": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Ambulatory Paediatric Isolation Room Occupancy": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.15"
+    },
+    "Assisted Cardiac Ventilation Support": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Assisted Hepatic Physiotherapy Session": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Assisted Immunologic Sterilisation Service": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Assisted Metabolic Endoscopic Procedure": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Assisted Renal Imaging Interpretation": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Bedside Oncology Transfusion Service": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.15"
+    },
+    "Bedside Paediatric Consultation": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.15"
+    },
+    "Comprehensive Gastrointestinal Endoscopic Procedure": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Comprehensive Geriatric Wound Care": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Comprehensive Metabolic Ventilation Support": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Comprehensive Oncology Transfusion Service": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.15"
+    },
+    "Comprehensive Ophthalmic Isolation Room Occupancy": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Comprehensive Palliative Consultation": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Continuous Immunologic Laboratory Panel": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Continuous Metabolic Endoscopic Procedure": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Continuous Otolaryngologic Transport Service": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.15"
+    },
+    "Continuous Pulmonary Case Conference": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Elective Metabolic Pharmaceutical Dispensing": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.15"
+    },
+    "Elective Ophthalmic Nutritional Support": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Elective Ophthalmic Recovery Room Occupancy": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Elective Pulmonary Radiotherapy Fraction": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Elective Vascular Diagnostic Imaging": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.15"
+    },
+    "Emergency Gastrointestinal Endoscopic Procedure": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Emergency Metabolic Discharge Planning": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Emergency Neurological Biopsy Procedure": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Emergency Oncology Imaging Interpretation": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Emergency Pulmonary Radiotherapy Fraction": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Emergency Urologic Home Visit": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Extended Dermatologic Transport Service": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Extended Endocrine Theatre Time": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Extended Neurological Consultation": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Extended Ophthalmic Transport Service": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Extended Psychiatric Endoscopic Procedure": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Extended Urologic Infusion Therapy": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Focused Endocrine Theatre Time": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Focused Neurological Radiotherapy Fraction": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Focused Urologic Nutritional Support": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Inpatient Dermatologic Nursing Observation": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Inpatient Immunologic Recovery Room Occupancy": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Inpatient Psychiatric Case Conference": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Inpatient Pulmonary Critical Care Occupancy": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Intensive Hepatic Case Conference": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.15"
+    },
+    "Intensive Oncology Sterilisation Service": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Intermittent Orthopaedic Discharge Planning": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.15"
+    },
+    "Intermittent Urologic Discharge Planning": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Intermittent Vascular Telemetry Monitoring": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Outpatient Dermatologic Home Visit": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Outpatient Haematology Laboratory Panel": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Outpatient Metabolic Physiotherapy Session": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.15"
+    },
+    "Outpatient Neurological Recovery Room Occupancy": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Outpatient Psychiatric Discharge Planning": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Postoperative Musculoskeletal Imaging Interpretation": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Preoperative Endocrine Rehabilitation Programme": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Preoperative Gastrointestinal Nutritional Support": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Preoperative Immunologic Recovery Room Occupancy": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Preoperative Musculoskeletal Nutritional Support": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Preoperative Ophthalmic Transport Service": {
+      "F-COAST": "1.05",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Preoperative Paediatric Biopsy Procedure": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Routine Dermatologic Home Visit": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Routine Geriatric Telemetry Monitoring": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Routine Infectious Infusion Therapy": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Routine Neurological Biopsy Procedure": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Routine Psychiatric Physiotherapy Session": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Routine Psychiatric Telemetry Monitoring": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Routine Urologic Radiotherapy Fraction": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Routine Urologic Transport Service": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Specialist Dermatologic Nursing Observation": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Specialist Gastrointestinal Pharmaceutical Dispensing": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Specialist Metabolic Sterilisation Service": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.15"
+    },
+    "Standard Infectious Ventilation Support": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Standard Paediatric Radiotherapy Fraction": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.1"
+    },
+    "Standard Psychiatric Discharge Planning": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Supervised Immunologic Sterilisation Service": {
+      "F-COAST": "0.92",
+      "F-MAIN": "1",
+      "F-NORTH": "1.2"
+    },
+    "Supervised Metabolic Discharge Planning": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.08"
+    },
+    "Supervised Otolaryngologic Specimen Analysis": {
+      "F-COAST": "0.95",
+      "F-MAIN": "1",
+      "F-NORTH": "1.15"
+    },
+    "Supervised Palliative Consultation": {
+      "F-COAST": "0.9",
+      "F-MAIN": "1",
+      "F-NORTH": "1.15"
+    },
+    "Supervised Vascular Consultation": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    },
+    "Supervised Vascular Diagnostic Imaging": {
+      "F-COAST": "1",
+      "F-MAIN": "1",
+      "F-NORTH": "1"
+    }
+  },
+  "hospital": "H5",
+  "premiums": {
+    "Assisted Immunologic Sterilisation Service": {
+      "threshold": 10,
+      "uplift_pct": "15"
+    },
+    "Comprehensive Palliative Consultation": {
+      "threshold": 8,
+      "uplift_pct": "30"
+    },
+    "Emergency Pulmonary Radiotherapy Fraction": {
+      "threshold": 8,
+      "uplift_pct": "20"
+    },
+    "Focused Urologic Nutritional Support": {
+      "threshold": 8,
+      "uplift_pct": "40"
+    },
+    "Outpatient Psychiatric Discharge Planning": {
+      "threshold": 10,
+      "uplift_pct": "30"
+    },
+    "Preoperative Musculoskeletal Nutritional Support": {
+      "threshold": 8,
+      "uplift_pct": "25"
+    },
+    "Routine Dermatologic Home Visit": {
+      "threshold": 12,
+      "uplift_pct": "30"
+    },
+    "Routine Geriatric Telemetry Monitoring": {
+      "threshold": 16,
+      "uplift_pct": "15"
+    },
+    "Routine Psychiatric Physiotherapy Session": {
+      "threshold": 12,
+      "uplift_pct": "15"
+    },
+    "Specialist Metabolic Sterilisation Service": {
+      "threshold": 12,
+      "uplift_pct": "25"
+    }
+  },
+  "services": {
+    "Advanced Cardiac Ventilation Support": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 3375
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Advanced Dermatologic Pharmaceutical Dispensing": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 8175
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Ambulatory Hepatic Case Conference": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 19775
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Ambulatory Metabolic Imaging Interpretation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 3900
+        }
+      ],
+      "unit": "per_test"
+    },
+    "Ambulatory Oncology Imaging Interpretation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 6675
+        }
+      ],
+      "unit": "per_test"
+    },
+    "Ambulatory Paediatric Isolation Room Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 126525
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Assisted Cardiac Ventilation Support": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 156675
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Assisted Hepatic Physiotherapy Session": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 19025
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Assisted Immunologic Sterilisation Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 24500
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Assisted Metabolic Endoscopic Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 110150
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Assisted Renal Imaging Interpretation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 161650
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Bedside Oncology Transfusion Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 3025
+        }
+      ],
+      "unit": "per_unit_dispensed"
+    },
+    "Bedside Paediatric Consultation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 421875
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Comprehensive Gastrointestinal Endoscopic Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 141500
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Comprehensive Geriatric Wound Care": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 11725
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Comprehensive Metabolic Ventilation Support": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 47650
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Comprehensive Oncology Transfusion Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 414475
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Comprehensive Ophthalmic Isolation Room Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 105950
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Comprehensive Palliative Consultation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 35050
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Continuous Immunologic Laboratory Panel": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 7025
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Continuous Metabolic Endoscopic Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 550750
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Continuous Otolaryngologic Transport Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 14675
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Continuous Pulmonary Case Conference": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 4300
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Elective Metabolic Pharmaceutical Dispensing": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 28450
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Elective Ophthalmic Nutritional Support": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 94300
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Elective Ophthalmic Recovery Room Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 195975
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Elective Pulmonary Radiotherapy Fraction": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 353625
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Elective Vascular Diagnostic Imaging": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 284175
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Emergency Gastrointestinal Endoscopic Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 707500
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Emergency Metabolic Discharge Planning": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 20575
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Emergency Neurological Biopsy Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 440750
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Emergency Oncology Imaging Interpretation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 441250
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Emergency Pulmonary Radiotherapy Fraction": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 5850
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Emergency Urologic Home Visit": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 17325
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Extended Dermatologic Transport Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 14475
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Extended Endocrine Theatre Time": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 15700
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Extended Neurological Consultation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 17100
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Extended Ophthalmic Transport Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 27750
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Extended Psychiatric Endoscopic Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 145200
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Extended Urologic Infusion Therapy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 7400
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Focused Endocrine Theatre Time": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 3925
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Focused Neurological Radiotherapy Fraction": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 1950
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Focused Urologic Nutritional Support": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 7700
+        }
+      ],
+      "unit": "per_unit_dispensed"
+    },
+    "Inpatient Dermatologic Nursing Observation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 132400
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Inpatient Immunologic Recovery Room Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 9500
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Inpatient Psychiatric Case Conference": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 12175
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Inpatient Pulmonary Critical Care Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 57800
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Intensive Hepatic Case Conference": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 21375
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Intensive Oncology Sterilisation Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 247750
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Intermittent Orthopaedic Discharge Planning": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 37375
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Intermittent Urologic Discharge Planning": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 12125
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Intermittent Vascular Telemetry Monitoring": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 3850
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Outpatient Dermatologic Home Visit": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 19375
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Outpatient Haematology Laboratory Panel": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 19050
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Outpatient Metabolic Physiotherapy Session": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 16725
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Outpatient Neurological Recovery Room Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 111475
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Outpatient Psychiatric Discharge Planning": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 19300
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Postoperative Musculoskeletal Imaging Interpretation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 431375
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Preoperative Endocrine Rehabilitation Programme": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 33725
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Preoperative Gastrointestinal Nutritional Support": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 3750
+        }
+      ],
+      "unit": "per_unit_dispensed"
+    },
+    "Preoperative Immunologic Recovery Room Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 142550
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Preoperative Musculoskeletal Nutritional Support": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 6675
+        }
+      ],
+      "unit": "per_unit_dispensed"
+    },
+    "Preoperative Ophthalmic Transport Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 13975
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Preoperative Paediatric Biopsy Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 15675
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Routine Dermatologic Home Visit": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 96875
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Routine Geriatric Telemetry Monitoring": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 126725
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Routine Infectious Infusion Therapy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 7150
+        }
+      ],
+      "unit": "per_unit_dispensed"
+    },
+    "Routine Neurological Biopsy Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 18625
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Routine Psychiatric Physiotherapy Session": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 30950
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Routine Psychiatric Telemetry Monitoring": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 2950
+        }
+      ],
+      "unit": "per_hour_per_item"
+    },
+    "Routine Urologic Radiotherapy Fraction": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 5100
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Routine Urologic Transport Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 15250
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Specialist Dermatologic Nursing Observation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 10450
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Specialist Gastrointestinal Pharmaceutical Dispensing": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 4125
+        }
+      ],
+      "unit": "per_unit_dispensed"
+    },
+    "Specialist Metabolic Sterilisation Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 19825
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Standard Infectious Ventilation Support": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 19225
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Standard Paediatric Radiotherapy Fraction": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 117900
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Standard Psychiatric Discharge Planning": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 5200
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Supervised Immunologic Sterilisation Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 268575
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Supervised Metabolic Discharge Planning": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 16775
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Supervised Otolaryngologic Specimen Analysis": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 28300
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Supervised Palliative Consultation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 441425
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Supervised Vascular Consultation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 156100
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Supervised Vascular Diagnostic Imaging": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 20175
+        }
+      ],
+      "unit": "per_test"
+    }
+  },
+  "sources": [
+    "network_reimbursement_agreement.md"
+  ],
+  "submission_deadline_days": null,
+  "term_end": "2025-12-31",
+  "term_start": "2024-01-01",
+  "tier_multipliers": {
+    "Advanced Cardiac Ventilation Support": {
+      "BRONZE": "1",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Advanced Dermatologic Pharmaceutical Dispensing": {
+      "BRONZE": "1",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Ambulatory Hepatic Case Conference": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "1"
+    },
+    "Ambulatory Metabolic Imaging Interpretation": {
+      "BRONZE": "1",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Ambulatory Oncology Imaging Interpretation": {
+      "BRONZE": "1",
+      "GOLD": "0.9",
+      "SILVER": "0.98"
+    },
+    "Ambulatory Paediatric Isolation Room Occupancy": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "0.98"
+    },
+    "Assisted Cardiac Ventilation Support": {
+      "BRONZE": "1",
+      "GOLD": "0.92",
+      "SILVER": "1"
+    },
+    "Assisted Hepatic Physiotherapy Session": {
+      "BRONZE": "1",
+      "GOLD": "0.92",
+      "SILVER": "1"
+    },
+    "Assisted Immunologic Sterilisation Service": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Assisted Metabolic Endoscopic Procedure": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "1"
+    },
+    "Assisted Renal Imaging Interpretation": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "0.98"
+    },
+    "Bedside Oncology Transfusion Service": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "0.98"
+    },
+    "Bedside Paediatric Consultation": {
+      "BRONZE": "1",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Comprehensive Gastrointestinal Endoscopic Procedure": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Comprehensive Geriatric Wound Care": {
+      "BRONZE": "1.05",
+      "GOLD": "0.9",
+      "SILVER": "0.98"
+    },
+    "Comprehensive Metabolic Ventilation Support": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Comprehensive Oncology Transfusion Service": {
+      "BRONZE": "1.05",
+      "GOLD": "0.9",
+      "SILVER": "0.98"
+    },
+    "Comprehensive Ophthalmic Isolation Room Occupancy": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "0.98"
+    },
+    "Comprehensive Palliative Consultation": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "1"
+    },
+    "Continuous Immunologic Laboratory Panel": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Continuous Metabolic Endoscopic Procedure": {
+      "BRONZE": "1",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Continuous Otolaryngologic Transport Service": {
+      "BRONZE": "1.05",
+      "GOLD": "0.9",
+      "SILVER": "0.98"
+    },
+    "Continuous Pulmonary Case Conference": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Elective Metabolic Pharmaceutical Dispensing": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "1"
+    },
+    "Elective Ophthalmic Nutritional Support": {
+      "BRONZE": "1",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Elective Ophthalmic Recovery Room Occupancy": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "1"
+    },
+    "Elective Pulmonary Radiotherapy Fraction": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Elective Vascular Diagnostic Imaging": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Emergency Gastrointestinal Endoscopic Procedure": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "1"
+    },
+    "Emergency Metabolic Discharge Planning": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Emergency Neurological Biopsy Procedure": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Emergency Oncology Imaging Interpretation": {
+      "BRONZE": "1",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Emergency Pulmonary Radiotherapy Fraction": {
+      "BRONZE": "1",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Emergency Urologic Home Visit": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Extended Dermatologic Transport Service": {
+      "BRONZE": "1",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Extended Endocrine Theatre Time": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Extended Neurological Consultation": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Extended Ophthalmic Transport Service": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "1"
+    },
+    "Extended Psychiatric Endoscopic Procedure": {
+      "BRONZE": "1.05",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Extended Urologic Infusion Therapy": {
+      "BRONZE": "1.05",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Focused Endocrine Theatre Time": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Focused Neurological Radiotherapy Fraction": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Focused Urologic Nutritional Support": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "1"
+    },
+    "Inpatient Dermatologic Nursing Observation": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "1"
+    },
+    "Inpatient Immunologic Recovery Room Occupancy": {
+      "BRONZE": "1.05",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Inpatient Psychiatric Case Conference": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Inpatient Pulmonary Critical Care Occupancy": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "1"
+    },
+    "Intensive Hepatic Case Conference": {
+      "BRONZE": "1",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Intensive Oncology Sterilisation Service": {
+      "BRONZE": "1",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Intermittent Orthopaedic Discharge Planning": {
+      "BRONZE": "1",
+      "GOLD": "0.92",
+      "SILVER": "1"
+    },
+    "Intermittent Urologic Discharge Planning": {
+      "BRONZE": "1",
+      "GOLD": "0.9",
+      "SILVER": "0.98"
+    },
+    "Intermittent Vascular Telemetry Monitoring": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "0.98"
+    },
+    "Outpatient Dermatologic Home Visit": {
+      "BRONZE": "1",
+      "GOLD": "0.92",
+      "SILVER": "1"
+    },
+    "Outpatient Haematology Laboratory Panel": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Outpatient Metabolic Physiotherapy Session": {
+      "BRONZE": "1",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Outpatient Neurological Recovery Room Occupancy": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "1"
+    },
+    "Outpatient Psychiatric Discharge Planning": {
+      "BRONZE": "1",
+      "GOLD": "0.95",
+      "SILVER": "1"
+    },
+    "Postoperative Musculoskeletal Imaging Interpretation": {
+      "BRONZE": "1.05",
+      "GOLD": "0.9",
+      "SILVER": "0.98"
+    },
+    "Preoperative Endocrine Rehabilitation Programme": {
+      "BRONZE": "1.05",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Preoperative Gastrointestinal Nutritional Support": {
+      "BRONZE": "1",
+      "GOLD": "0.95",
+      "SILVER": "0.98"
+    },
+    "Preoperative Immunologic Recovery Room Occupancy": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "1"
+    },
+    "Preoperative Musculoskeletal Nutritional Support": {
+      "BRONZE": "1.05",
+      "GOLD": "0.9",
+      "SILVER": "0.98"
+    },
+    "Preoperative Ophthalmic Transport Service": {
+      "BRONZE": "1",
+      "GOLD": "0.95",
+      "SILVER": "1"
+    },
+    "Preoperative Paediatric Biopsy Procedure": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Routine Dermatologic Home Visit": {
+      "BRONZE": "1.05",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Routine Geriatric Telemetry Monitoring": {
+      "BRONZE": "1.05",
+      "GOLD": "0.9",
+      "SILVER": "0.98"
+    },
+    "Routine Infectious Infusion Therapy": {
+      "BRONZE": "1",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Routine Neurological Biopsy Procedure": {
+      "BRONZE": "1",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Routine Psychiatric Physiotherapy Session": {
+      "BRONZE": "1",
+      "GOLD": "0.95",
+      "SILVER": "1"
+    },
+    "Routine Psychiatric Telemetry Monitoring": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Routine Urologic Radiotherapy Fraction": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Routine Urologic Transport Service": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Specialist Dermatologic Nursing Observation": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Specialist Gastrointestinal Pharmaceutical Dispensing": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "1"
+    },
+    "Specialist Metabolic Sterilisation Service": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "1"
+    },
+    "Standard Infectious Ventilation Support": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Standard Paediatric Radiotherapy Fraction": {
+      "BRONZE": "1.05",
+      "GOLD": "0.9",
+      "SILVER": "0.98"
+    },
+    "Standard Psychiatric Discharge Planning": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "1"
+    },
+    "Supervised Immunologic Sterilisation Service": {
+      "BRONZE": "1",
+      "GOLD": "0.9",
+      "SILVER": "1"
+    },
+    "Supervised Metabolic Discharge Planning": {
+      "BRONZE": "1.05",
+      "GOLD": "0.92",
+      "SILVER": "1"
+    },
+    "Supervised Otolaryngologic Specimen Analysis": {
+      "BRONZE": "1.05",
+      "GOLD": "0.95",
+      "SILVER": "1"
+    },
+    "Supervised Palliative Consultation": {
+      "BRONZE": "1",
+      "GOLD": "0.92",
+      "SILVER": "0.98"
+    },
+    "Supervised Vascular Consultation": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    },
+    "Supervised Vascular Diagnostic Imaging": {
+      "BRONZE": "1",
+      "GOLD": "1",
+      "SILVER": "1"
+    }
+  },
+  "weekend_uplifts": {
+    "Ambulatory Metabolic Imaging Interpretation": "15",
+    "Assisted Cardiac Ventilation Support": "20",
+    "Elective Vascular Diagnostic Imaging": "12",
+    "Emergency Gastrointestinal Endoscopic Procedure": "20",
+    "Extended Neurological Consultation": "25",
+    "Outpatient Haematology Laboratory Panel": "20",
+    "Outpatient Metabolic Physiotherapy Session": "10",
+    "Postoperative Musculoskeletal Imaging Interpretation": "20",
+    "Preoperative Immunologic Recovery Room Occupancy": "12"
+  }
+}

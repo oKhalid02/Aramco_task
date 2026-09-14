@@ -1,0 +1,1234 @@
+{
+  "bundles": [
+    {
+      "a": "Ambulatory Obstetric Case Conference",
+      "b": "Focused Vascular Infusion Therapy",
+      "rate_a_cents": 11875,
+      "rate_b_cents": 4900
+    },
+    {
+      "a": "Ambulatory Paediatric Critical Care Occupancy",
+      "b": "Ambulatory Rheumatologic Rehabilitation Programme",
+      "rate_a_cents": 3550,
+      "rate_b_cents": 28750
+    },
+    {
+      "a": "Assisted Paediatric Physiotherapy Session",
+      "b": "Outpatient Orthopaedic Recovery Room Occupancy",
+      "rate_a_cents": 2675,
+      "rate_b_cents": 9375
+    },
+    {
+      "a": "Continuous Psychiatric Rehabilitation Programme",
+      "b": "Postoperative Palliative Recovery Room Occupancy",
+      "rate_a_cents": 28625,
+      "rate_b_cents": 70975
+    },
+    {
+      "a": "Elective Obstetric Transfusion Service",
+      "b": "Intermittent Rheumatologic Dialysis Session",
+      "rate_a_cents": 1250,
+      "rate_b_cents": 111675
+    },
+    {
+      "a": "Emergency Cardiac Physiotherapy Session",
+      "b": "Extended Obstetric Case Conference",
+      "rate_a_cents": 8400,
+      "rate_b_cents": 35200
+    },
+    {
+      "a": "Specialist Immunologic Consultation",
+      "b": "Supervised Rheumatologic Dialysis Session",
+      "rate_a_cents": 91600,
+      "rate_b_cents": 13900
+    }
+  ],
+  "caps": {
+    "Advanced Orthopaedic Ward Bed Occupancy": 12,
+    "Ambulatory Cardiac Ward Bed Occupancy": 4,
+    "Ambulatory Immunologic Ward Bed Occupancy": 4,
+    "Assisted Gastrointestinal Anaesthesia Administration": 24,
+    "Assisted Urologic Nursing Observation": 4,
+    "Bedside Gastrointestinal Biopsy Procedure": 8,
+    "Elective Gastrointestinal Nursing Observation": 6,
+    "Extended Hepatic Transfusion Service": 8,
+    "Extended Urologic Telemetry Monitoring": 12,
+    "Focused Metabolic Biopsy Procedure": 8,
+    "Inpatient Orthopaedic Anaesthesia Administration": 8,
+    "Intensive Geriatric Case Conference": 8,
+    "Intensive Urologic Specimen Analysis": 24,
+    "Postoperative Oncology Diagnostic Imaging": 12,
+    "Postoperative Otolaryngologic Telemetry Monitoring": 24,
+    "Postoperative Paediatric Sterilisation Service": 8,
+    "Postoperative Rheumatologic Nursing Observation": 6,
+    "Preoperative Oncology Diagnostic Imaging": 8
+  },
+  "contract_number": "INS-H4-2024-2049",
+  "discounts": {
+    "Ambulatory Musculoskeletal Ventilation Support": [
+      {
+        "pct": "15",
+        "threshold": 80
+      },
+      {
+        "pct": "30",
+        "threshold": 240
+      }
+    ],
+    "Standard Oncology Ward Bed Occupancy": [
+      {
+        "pct": "10",
+        "threshold": 120
+      }
+    ],
+    "Standard Orthopaedic Critical Care Occupancy": [
+      {
+        "pct": "10",
+        "threshold": 120
+      }
+    ]
+  },
+  "exclusions": [
+    {
+      "days": 30,
+      "excluded_by": "Bedside Cardiac Home Visit",
+      "service": "Advanced Paediatric Theatre Time"
+    },
+    {
+      "days": 7,
+      "excluded_by": "Postoperative Geriatric Imaging Interpretation",
+      "service": "Ambulatory Haematology Transfusion Service"
+    },
+    {
+      "days": 10,
+      "excluded_by": "Outpatient Cardiac Physiotherapy Session",
+      "service": "Assisted Paediatric Theatre Time"
+    },
+    {
+      "days": 7,
+      "excluded_by": "Ambulatory Musculoskeletal Specimen Analysis",
+      "service": "Comprehensive Ophthalmic Laboratory Panel"
+    },
+    {
+      "days": 10,
+      "excluded_by": "Postoperative Geriatric Case Conference",
+      "service": "Continuous Gastrointestinal Transfusion Service"
+    },
+    {
+      "days": 21,
+      "excluded_by": "Outpatient Urologic Endoscopic Procedure",
+      "service": "Focused Urologic Case Conference"
+    },
+    {
+      "days": 14,
+      "excluded_by": "Bedside Cardiac Home Visit",
+      "service": "Focused Vascular Transport Service"
+    },
+    {
+      "days": 14,
+      "excluded_by": "Extended Hepatic Discharge Planning",
+      "service": "Inpatient Psychiatric Home Visit"
+    },
+    {
+      "days": 10,
+      "excluded_by": "Standard Paediatric Dialysis Session",
+      "service": "Intensive Rheumatologic Radiotherapy Fraction"
+    },
+    {
+      "days": 30,
+      "excluded_by": "Intermittent Urologic Telemetry Monitoring",
+      "service": "Intermittent Neurological Laboratory Panel"
+    },
+    {
+      "days": 30,
+      "excluded_by": "Standard Vascular Home Visit",
+      "service": "Postoperative Cardiac Wound Care"
+    },
+    {
+      "days": 14,
+      "excluded_by": "Outpatient Obstetric Dialysis Session",
+      "service": "Postoperative Paediatric Imaging Interpretation"
+    },
+    {
+      "days": 30,
+      "excluded_by": "Bedside Cardiac Home Visit",
+      "service": "Specialist Cardiac Ventilation Support"
+    },
+    {
+      "days": 30,
+      "excluded_by": "Extended Renal Ward Bed Occupancy",
+      "service": "Standard Ophthalmic Laboratory Panel"
+    },
+    {
+      "days": 7,
+      "excluded_by": "Comprehensive Neurological Endoscopic Procedure",
+      "service": "Supervised Gastrointestinal Nursing Observation"
+    }
+  ],
+  "facility_multipliers": {},
+  "hospital": "H4",
+  "premiums": {
+    "Advanced Vascular Endoscopic Procedure": {
+      "threshold": 10,
+      "uplift_pct": "25"
+    },
+    "Ambulatory Gastrointestinal Nutritional Support": {
+      "threshold": 16,
+      "uplift_pct": "15"
+    },
+    "Assisted Cardiac Ventilation Support": {
+      "threshold": 12,
+      "uplift_pct": "30"
+    },
+    "Continuous Infectious Critical Care Occupancy": {
+      "threshold": 6,
+      "uplift_pct": "40"
+    },
+    "Elective Ophthalmic Radiotherapy Fraction": {
+      "threshold": 8,
+      "uplift_pct": "30"
+    },
+    "Emergency Rheumatologic Rehabilitation Programme": {
+      "threshold": 8,
+      "uplift_pct": "30"
+    },
+    "Extended Psychiatric Endoscopic Procedure": {
+      "threshold": 6,
+      "uplift_pct": "25"
+    },
+    "Intensive Paediatric Consultation": {
+      "threshold": 6,
+      "uplift_pct": "20"
+    },
+    "Intermittent Psychiatric Rehabilitation Programme": {
+      "threshold": 6,
+      "uplift_pct": "30"
+    },
+    "Outpatient Geriatric Diagnostic Imaging": {
+      "threshold": 12,
+      "uplift_pct": "15"
+    },
+    "Preoperative Geriatric Diagnostic Imaging": {
+      "threshold": 10,
+      "uplift_pct": "40"
+    },
+    "Preoperative Haematology Imaging Interpretation": {
+      "threshold": 16,
+      "uplift_pct": "15"
+    },
+    "Routine Cardiac Home Visit": {
+      "threshold": 10,
+      "uplift_pct": "25"
+    },
+    "Specialist Hepatic Discharge Planning": {
+      "threshold": 6,
+      "uplift_pct": "15"
+    },
+    "Standard Hepatic Infusion Therapy": {
+      "threshold": 6,
+      "uplift_pct": "15"
+    },
+    "Supervised Immunologic Ward Bed Occupancy": {
+      "threshold": 10,
+      "uplift_pct": "25"
+    },
+    "Supervised Pulmonary Home Visit": {
+      "threshold": 10,
+      "uplift_pct": "30"
+    },
+    "Supervised Vascular Radiotherapy Fraction": {
+      "threshold": 10,
+      "uplift_pct": "15"
+    }
+  },
+  "services": {
+    "Advanced Oncology Ward Bed Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 68700
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Advanced Orthopaedic Ward Bed Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 97925
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Advanced Paediatric Theatre Time": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 37100
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Advanced Palliative Home Visit": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 11450
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Advanced Vascular Endoscopic Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 321775
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Ambulatory Cardiac Ward Bed Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 46350
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Ambulatory Gastrointestinal Nutritional Support": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 4175
+        }
+      ],
+      "unit": "per_unit_dispensed"
+    },
+    "Ambulatory Haematology Transfusion Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 402275
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Ambulatory Immunologic Ward Bed Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 74700
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Ambulatory Musculoskeletal Specimen Analysis": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 9550
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Ambulatory Musculoskeletal Ventilation Support": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 157150
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Ambulatory Obstetric Case Conference": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 13975
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Ambulatory Paediatric Critical Care Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 4750
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Ambulatory Rheumatologic Rehabilitation Programme": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 38325
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Assisted Cardiac Ventilation Support": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 155700
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Assisted Gastrointestinal Anaesthesia Administration": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 3050
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Assisted Obstetric Specimen Analysis": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 10100
+        }
+      ],
+      "unit": "per_test"
+    },
+    "Assisted Paediatric Physiotherapy Session": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 3150
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Assisted Paediatric Theatre Time": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 9275
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Assisted Renal Nutritional Support": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 3575
+        }
+      ],
+      "unit": "per_unit_dispensed"
+    },
+    "Assisted Urologic Nursing Observation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 132675
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Bedside Cardiac Home Visit": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 64800
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Bedside Gastrointestinal Biopsy Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 11075
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Bedside Obstetric Imaging Interpretation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 365675
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Comprehensive Neurological Endoscopic Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 309275
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Comprehensive Ophthalmic Laboratory Panel": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 58525
+        }
+      ],
+      "unit": "per_test"
+    },
+    "Comprehensive Urologic Imaging Interpretation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 23075
+        }
+      ],
+      "unit": "per_test"
+    },
+    "Continuous Gastrointestinal Transfusion Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 308100
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Continuous Infectious Critical Care Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 13925
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Continuous Psychiatric Rehabilitation Programme": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 34900
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Elective Gastrointestinal Nursing Observation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 58925
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Elective Neurological Ward Bed Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 170125
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Elective Obstetric Transfusion Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 1425
+        }
+      ],
+      "unit": "per_unit_dispensed"
+    },
+    "Elective Ophthalmic Radiotherapy Fraction": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 373600
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Emergency Cardiac Physiotherapy Session": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 9875
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Emergency Metabolic Radiotherapy Fraction": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 364925
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Emergency Rheumatologic Rehabilitation Programme": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 62000
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Extended Hepatic Discharge Planning": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 7950
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Extended Hepatic Transfusion Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 8450
+        }
+      ],
+      "unit": "per_unit_dispensed"
+    },
+    "Extended Obstetric Case Conference": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 41425
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Extended Psychiatric Endoscopic Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 325800
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Extended Renal Ward Bed Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 174050
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Extended Rheumatologic Nursing Observation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 87375
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Extended Urologic Telemetry Monitoring": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 144825
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Focused Metabolic Biopsy Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 15025
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Focused Urologic Case Conference": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 20200
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Focused Vascular Infusion Therapy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 5775
+        }
+      ],
+      "unit": "per_unit_dispensed"
+    },
+    "Focused Vascular Transport Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 24450
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Inpatient Orthopaedic Anaesthesia Administration": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 145950
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Inpatient Psychiatric Home Visit": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 19275
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Intensive Geriatric Case Conference": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 10475
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Intensive Paediatric Consultation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 39175
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Intensive Rheumatologic Radiotherapy Fraction": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 23425
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Intensive Urologic Specimen Analysis": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 19675
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Intensive Vascular Sterilisation Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 25350
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Intermittent Neurological Laboratory Panel": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 10175
+        }
+      ],
+      "unit": "per_test"
+    },
+    "Intermittent Oncology Home Visit": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 22050
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Intermittent Psychiatric Rehabilitation Programme": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 32275
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Intermittent Renal Anaesthesia Administration": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 6600
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Intermittent Rheumatologic Dialysis Session": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 126900
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Intermittent Urologic Telemetry Monitoring": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 7275
+        }
+      ],
+      "unit": "per_hour_per_item"
+    },
+    "Outpatient Cardiac Physiotherapy Session": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 27300
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Outpatient Geriatric Diagnostic Imaging": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 190450
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Outpatient Obstetric Dialysis Session": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 367900
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Outpatient Orthopaedic Recovery Room Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 11025
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Outpatient Rheumatologic Anaesthesia Administration": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 20875
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Outpatient Urologic Endoscopic Procedure": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 372925
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Outpatient Urologic Theatre Time": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 7650
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Postoperative Cardiac Wound Care": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 17325
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Postoperative Geriatric Case Conference": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 4275
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Postoperative Geriatric Imaging Interpretation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 43925
+        }
+      ],
+      "unit": "per_test"
+    },
+    "Postoperative Oncology Diagnostic Imaging": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 23250
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Postoperative Otolaryngologic Telemetry Monitoring": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 10000
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Postoperative Paediatric Imaging Interpretation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 88600
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Postoperative Paediatric Sterilisation Service": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 16050
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Postoperative Palliative Recovery Room Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 86550
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Postoperative Rheumatologic Nursing Observation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 46425
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Preoperative Geriatric Diagnostic Imaging": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 19550
+        }
+      ],
+      "unit": "per_test"
+    },
+    "Preoperative Haematology Imaging Interpretation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 11375
+        }
+      ],
+      "unit": "per_test"
+    },
+    "Preoperative Musculoskeletal Recovery Room Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 162775
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Preoperative Oncology Diagnostic Imaging": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 102650
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Routine Cardiac Home Visit": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 16200
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Specialist Cardiac Ventilation Support": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 18125
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Specialist Gastrointestinal Imaging Interpretation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 83625
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Specialist Hepatic Discharge Planning": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 41175
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Specialist Immunologic Consultation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 114500
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Standard Hepatic Infusion Therapy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 3975
+        }
+      ],
+      "unit": "per_unit_dispensed"
+    },
+    "Standard Oncology Ward Bed Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 57950
+        }
+      ],
+      "unit": "per_day"
+    },
+    "Standard Ophthalmic Laboratory Panel": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 17925
+        }
+      ],
+      "unit": "per_item"
+    },
+    "Standard Orthopaedic Critical Care Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 148975
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Standard Paediatric Dialysis Session": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 368050
+        }
+      ],
+      "unit": "per_procedure"
+    },
+    "Standard Vascular Home Visit": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 26200
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Supervised Gastrointestinal Nursing Observation": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 156825
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Supervised Immunologic Ward Bed Occupancy": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 194400
+        }
+      ],
+      "unit": "per_night"
+    },
+    "Supervised Pulmonary Anaesthesia Administration": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 13500
+        }
+      ],
+      "unit": "per_hour"
+    },
+    "Supervised Pulmonary Home Visit": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 28675
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Supervised Rheumatologic Dialysis Session": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 17375
+        }
+      ],
+      "unit": "per_visit"
+    },
+    "Supervised Vascular Radiotherapy Fraction": {
+      "available_from": null,
+      "rates": [
+        {
+          "from": null,
+          "rate_cents": 15825
+        }
+      ],
+      "unit": "per_item"
+    }
+  },
+  "sources": [
+    "conditional_reimbursement_agreement.md"
+  ],
+  "submission_deadline_days": null,
+  "term_end": "2025-12-31",
+  "term_start": "2024-01-01",
+  "tier_multipliers": {},
+  "weekend_uplifts": {}
+}

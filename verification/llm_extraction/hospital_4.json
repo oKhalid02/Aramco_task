@@ -1,0 +1,1041 @@
+{
+  "meta": {
+    "prompt_file": "prompts/pipeline/contract_extraction_v1.md",
+    "model": "claude-opus-5",
+    "models_used": [
+      "claude-haiku-4-5-20251001",
+      "claude-opus-5"
+    ],
+    "run_at": "2026-09-14T11:19:01",
+    "estimated_cost_usd": 0.378581,
+    "claude_code_version": "2.1.270 (Claude Code)"
+  },
+  "output": {
+    "contract_number": "INS-H4-2024-2049",
+    "services": [
+      {
+        "name": "Advanced Oncology Ward Bed Occupancy",
+        "unit_basis": "per night of occupancy",
+        "rate_gbp": "687.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Advanced Orthopaedic Ward Bed Occupancy",
+        "unit_basis": "per night of occupancy",
+        "rate_gbp": "979.25",
+        "daily_cap": 12,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Advanced Paediatric Theatre Time",
+        "unit_basis": "per hour",
+        "rate_gbp": "371.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Advanced Palliative Home Visit",
+        "unit_basis": "per visit",
+        "rate_gbp": "114.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Advanced Vascular Endoscopic Procedure",
+        "unit_basis": "per procedure",
+        "rate_gbp": "3217.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Ambulatory Cardiac Ward Bed Occupancy",
+        "unit_basis": "per day of service",
+        "rate_gbp": "463.50",
+        "daily_cap": 4,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Ambulatory Gastrointestinal Nutritional Support",
+        "unit_basis": "per unit dispensed",
+        "rate_gbp": "41.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Ambulatory Haematology Transfusion Service",
+        "unit_basis": "per procedure",
+        "rate_gbp": "4022.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Ambulatory Immunologic Ward Bed Occupancy",
+        "unit_basis": "per day of service",
+        "rate_gbp": "747.00",
+        "daily_cap": 4,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Ambulatory Musculoskeletal Specimen Analysis",
+        "unit_basis": "per item supplied",
+        "rate_gbp": "95.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Ambulatory Musculoskeletal Ventilation Support",
+        "unit_basis": "per day of service",
+        "rate_gbp": "1571.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Ambulatory Obstetric Case Conference",
+        "unit_basis": "per hour",
+        "rate_gbp": "139.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Ambulatory Paediatric Critical Care Occupancy",
+        "unit_basis": "per hour",
+        "rate_gbp": "47.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Ambulatory Rheumatologic Rehabilitation Programme",
+        "unit_basis": "per visit",
+        "rate_gbp": "383.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Assisted Cardiac Ventilation Support",
+        "unit_basis": "per day of service",
+        "rate_gbp": "1557.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Assisted Gastrointestinal Anaesthesia Administration",
+        "unit_basis": "per hour",
+        "rate_gbp": "30.50",
+        "daily_cap": 24,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Assisted Obstetric Specimen Analysis",
+        "unit_basis": "per test",
+        "rate_gbp": "101.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Assisted Paediatric Physiotherapy Session",
+        "unit_basis": "per hour",
+        "rate_gbp": "31.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Assisted Paediatric Theatre Time",
+        "unit_basis": "per hour",
+        "rate_gbp": "92.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Assisted Renal Nutritional Support",
+        "unit_basis": "per unit dispensed",
+        "rate_gbp": "35.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Assisted Urologic Nursing Observation",
+        "unit_basis": "per day of service",
+        "rate_gbp": "1326.75",
+        "daily_cap": 4,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Bedside Cardiac Home Visit",
+        "unit_basis": "per visit",
+        "rate_gbp": "648.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Bedside Gastrointestinal Biopsy Procedure",
+        "unit_basis": "per item supplied",
+        "rate_gbp": "110.75",
+        "daily_cap": 8,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Bedside Obstetric Imaging Interpretation",
+        "unit_basis": "per procedure",
+        "rate_gbp": "3656.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Comprehensive Neurological Endoscopic Procedure",
+        "unit_basis": "per procedure",
+        "rate_gbp": "3092.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Comprehensive Ophthalmic Laboratory Panel",
+        "unit_basis": "per test",
+        "rate_gbp": "585.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Comprehensive Urologic Imaging Interpretation",
+        "unit_basis": "per test",
+        "rate_gbp": "230.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Continuous Gastrointestinal Transfusion Service",
+        "unit_basis": "per procedure",
+        "rate_gbp": "3081.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Continuous Infectious Critical Care Occupancy",
+        "unit_basis": "per hour",
+        "rate_gbp": "139.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Continuous Psychiatric Rehabilitation Programme",
+        "unit_basis": "per day of service",
+        "rate_gbp": "349.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Elective Gastrointestinal Nursing Observation",
+        "unit_basis": "per day of service",
+        "rate_gbp": "589.25",
+        "daily_cap": 6,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Elective Neurological Ward Bed Occupancy",
+        "unit_basis": "per night of occupancy",
+        "rate_gbp": "1701.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Elective Obstetric Transfusion Service",
+        "unit_basis": "per unit dispensed",
+        "rate_gbp": "14.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Elective Ophthalmic Radiotherapy Fraction",
+        "unit_basis": "per procedure",
+        "rate_gbp": "3736.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Emergency Cardiac Physiotherapy Session",
+        "unit_basis": "per hour",
+        "rate_gbp": "98.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Emergency Metabolic Radiotherapy Fraction",
+        "unit_basis": "per procedure",
+        "rate_gbp": "3649.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Emergency Rheumatologic Rehabilitation Programme",
+        "unit_basis": "per day of service",
+        "rate_gbp": "620.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Extended Hepatic Discharge Planning",
+        "unit_basis": "per hour",
+        "rate_gbp": "79.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Extended Hepatic Transfusion Service",
+        "unit_basis": "per unit dispensed",
+        "rate_gbp": "84.50",
+        "daily_cap": 8,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Extended Obstetric Case Conference",
+        "unit_basis": "per visit",
+        "rate_gbp": "414.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Extended Psychiatric Endoscopic Procedure",
+        "unit_basis": "per procedure",
+        "rate_gbp": "3258.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Extended Renal Ward Bed Occupancy",
+        "unit_basis": "per night of occupancy",
+        "rate_gbp": "1740.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Extended Rheumatologic Nursing Observation",
+        "unit_basis": "per night of occupancy",
+        "rate_gbp": "873.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Extended Urologic Telemetry Monitoring",
+        "unit_basis": "per day of service",
+        "rate_gbp": "1448.25",
+        "daily_cap": 12,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Focused Metabolic Biopsy Procedure",
+        "unit_basis": "per item supplied",
+        "rate_gbp": "150.25",
+        "daily_cap": 8,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Focused Urologic Case Conference",
+        "unit_basis": "per hour",
+        "rate_gbp": "202.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Focused Vascular Infusion Therapy",
+        "unit_basis": "per unit dispensed",
+        "rate_gbp": "57.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Focused Vascular Transport Service",
+        "unit_basis": "per item supplied",
+        "rate_gbp": "244.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Inpatient Orthopaedic Anaesthesia Administration",
+        "unit_basis": "per procedure",
+        "rate_gbp": "1459.50",
+        "daily_cap": 8,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Inpatient Psychiatric Home Visit",
+        "unit_basis": "per visit",
+        "rate_gbp": "192.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Intensive Geriatric Case Conference",
+        "unit_basis": "per visit",
+        "rate_gbp": "104.75",
+        "daily_cap": 8,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Intensive Paediatric Consultation",
+        "unit_basis": "per visit",
+        "rate_gbp": "391.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Intensive Rheumatologic Radiotherapy Fraction",
+        "unit_basis": "per item supplied",
+        "rate_gbp": "234.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Intensive Urologic Specimen Analysis",
+        "unit_basis": "per item supplied",
+        "rate_gbp": "196.75",
+        "daily_cap": 24,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Intensive Vascular Sterilisation Service",
+        "unit_basis": "per item supplied",
+        "rate_gbp": "253.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Intermittent Neurological Laboratory Panel",
+        "unit_basis": "per test",
+        "rate_gbp": "101.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Intermittent Oncology Home Visit",
+        "unit_basis": "per visit",
+        "rate_gbp": "220.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Intermittent Psychiatric Rehabilitation Programme",
+        "unit_basis": "per visit",
+        "rate_gbp": "322.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Intermittent Renal Anaesthesia Administration",
+        "unit_basis": "per hour",
+        "rate_gbp": "66.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Intermittent Rheumatologic Dialysis Session",
+        "unit_basis": "per procedure",
+        "rate_gbp": "1269.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Intermittent Urologic Telemetry Monitoring",
+        "unit_basis": "per hour, per item",
+        "rate_gbp": "72.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Outpatient Cardiac Physiotherapy Session",
+        "unit_basis": "per visit",
+        "rate_gbp": "273.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Outpatient Geriatric Diagnostic Imaging",
+        "unit_basis": "per procedure",
+        "rate_gbp": "1904.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Outpatient Obstetric Dialysis Session",
+        "unit_basis": "per procedure",
+        "rate_gbp": "3679.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Outpatient Orthopaedic Recovery Room Occupancy",
+        "unit_basis": "per hour",
+        "rate_gbp": "110.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Outpatient Rheumatologic Anaesthesia Administration",
+        "unit_basis": "per hour",
+        "rate_gbp": "208.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Outpatient Urologic Endoscopic Procedure",
+        "unit_basis": "per procedure",
+        "rate_gbp": "3729.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Outpatient Urologic Theatre Time",
+        "unit_basis": "per hour",
+        "rate_gbp": "76.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Postoperative Cardiac Wound Care",
+        "unit_basis": "per item supplied",
+        "rate_gbp": "173.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Postoperative Geriatric Case Conference",
+        "unit_basis": "per hour",
+        "rate_gbp": "42.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Postoperative Geriatric Imaging Interpretation",
+        "unit_basis": "per test",
+        "rate_gbp": "439.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Postoperative Oncology Diagnostic Imaging",
+        "unit_basis": "per item supplied",
+        "rate_gbp": "232.50",
+        "daily_cap": 12,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Postoperative Otolaryngologic Telemetry Monitoring",
+        "unit_basis": "per hour",
+        "rate_gbp": "100.00",
+        "daily_cap": 24,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Postoperative Paediatric Imaging Interpretation",
+        "unit_basis": "per procedure",
+        "rate_gbp": "886.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Postoperative Paediatric Sterilisation Service",
+        "unit_basis": "per item supplied",
+        "rate_gbp": "160.50",
+        "daily_cap": 8,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Postoperative Palliative Recovery Room Occupancy",
+        "unit_basis": "per night of occupancy",
+        "rate_gbp": "865.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Postoperative Rheumatologic Nursing Observation",
+        "unit_basis": "per day of service",
+        "rate_gbp": "464.25",
+        "daily_cap": 6,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Preoperative Geriatric Diagnostic Imaging",
+        "unit_basis": "per test",
+        "rate_gbp": "195.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Preoperative Haematology Imaging Interpretation",
+        "unit_basis": "per test",
+        "rate_gbp": "113.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Preoperative Musculoskeletal Recovery Room Occupancy",
+        "unit_basis": "per night of occupancy",
+        "rate_gbp": "1627.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Preoperative Oncology Diagnostic Imaging",
+        "unit_basis": "per procedure",
+        "rate_gbp": "1026.50",
+        "daily_cap": 8,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Routine Cardiac Home Visit",
+        "unit_basis": "per visit",
+        "rate_gbp": "162.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Specialist Cardiac Ventilation Support",
+        "unit_basis": "per hour",
+        "rate_gbp": "181.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Specialist Gastrointestinal Imaging Interpretation",
+        "unit_basis": "per procedure",
+        "rate_gbp": "836.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Specialist Hepatic Discharge Planning",
+        "unit_basis": "per visit",
+        "rate_gbp": "411.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Specialist Immunologic Consultation",
+        "unit_basis": "per procedure",
+        "rate_gbp": "1145.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Standard Hepatic Infusion Therapy",
+        "unit_basis": "per unit dispensed",
+        "rate_gbp": "39.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Standard Oncology Ward Bed Occupancy",
+        "unit_basis": "per day of service",
+        "rate_gbp": "579.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Standard Ophthalmic Laboratory Panel",
+        "unit_basis": "per item supplied",
+        "rate_gbp": "179.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Standard Orthopaedic Critical Care Occupancy",
+        "unit_basis": "per night of occupancy",
+        "rate_gbp": "1489.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Standard Paediatric Dialysis Session",
+        "unit_basis": "per procedure",
+        "rate_gbp": "3680.50",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Standard Vascular Home Visit",
+        "unit_basis": "per visit",
+        "rate_gbp": "262.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Supervised Gastrointestinal Nursing Observation",
+        "unit_basis": "per night of occupancy",
+        "rate_gbp": "1568.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Supervised Immunologic Ward Bed Occupancy",
+        "unit_basis": "per night of occupancy",
+        "rate_gbp": "1944.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Supervised Pulmonary Anaesthesia Administration",
+        "unit_basis": "per hour",
+        "rate_gbp": "135.00",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Supervised Pulmonary Home Visit",
+        "unit_basis": "per visit",
+        "rate_gbp": "286.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Supervised Rheumatologic Dialysis Session",
+        "unit_basis": "per visit",
+        "rate_gbp": "173.75",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      },
+      {
+        "name": "Supervised Vascular Radiotherapy Fraction",
+        "unit_basis": "per item supplied",
+        "rate_gbp": "158.25",
+        "daily_cap": null,
+        "billable_from": null,
+        "rate_changes": []
+      }
+    ],
+    "threshold_premiums": [
+      {
+        "service": "Advanced Vascular Endoscopic Procedure",
+        "threshold": 10,
+        "uplift_percent": "25"
+      },
+      {
+        "service": "Ambulatory Gastrointestinal Nutritional Support",
+        "threshold": 16,
+        "uplift_percent": "15"
+      },
+      {
+        "service": "Assisted Cardiac Ventilation Support",
+        "threshold": 12,
+        "uplift_percent": "30"
+      },
+      {
+        "service": "Continuous Infectious Critical Care Occupancy",
+        "threshold": 6,
+        "uplift_percent": "40"
+      },
+      {
+        "service": "Elective Ophthalmic Radiotherapy Fraction",
+        "threshold": 8,
+        "uplift_percent": "30"
+      },
+      {
+        "service": "Emergency Rheumatologic Rehabilitation Programme",
+        "threshold": 8,
+        "uplift_percent": "30"
+      },
+      {
+        "service": "Extended Psychiatric Endoscopic Procedure",
+        "threshold": 6,
+        "uplift_percent": "25"
+      },
+      {
+        "service": "Intensive Paediatric Consultation",
+        "threshold": 6,
+        "uplift_percent": "20"
+      },
+      {
+        "service": "Intermittent Psychiatric Rehabilitation Programme",
+        "threshold": 6,
+        "uplift_percent": "30"
+      },
+      {
+        "service": "Outpatient Geriatric Diagnostic Imaging",
+        "threshold": 12,
+        "uplift_percent": "15"
+      },
+      {
+        "service": "Preoperative Geriatric Diagnostic Imaging",
+        "threshold": 10,
+        "uplift_percent": "40"
+      },
+      {
+        "service": "Preoperative Haematology Imaging Interpretation",
+        "threshold": 16,
+        "uplift_percent": "15"
+      },
+      {
+        "service": "Routine Cardiac Home Visit",
+        "threshold": 10,
+        "uplift_percent": "25"
+      },
+      {
+        "service": "Specialist Hepatic Discharge Planning",
+        "threshold": 6,
+        "uplift_percent": "15"
+      },
+      {
+        "service": "Standard Hepatic Infusion Therapy",
+        "threshold": 6,
+        "uplift_percent": "15"
+      },
+      {
+        "service": "Supervised Immunologic Ward Bed Occupancy",
+        "threshold": 10,
+        "uplift_percent": "25"
+      },
+      {
+        "service": "Supervised Pulmonary Home Visit",
+        "threshold": 10,
+        "uplift_percent": "30"
+      },
+      {
+        "service": "Supervised Vascular Radiotherapy Fraction",
+        "threshold": 10,
+        "uplift_percent": "15"
+      }
+    ],
+    "non_business_day_uplifts": [],
+    "volume_discounts": [
+      {
+        "service": "Ambulatory Musculoskeletal Ventilation Support",
+        "threshold": 80,
+        "discount_percent": "15"
+      },
+      {
+        "service": "Ambulatory Musculoskeletal Ventilation Support",
+        "threshold": 240,
+        "discount_percent": "30"
+      },
+      {
+        "service": "Standard Oncology Ward Bed Occupancy",
+        "threshold": 120,
+        "discount_percent": "10"
+      },
+      {
+        "service": "Standard Orthopaedic Critical Care Occupancy",
+        "threshold": 120,
+        "discount_percent": "10"
+      }
+    ],
+    "bundles": [
+      {
+        "service_a": "Ambulatory Obstetric Case Conference",
+        "rate_a_gbp": "118.75",
+        "service_b": "Focused Vascular Infusion Therapy",
+        "rate_b_gbp": "49.00"
+      },
+      {
+        "service_a": "Ambulatory Paediatric Critical Care Occupancy",
+        "rate_a_gbp": "35.50",
+        "service_b": "Ambulatory Rheumatologic Rehabilitation Programme",
+        "rate_b_gbp": "287.50"
+      },
+      {
+        "service_a": "Assisted Paediatric Physiotherapy Session",
+        "rate_a_gbp": "26.75",
+        "service_b": "Outpatient Orthopaedic Recovery Room Occupancy",
+        "rate_b_gbp": "93.75"
+      },
+      {
+        "service_a": "Continuous Psychiatric Rehabilitation Programme",
+        "rate_a_gbp": "286.25",
+        "service_b": "Postoperative Palliative Recovery Room Occupancy",
+        "rate_b_gbp": "709.75"
+      },
+      {
+        "service_a": "Elective Obstetric Transfusion Service",
+        "rate_a_gbp": "12.50",
+        "service_b": "Intermittent Rheumatologic Dialysis Session",
+        "rate_b_gbp": "1116.75"
+      },
+      {
+        "service_a": "Emergency Cardiac Physiotherapy Session",
+        "rate_a_gbp": "84.00",
+        "service_b": "Extended Obstetric Case Conference",
+        "rate_b_gbp": "352.00"
+      },
+      {
+        "service_a": "Specialist Immunologic Consultation",
+        "rate_a_gbp": "916.00",
+        "service_b": "Supervised Rheumatologic Dialysis Session",
+        "rate_b_gbp": "139.00"
+      }
+    ],
+    "exclusions": [
+      {
+        "service": "Advanced Paediatric Theatre Time",
+        "days": 30,
+        "excluded_by": "Bedside Cardiac Home Visit"
+      },
+      {
+        "service": "Ambulatory Haematology Transfusion Service",
+        "days": 7,
+        "excluded_by": "Postoperative Geriatric Imaging Interpretation"
+      },
+      {
+        "service": "Assisted Paediatric Theatre Time",
+        "days": 10,
+        "excluded_by": "Outpatient Cardiac Physiotherapy Session"
+      },
+      {
+        "service": "Comprehensive Ophthalmic Laboratory Panel",
+        "days": 7,
+        "excluded_by": "Ambulatory Musculoskeletal Specimen Analysis"
+      },
+      {
+        "service": "Continuous Gastrointestinal Transfusion Service",
+        "days": 10,
+        "excluded_by": "Postoperative Geriatric Case Conference"
+      },
+      {
+        "service": "Focused Urologic Case Conference",
+        "days": 21,
+        "excluded_by": "Outpatient Urologic Endoscopic Procedure"
+      },
+      {
+        "service": "Focused Vascular Transport Service",
+        "days": 14,
+        "excluded_by": "Bedside Cardiac Home Visit"
+      },
+      {
+        "service": "Inpatient Psychiatric Home Visit",
+        "days": 14,
+        "excluded_by": "Extended Hepatic Discharge Planning"
+      },
+      {
+        "service": "Intensive Rheumatologic Radiotherapy Fraction",
+        "days": 10,
+        "excluded_by": "Standard Paediatric Dialysis Session"
+      },
+      {
+        "service": "Intermittent Neurological Laboratory Panel",
+        "days": 30,
+        "excluded_by": "Intermittent Urologic Telemetry Monitoring"
+      },
+      {
+        "service": "Postoperative Cardiac Wound Care",
+        "days": 30,
+        "excluded_by": "Standard Vascular Home Visit"
+      },
+      {
+        "service": "Postoperative Paediatric Imaging Interpretation",
+        "days": 14,
+        "excluded_by": "Outpatient Obstetric Dialysis Session"
+      },
+      {
+        "service": "Specialist Cardiac Ventilation Support",
+        "days": 30,
+        "excluded_by": "Bedside Cardiac Home Visit"
+      },
+      {
+        "service": "Standard Ophthalmic Laboratory Panel",
+        "days": 30,
+        "excluded_by": "Extended Renal Ward Bed Occupancy"
+      },
+      {
+        "service": "Supervised Gastrointestinal Nursing Observation",
+        "days": 7,
+        "excluded_by": "Comprehensive Neurological Endoscopic Procedure"
+      }
+    ],
+    "facility_multipliers": [],
+    "tier_multipliers": [],
+    "submission_deadline_days": null
+  }
+}
