@@ -5,7 +5,13 @@ whether it is wrong, why, what it should have totalled, and how confident the ch
 labels are used only for development and calibration. The original exercise brief is in
 [docs/exercise_brief.md](docs/exercise_brief.md).
 
-## Start here: the visual walkthrough
+## Start here
+
+1. **[Write-up (2 pages)](WRITEUP.md)** ([PDF](docs/Writeup.pdf)): how I measured the results, where I was
+   uncertain and why, and what I would do differently with another week.
+2. **Visual walkthrough**, below.
+
+## Visual walkthrough
 
 **[Invoice Audit — from A to Z (PDF, 11 pages)](docs/Invoice_Audit_A_to_Z.pdf)** explains the whole project
 with charts: the task, the five phases, how the checker works, the results, the stress test, and the known
@@ -42,6 +48,7 @@ python3 -m unittest discover -s tests    # 12 tests
 | 4 | Prompts, versioned | [prompts/session/](prompts/session/) (every prompt given to the assistant, verbatim) and [prompts/pipeline/](prompts/pipeline/) (prompts the code sends to the LLM) |
 | 5 | Decision log | [docs/decision_log.md](docs/decision_log.md) |
 | — | What I would do next | [docs/next_steps.md](docs/next_steps.md) |
+| — | Write-up (≤ 2 pages) | [WRITEUP.md](WRITEUP.md) · [docs/Writeup.pdf](docs/Writeup.pdf) |
 | — | Visual walkthrough (PDF) | [docs/Invoice_Audit_A_to_Z.pdf](docs/Invoice_Audit_A_to_Z.pdf) |
 
 Supporting outputs: [outputs/review_queue.csv](outputs/review_queue.csv) (33 invoices for a person, each
